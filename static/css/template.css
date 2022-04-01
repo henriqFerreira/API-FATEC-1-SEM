@@ -42,7 +42,7 @@
     }
 
     #navbar-bar {
-        width: 60%; height: 2px;
+        width: 50%; height: 2px;
         background-color: var(--darker-blue);
     }
 
@@ -70,6 +70,6 @@
     }
 
     #footer-bar {
-        width: 80%; height: 2px;
+        width: 70%; height: 2px;
         background-color: var(--darker-blue);
     }
