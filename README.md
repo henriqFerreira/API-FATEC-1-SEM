@@ -1,8 +1,21 @@
+<p align="center"> <img src="/readme/B1NAR10S.svg" alt="Equipe B1NAR10S"/></p>
+
+<br>
+
 <p align="center">
-  <img src="/readme/B1NAR10S.svg" alt="Equipe B1NAR10S"/>
+  <samp>
+    <a href="#o-projeto">Projeto</a> ▪️
+    <a href="#requisitos-e-tecnologias">Requisitos e Tecnologias</a> ▪️
+    <a href="#metodologia">Metodologia</a> ▪️
+    <a href="#product-backlog">Product Backlog</a> ▪️
+    <a href="#sprints">Sprints</a> ▪️
+    <a href="#equipe">Equipe</a>
+  </samp>
 </p>
 
-# API-FATEC
+<br>
+
+<h1 align="center"><samp>O PROJETO</samp></h1>
 
 <details>
   <summary>Detalhes técnicos</summary>
