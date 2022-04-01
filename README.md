@@ -1,3 +1,7 @@
+![Equipe B1NAR10S](/readme/B1NAR10S.svg "Equipe B1NAR10S")
+
+---
+
 # API-FATEC
 
 <details>
