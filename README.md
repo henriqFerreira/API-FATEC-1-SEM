@@ -1,6 +1,6 @@
-![Equipe B1NAR10S](/readme/B1NAR10S.svg "Equipe B1NAR10S")
-
----
+<p align="center">
+  <img src="/readme/B1NAR10S.svg" alt="Equipe B1NAR10S"/>
+</p>
 
 # API-FATEC
 
