@@ -1,0 +1,17 @@
+/* home */
+.home{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #00296B;
+}
+
+#left{
+    justify-content: left;
+}
+
+#right{
+    justify-content: right;
+}
