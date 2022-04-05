@@ -55,12 +55,12 @@
         
     </div>
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <ul class="footer-list">
                 <li id="footer-logo"><a href="">LOGO</a></li>
                 <li id="footer-bar"><span></span></li>
-                <li class="link"><a href="">All Rights Reserved</a></li>
+                <li class="link"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
             </ul>
         </div>
     </footer>
@@ -90,10 +90,10 @@ Estilização mínima no CSS. Contém os estilos necessários para funcionamento
 }
 
 /* Container que alinhará todo o conteúdo da página na mesma orientação */
-.container {
-    width: 90%; height: 100%;
-    margin: 0 auto;
-}
+    .container {
+        width: 90%; height: 100%;
+        margin: 0 auto;
+    }
 
 /* Barra de navegação */
     nav {
@@ -117,15 +117,16 @@ Estilização mínima no CSS. Contém os estilos necessários para funcionamento
     }
 
     #navbar-bar {
-        width: 60%; height: 2px;
+        width: 50%; height: 2px;
         background-color: var(--darker-blue);
     }
 
 /* Footer */
-    footer {
+    .footer{
         width: 100%; height: 70px;
-        position: relative;
         bottom: 0;
+        position: fixed;
+        text-align: center;
     }
 
     .footer-list {
@@ -145,7 +146,7 @@ Estilização mínima no CSS. Contém os estilos necessários para funcionamento
     }
 
     #footer-bar {
-        width: 80%; height: 2px;
+        width: 70%; height: 2px;
         background-color: var(--darker-blue);
     }
 ~~~
