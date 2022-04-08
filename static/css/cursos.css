@@ -1,0 +1,14 @@
+#section-1 { height: 90vh; }
+    .svg {
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+    .seta {
+        position: relative;
+        top: 25%; left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
