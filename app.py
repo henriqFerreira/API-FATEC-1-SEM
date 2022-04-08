@@ -1,4 +1,3 @@
-from ast import If
 from flask import Flask, render_template
 
 app = Flask("__name__")
@@ -7,6 +6,9 @@ app = Flask("__name__")
 
 def home():
     return render_template("home.html")
+
+def cursos():
+    return render_template("cursos.html")
 
 if __name__ == "__main__":
     app.run()
