@@ -1,3 +1,11 @@
+:root {
+    --darker-blue: #00296B;
+    --dark-blue: #003F88;
+    --blue: #00509D;
+    --dark-yellow: #FDC500;
+    --yellow: #FFD500; 
+}
+
 #section-1 { height: 90vh; }
     .svg {
         position: relative;
@@ -12,3 +20,16 @@
         transform: translateX(-50%);
         width: 100%;
     }
+
+.card-curso {
+    height: 195px;
+    margin: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+    .card-curso img {
+        position: relative;
+        left: -12px;
+        float: left;
+    }
+    .titulo { margin-top: 20px; color: var(--dark-blue)}
+    .subtitulo { color: var(--blue); }
