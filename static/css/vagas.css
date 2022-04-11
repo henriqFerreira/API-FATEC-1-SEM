@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
-
 :root {
     --darker-blue: #00296B;
     --dark-blue: #003F88;
@@ -8,134 +6,72 @@
     --yellow: #FFD500; 
 }
 
-* {
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    font-family: 'Capriola', sans-serif
-}
 
-.container {
-    width: 90%; height: 100%;
-    margin: 0 auto;
-}
 
-nav {
-    width: 100%; height: 70px;
-}
-
-.navbar-list {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-    .navbar-list li a {
-        text-decoration: none;
-        color: var(--dark-blue);
+#section-1 { height: 90vh; }
+	#section-1 h2 {
+		text-align: center;
+		margin-top: 40px;
+		color: var(--dark-blue);
+	}
+    .svg {
+        position: relative;
+        top: 30%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
     }
+    .seta {
+        position: relative;
+        top: 15%; left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+	.titulo{
+		text-align: center;
+		font-size: 28px;
+		color: var(--dark-blue);
+	}
 
-#logo {
-    font-size: 2em;
+
+.categorias { height: 20vh; margin-bottom: 100px; }
+	.categorias h2 { text-align: center; }
+	.categorias-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		list-style: none;
+	}
+	.list-item {
+		padding: 8px 15px;
+		margin: 10px;
+		border-radius: 50px;
+		background-color: var(--darker-blue);
+		color: white;
+	}
+
+.vaga {
+	display: flex;
+	width: 100%; height: 152px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+	margin: 20px 0;
+	border-radius: 20px;
+	overflow: hidden;
 }
 
-#bar {
-    width: 60%; height: 2px;
-    background-color: var(--darker-blue);
+.vaga img { padding: 30px; }
+
+.vaga-content {
+	width: 100%;
+	padding: 10px 0px;
 }
 
-
-
-
-.svg{
-    width: 100%;
-    height: 450px;
-    text-align: center;
-    margin-bottom: 5%;
-
-    
-}
-.titulos{
-    text-align: center;
-    font-family: 'Capriola';
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
-    color: var(--dark-blue);
-}
-.titulos2{
-    padding-left: 40px;
-    width: auto;
-    text-align: left;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    color:var(--dark-blue);
-}
-
-.round{
-    border-radius: 20px;
-    border-bottom: solid 1px gray;
-    margin-left: 10%;
-    width: 90%;
-    height: 132px;
-    margin: 0 auto;
-    background-color: white;
-    margin-bottom: 1%;
-}
-
-.conteudo {
-    /* width: 80%;  */
-    height: 100%;
-
-}
-
-.round a {
-    float: right;
-    text-align:right;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 100%;
-    
-}
-.vagas {
-    float:left;
-    margin-right: 15px;
-}
-.subtitulo{
-    padding: 15px;
-    font-size: 24px;
-    line-height: 10px;
-    color:var(--dark-blue);
-}
-
-.texto{
-    font-size: 15px;
-    color:var(--dark-blue);
-    width: 80%;
-}
-.vector1{
-    text-align: center;
-    align-self: center;
-    padding-left: 50%;
-    padding-bottom: 5%;
-  }
-  .vector2{
-    width: 1%;
-    position: absolute;
-    /* top: 95%; */
-    /* left: 91%; */
-    transform: translate(-50%, -50%);
-    padding-bottom: 3%;
-  }
-
-  .svgmetricas{
-    width: 90%;
-    float: left;
-    margin-bottom: 10%;
-    margin-left:25px;
-
-    
-}
+.vaga-content h3 { vertical-align: middle; }
+.vaga-content h3 a { color: var(--darker-blue); text-decoration: none; }
+.nivel { float: right; margin-right: 25px; font-size: 14px; color: var(--darker-blue);}
+.empresa, .local { font-size: 12px; color: var(--dark-blue); font-weight: bold; }
+.descricao { width: 95%; font-size: 14px; margin-top: 5px; text-align: justify; color: var(--blue); }
