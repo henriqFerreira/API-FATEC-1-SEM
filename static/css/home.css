@@ -1,25 +1,84 @@
-/* home */
-.texto{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    color: #00296B;
+:root {
+    --darker-blue: #00296B;
+    --dark-blue: #003F88;
+    --blue: #00509D;
+    --dark-yellow: #FDC500;
+    --yellow: #FFD500; 
 }
 
-#left{
-    
-    justify-content: left;
-    display: flex;
-}
+#section-1 { height: 90vh; position: relative; }
+    .title {
+        position: relative;
+        top: 25%;
+        float: left;
+    }
+    .title h1 {
+        color: var(--dark-blue);
+        margin-bottom: 40px;
+    }
+    .btn-outline-primary {
+        border-color: var(--blue) !important;
+        color: var(--blue) !important;
+    }
+    .btn-outline-primary:hover {
+        background-color: var(--blue) !important;
+        color: white !important;
+    }
+    .svg-1 {
+        position: absolute;
+        top: 20%; right: 0;
+    }
 
-#right{
-    justify-content: right;
-    display: flex;
-}
+#section-2 { height: 100vh; position: relative; }
+    .text-1 {
+        width: 30%;
+        position: absolute;
+        top: 40%; left: 60%;
+    }
+    .text-1 p { margin-bottom: 30px; color: var(--dark-blue); font-size: 1.2em; }
+    .btn-outline-secondary {
+        border-color: var(--dark-yellow) !important;
+        color: var(--dark-yellow) !important;
+    }
+    .btn-outline-secondary:hover {
+        background-color: var(--dark-yellow) !important;
+        color: white !important;
+    }
+    .svg-2 {
+        position: absolute;
+        top: 20%; left: 0;
+    }
 
-.btn-primary{
-    justify-content: left;
-    display: flex;
-}
+#section-3 { height: 100vh; position: relative; background-color: var(--dark-blue); }
+    .categorias {
+        position: absolute;
+        top: 30%; left: 5%;
+    }
+    .categorias-list {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    .list-item {
+        padding: 8px 15px;
+        margin: 5px;
+        border-radius: 50px;
+        background-color: white;
+        color: var(--darker-blue);
+    }
+    .text-2 {
+        width: 30%;
+        position: absolute;
+        top: 40%; left: 60%;
+        color: white;
+        font-size: 1.2em;
+    }
+    .text p { margin-bottom: 30px; }
+    .svg-2 {
+        position: absolute;
+        top: 20%; left: 0;
+    }
