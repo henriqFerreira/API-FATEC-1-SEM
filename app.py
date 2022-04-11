@@ -10,5 +10,9 @@ def home():
 def cursos():
     return render_template("cursos.html")
 
+@app.route("/vagas")
+def vagas():
+    return render_template("vagas.html")
+
 if __name__ == "__main__":
     app.run()
