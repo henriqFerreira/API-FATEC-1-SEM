@@ -6,9 +6,9 @@
     --yellow: #FFD500; 
 }
 
+html { scroll-behavior: smooth; }
 
-
-#section-1 { height: 90vh; }
+#section-1 { height: 86vh; }
 	#section-1 h2 {
 		text-align: center;
 		margin-top: 40px;
@@ -26,6 +26,8 @@
         top: 15%; left: 50%;
         transform: translateX(-50%);
         width: 100%;
+		animation: setaBaixo 1s ease-in-out infinite alternate;
+
     }
 	.titulo{
 		text-align: center;
@@ -35,7 +37,7 @@
 
 
 .categorias { height: 20vh; margin-bottom: 100px; }
-	.categorias h2 { text-align: center; }
+	.categorias h2 { text-align: center; color: var(--dark-blue); }
 	.categorias-list {
 		display: flex;
 		justify-content: center;
@@ -75,3 +77,8 @@
 .nivel { float: right; margin-right: 25px; font-size: 14px; color: var(--darker-blue);}
 .empresa, .local { font-size: 12px; color: var(--dark-blue); font-weight: bold; }
 .descricao { width: 95%; font-size: 14px; margin-top: 5px; text-align: justify; color: var(--blue); }
+
+@keyframes setaBaixo {
+	from { top: 14%; }
+	to { top: 16%; }
+}
