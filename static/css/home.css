@@ -1,5 +1,5 @@
 /* home */
-.home{
+.texto{
     height: 100%;
     display: flex;
     justify-content: center;
@@ -9,9 +9,17 @@
 }
 
 #left{
+    
     justify-content: left;
+    display: flex;
 }
 
 #right{
     justify-content: right;
+    display: flex;
+}
+
+.btn-primary{
+    justify-content: left;
+    display: flex;
 }
