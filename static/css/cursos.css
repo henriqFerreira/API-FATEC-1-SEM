@@ -30,6 +30,9 @@
         position: relative;
         left: -12px;
         float: left;
+        width:17.5%; margin-left:2%;
+        vertical-align: middle;
+        display: table-cell;
     }
     .titulo { margin-top: 20px; color: var(--dark-blue)}
     .subtitulo { color: var(--blue); }
