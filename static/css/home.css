@@ -6,10 +6,10 @@
     --yellow: #FFD500; 
 }
 
-#section-1 { height: 90vh; position: relative; }
+#section-1 { height: 100vh; position: relative; }
     .title {
         position: relative;
-        top: 25%;
+        top: 35%;
         float: left;
     }
     .title h1 {
@@ -19,14 +19,22 @@
     .btn-outline-primary {
         border-color: var(--blue) !important;
         color: var(--blue) !important;
+        font-weight: bold;
+        letter-spacing: 2px;
     }
     .btn-outline-primary:hover {
         background-color: var(--blue) !important;
         color: white !important;
     }
     .svg-1 {
+        width: 35%;
         position: absolute;
-        top: 20%; right: 0;
+        top: 100%; right: 0;
+        transform: translateY(-100%);
+    }
+
+    .svg-1 img {
+        width: 100%;
     }
 
 #section-2 { height: 100vh; position: relative; }
@@ -34,11 +42,14 @@
         width: 30%;
         position: absolute;
         top: 40%; left: 60%;
+        text-align: ri;
     }
     .text-1 p { margin-bottom: 30px; color: var(--dark-blue); font-size: 1.2em; }
     .btn-outline-secondary {
         border-color: var(--dark-yellow) !important;
         color: var(--dark-yellow) !important;
+        font-weight: bold;
+        letter-spacing: 2px;
     }
     .btn-outline-secondary:hover {
         background-color: var(--dark-yellow) !important;
@@ -46,13 +57,15 @@
     }
     .svg-2 {
         position: absolute;
-        top: 20%; left: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
 #section-3 { height: 100vh; position: relative; background-color: var(--dark-blue); }
     .categorias {
         position: absolute;
-        top: 30%; left: 5%;
+        top: 50%; left: 5%;
+        transform: translateY(-50%);
     }
     .categorias-list {
         width: 35%;
@@ -73,12 +86,9 @@
     .text-2 {
         width: 30%;
         position: absolute;
-        top: 40%; left: 60%;
+        top: 50%; left: 60%;
+        transform: translateY(-50%);
+        text-align: center;
         color: white;
         font-size: 1.2em;
-    }
-    .text p { margin-bottom: 30px; }
-    .svg-2 {
-        position: absolute;
-        top: 20%; left: 0;
     }

@@ -15,7 +15,7 @@
 }
 
 /* Container que alinhará todo o conteúdo da página na mesma orientação */
-    .container {
+    .alinhamento {
         width: 90%; height: 100%;
         margin: 0 auto;
     }
