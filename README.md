@@ -6,7 +6,7 @@
   <samp>
     <a href="#o-projeto">Projeto</a> ▪️
     <a href="#proposta">Proposta</a> ▪️
-    <a href="#requisitos-e-tecnologias">Requisitos e Tecnologias</a> ▪️
+    <a href="#tecnologias">Tecnologias</a> ▪️
     <a href="#metodologia">Metodologia</a> ▪️
     <a href="#product-backlog">Product Backlog</a> ▪️
     <a href="#sprints">Sprints</a> ▪️
@@ -22,7 +22,32 @@
 
 <h1 align="center"><samp>PROPOSTA</samp></h1>
 
-Desenvolver um sistema web para automatizar o processo de catalogar vagas de diversas profiss
+Desenvolver um sistema web para automatizar o processo de catalogar vagas de diversas profissões, principalmente na área de TI.
+
+> Requisitos
+>
+> + - [x] Página Home
+> + - [x] Página de vagas
+> + - [x] Página Cursos
+> + - [ ] Página Institucional
+> + - [ ] Página para cada vaga
+
+<br>
+<h1 align="center"><samp>TECNOLOGIAS</samp></h1>
+
+![Equipe B1NAR10S](/readme/Tecnologias.png)
+
+| **FRONT-END** | **BACK-END** | **FERRAMENTAS** |
+| :-------: | :------: | :---------: |
+| HTML | JavaScript | Visual Studio Code |
+| CSS | Python | Figma |
+| Bootstrap | | Git |
+| | | Github |
+
+<br>
+<h1 align="center">PRODUCT BACKLOG</h1>
+
+![](/readme/ProductBacklog.png)
 
 <details>
   <summary>Detalhes técnicos</summary>
