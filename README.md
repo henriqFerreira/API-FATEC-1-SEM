@@ -5,6 +5,7 @@
 <p align="center">
   <samp>
     <a href="#o-projeto">Projeto</a> ▪️
+    <a href="#proposta">Proposta</a> ▪️
     <a href="#requisitos-e-tecnologias">Requisitos e Tecnologias</a> ▪️
     <a href="#metodologia">Metodologia</a> ▪️
     <a href="#product-backlog">Product Backlog</a> ▪️
@@ -16,6 +17,12 @@
 <br>
 
 <h1 align="center"><samp>O PROJETO</samp></h1>
+
+![Equipe B1NAR10S](/readme/Objetivo.png)
+
+<h1 align="center"><samp>PROPOSTA</samp></h1>
+
+Desenvolver um sistema web para automatizar o processo de catalogar vagas de diversas profiss
 
 <details>
   <summary>Detalhes técnicos</summary>
