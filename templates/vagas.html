@@ -1,173 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../static/css/vagas.css">
-  <title>Cursos e Certificações</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/template.css">
+	<link rel="stylesheet" href="../static/css/vagas.css">
+    <title>Cursos e Certificações</title>
 </head>
-
 <body>
-  <!-- Template a ser seguido em todas as páginas da API -->
-  <nav>
-    <div class="container">
-      <ul class="navbar-list">
-        <li id="logo"><a href="">LOGO</a></li>
-        <li id="bar"><span></span></li>
-        <li class="link"><a href="">Início</a></li>
-        <li class="link"><a href="">Vagas</a></li>
-        <li class="link"><a href="">Cursos e Certificações</a></li>
-      </ul>
+    <!-- Barra de navegação -->
+    <nav>
+        <div class="alinhamento">
+            <ul class="navbar-list">
+				<li id="navbar-logo"><a href="">LOGO</a></li>
+				<li id="navbar-bar"><span></span></li>
+				<li class="link"><a href="/">Início</a></li>
+				<li class="link"><a href="/vagas">Vagas</a></li>
+				<li class="link"><a href="/cursos">Cursos e Certificações</a></li>
+			</ul>
+        </div>
+    </nav>
+    <!-- Conteúdo da página deve ser inserido dentro dessa DIV -->
+    <div class="alinhamento">
+		<section id="section-1">
+			<h2>Encontre aqui, as vagas perfeitas para você</h2>
+            <div class="svg">
+                <img src="../static/images/SVG-Vagas.svg" alt="Mulher segurando um certificado">
+            </div>
+            <span class="seta">
+				<a href="#section-2">
+					<img src="../static/images/Seta-Baixo.svg" alt="Seta para baixo">
+				</a>
+            </span>
+        </section>
+		<section class="categorias">
+			<h2>Categorias</h2>
+			<ul class="categorias-list">
+				<li class="list-item">Banco de dados</li>
+				<li class="list-item">TI</li>
+				<li class="list-item">Redes</li>
+				<li class="list-item">Software</li>
+				<li class="list-item">Hardware</li>
+				<li class="list-item">Back-end</li>
+				<li class="list-item">Engenheiro de Dados</li>
+				<li class="list-item">Cientista de Dados</li>
+				<li class="list-item">Segurança da Informação</li>
+				<li class="list-item">Desenvolvedor</li>
+				<li class="list-item">Web</li>
+				<li class="list-item">Tecnologia</li>
+			</ul>
+		</section>
+		<div id="section-2">
+			<ul class="navbar-list">
+				<li class="titulo">Vagas focadas em T.I.</li>
+				<li id="navbar-bar" style="width: 70%;"></li>
+			</ul>
+			<div id="content-1"></div>
+		</div>
+		<div id="section-3">
+			<ul class="navbar-list">
+				<li class="titulo">Vagas em outras áreas</li>
+				<li id="navbar-bar" style="width: 70%;"></li>
+			</ul>
+			<div id="content-2"></div>
+		</div>	
     </div>
-  </nav>
-  <div class="container"></div>
-
-  <div>
-    <p class="titulos">Encontre aqui, as vagas perfeitas para você</p>
-    <p><img class="svg" type="image/svg+xml" src="../static/imagens/SVG-Vagas.svg"></p>
-    <img class="vector1" src="../static/imagens/Seta-Baixo.svg">
-  </div>
-
-  <div class="container">
-    <ul class="navbar-list">
-      <li class="titulos2">Vagas Focadas em T.I.</li>
-      <li id="bar" style="width: 70%;"><span></span></li>
-    </ul>
-  </div>
-
-  <br>
-  <div class="round">
-    <ul class="navbar-list">
-      <li><img class="vagas" src="../static/imagens/Frame 2.svg"></li>
-      <div class="conteudo">
-
-        <li>
-          <p class="subtitulo">Vaga Especialista de TI - Grupo Fleury</p>
-          <p class="texto">Este profissional será responsável atuar ativamente nos projetos, ambientes não produtos,
-            incidentes/crises em produção,
-            mudanças do dia a dia e administrar de forma proativa o ambiente de banco de dados. </p>
-        </li>
-
-
-        <li>
-          <a href="">
-            <img class="vector2" type="image/svg+xml" src="../static/imagens/Vector 2.svg">
-          </a>
-
-        </li>
-      </div>
-    </ul>
-  </div>
-
-  <br>
-  <div class="round">
-    <ul class="navbar-list">
-      <li><img class="vagas" src="../static/imagens/Frame 2.svg"></li>
-      <div class="conteudo">
-
-        <li>
-          <p class="subtitulo">Vaga Consultor sênior de Auditoria de TI com foco em cyber/Resiliência - EY</p>
-          <p class="texto">A área de Consulting da EY adota uma abordagem estratégica para assessorar os clientes a
-            melhorar e sustentar o desempenho de suas empresas. No complexo ambiente de negócios de hoje, isso significa
-            entender a relação entre risco e melhoria de desempenho e aplicar seus conhecimentos a fim de auxiliar os
-            clientes a alcançar seus objetivos estratégicos nos mais diversos Setores da Economia. </p>
-        </li>
-
-
-        <li>
-          <a href="">
-            <img class="vector2" type="image/svg+xml" src="../static/imagens/Vector 2.svg">
-          </a>
-
-        </li>
-      </div>
-    </ul>
-  </div>
-
-  <br>
-  <div class="round">
-    <ul class="navbar-list">
-      <li><img class="vagas" src="../static/imagens/Frame 2.svg"></li>
-      <div class="conteudo">
-
-        <li>
-          <p class="subtitulo">Supervisor de T.I. - TP-Link</p>
-          <p class="texto">
-            No que tange a Tecnologia da Informação será responsável pelo suporte aos funcionários, sistemas diversos,
-            ERP da empresa, desenvolvimento e implantação de projetos. Fará o levantamento de requisitos, mapeamento de
-            processos e modelagem de dados.
-          </p>
-        </li>
-
-
-        <li>
-          <a href="">
-            <img class="vector2" type="image/svg+xml" src="../static/imagens/Vector 2.svg">
-          </a>
-
-        </li>
-      </div>
-    </ul>
-  </div>
-
-
-  <br>
-  <div class="round">
-    <ul class="navbar-list">
-      <li><img class="vagas" src="../static/imagens/Frame 2.svg"></li>
-      <div class="conteudo">
-
-        <li>
-          <p class="subtitulo">Analista de TI - Gold Pão</p>
-          <p class="texto">Suporte e manutenção dos sistemas de gestão da empresa (ex. ERP, Vendas, Logística, RH e
-            outros), apoiando e orientando os usuários no melhor uso das soluções. Trabalhar colaborativamente com o
-            time de infra-estrutura de TI, propondo melhorias, com foco na otimização da performance e segurança do
-            ambiente. </p>
-        </li>
-
-
-        <li>
-          <a href="">
-            <img class="vector2" type="image/svg+xml" src="../static/imagens/Vector 2.svg">
-          </a>
-
-        </li>
-      </div>
-    </ul>
-  </div>
-
-
-
-
-  <div class="container">
-    <ul class="navbar-list">
-      <li class="titulos2">Vagas em outras areas</li>
-      <li id="bar" style="width: 70%;"><span></span></li>
-    </ul>
-  </div>
-
-  <br>
-  <div class="round">
-    <ul class="navbar-list">
-      <li><img class="vagas" src="../static/imagens/Frame 2.svg"></li>
-      <div class="conteudo">
-
-        <li>
-          <p class="subtitulo">Lorem</p>
-          <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptas modi doloribus officia
-            consequuntur sapiente, laudantium doloremque est sit nesciunt eaque? Reiciendis velit illum quos at sit
-            cupiditate inventore atque? </p>
-        </li>
-
-
-        <li>
-          <a href="">
-            <img class="vector2" type="image/svg+xml" src="../static/imagens/Vector 2.svg">
-          </a>
-
-        </li>
-      </div>
-    </ul>
-  </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="alinhamento">
+            <ul class="footer-list">
+                <li id="footer-logo"><a href="">LOGO</a></li>
+                <li id="footer-bar"><span></span></li>
+                <li class="link"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
+            </ul>
+        </div>
+    </footer>
+	<script src="../static/js/vagasJsonHandler.js"></script>
+</body>
+</html>

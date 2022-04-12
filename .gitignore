@@ -1,3 +1,11 @@
+#ambiente virtual Henrique
 venv/
+
+#ambiente virtual João
 api/
+
+#ambiente virtual de alguem
 __pycache__/
+
+#lib do live server no vscode
+.vscode/   
