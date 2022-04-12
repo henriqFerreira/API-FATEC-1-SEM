@@ -47,7 +47,9 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <br>
 <h1 align="center">PRODUCT BACKLOG</h1>
 
-![](/readme/ProductBacklog.png)
+
+![Equipe B1NAR10S](/readme/Product Backlog.png)
+
 
 <details>
   <summary>Detalhes técnicos</summary>
