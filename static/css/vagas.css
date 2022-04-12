@@ -8,24 +8,26 @@
 
 html { scroll-behavior: smooth; }
 
-#section-1 { height: 86vh; }
+#section-1 { height: 100vh; position: relative; }
 	#section-1 h2 {
-		text-align: center;
-		margin-top: 40px;
-		color: var(--dark-blue);
+		position: absolute;
+        top: 10%; left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 40px;
+        color: var(--dark-blue);
 	}
     .svg {
-        position: relative;
-        top: 30%;
+        position: absolute;
+        top: 40%;
         transform: translateY(-50%);
         width: 100%;
         text-align: center;
     }
     .seta {
-        position: relative;
-        top: 15%; left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
+        position: absolute;
+        top: 70%; left: 50%;
+        transform: translateY(-50%);
 		animation: setaBaixo 1s ease-in-out infinite alternate;
 
     }
@@ -79,6 +81,6 @@ html { scroll-behavior: smooth; }
 .descricao { width: 95%; font-size: 14px; margin-top: 5px; text-align: justify; color: var(--blue); }
 
 @keyframes setaBaixo {
-	from { top: 14%; }
-	to { top: 16%; }
+	from { top: 69%; }
+	to { top: 71%; }
 }
