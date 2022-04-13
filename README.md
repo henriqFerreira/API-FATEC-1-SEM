@@ -1,15 +1,14 @@
 <p align="center"> <img src="/readme/B1NAR10S.svg" alt="Equipe B1NAR10S"/></p>
-
 <br>
-
 <p align="center">
   <samp>
     <a href="#o-projeto">Projeto</a> ▪️
     <a href="#proposta">Proposta</a> ▪️
     <a href="#tecnologias">Tecnologias</a> ▪️
     <a href="#metodologia">Metodologia</a> ▪️
+    <a href="#cronograma-das-sprints">Cronograma das Sprints</a> ▪️
     <a href="#product-backlog">Product Backlog</a> ▪️
-    <a href="#sprints">Sprints</a> ▪️
+    <a href="#sprints-backlog">Sprints Backlog</a> ▪️
     <a href="#equipe">Equipe</a>
   </samp>
 </p>
@@ -19,36 +18,74 @@
 <h1 align="center"><samp>O PROJETO</samp></h1>
 
 ![Equipe B1NAR10S](/readme/Objetivo.png)
+---
 
 <h1 align="center"><samp>PROPOSTA</samp></h1>
 
 Desenvolver um sistema web para automatizar o processo de catalogar vagas de diversas profissões, principalmente na área de TI.
 
-> Requisitos
->
-> + - [x] Página Home
-> + - [x] Página de vagas
-> + - [x] Página Cursos
-> + - [ ] Página Institucional
-> + - [ ] Página para cada vaga
+### 📖 Requisitos
++ - [x] Página Home
++ - [x] Página de vagas
++ - [x] Página Cursos
++ - [ ] Página Institucional
++ - [ ] Página para cada vaga
+
+### 🔖 Requisitos funcionais
++ - [x] Raspagem das vagas
++ - [x] Raspagem dos cursos
 
 <br>
 <h1 align="center"><samp>TECNOLOGIAS</samp></h1>
 
 ![Equipe B1NAR10S](/readme/Tecnologias.png)
+---
 
-| **FRONT-END** | **BACK-END** | **FERRAMENTAS** |
-| :-------: | :------: | :---------: |
-| HTML | JavaScript | Visual Studio Code |
-| CSS | Python | Figma |
-| Bootstrap | | Git |
-| | | Github |
+<table align="center">
+  <tr>
+    <th><b>Front-end</b></th>
+    <th><b>Back-end</b></th>
+    <th><b>Ferramentas</b></th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>JavaScript</td>
+    <td>Visual Studio Code</td>
+  </tr>
+  <tr>
+    <td>CSS</td>
+    <td>Python</td>
+    <td>Figma</td>
+  </tr>
+  <tr>
+    <td>Bootstrap</td>
+    <td></td>
+    <td>Git</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Github</td>
+  </tr>
+</table>
+
+<br>
+<h1 align="center"><samp>CRONOGRAMA DAS SPRINTS</samp></h1>
+
+![Equipe B1NAR10S](/readme/Cronograma.png)
+---
 
 <br>
 <h1 align="center">PRODUCT BACKLOG</h1>
 
+![Equipe B1NAR10S](/readme/ProductBacklog.png)
+---
 
-![Equipe B1NAR10S](/readme/Product Backlog.png)
+<br>
+<h1 align="center"><samp>SPRINTS BACKLOG</samp></h1>
+
+![Equipe B1NAR10S](/readme/SprintBacklog.png)
+---
 
 
 <details>
