@@ -35,8 +35,6 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 + - [x] Raspagem das vagas
 + - [x] Raspagem dos cursos
 
-![Equipe B1NAR10S](/readme/Projeto.png)
-
 <br>
 <h1 align="center"><samp>TECNOLOGIAS</samp></h1>
 
