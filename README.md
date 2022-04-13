@@ -91,33 +91,36 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <h3 align="center">Demonstração de usabilidade</h3>
   
   <h4>Página Home</h4>
-  <p margin-left="auto">
-      <img src="/readme/home.gif" width="50% />
-  </p>
+  <img src="/readme/home.gif" width="50% />
+  <br>
   <a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Página Home > Link 'vagas' da barra de navegação</h4>
-  <img src="/readme/vagas-link.gif" margin-left="auto" width="50% />
+  <img src="/readme/vagas-link.gif" width="50% />
+  <br>
   <a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Página Home > Botão 'conferir vagas'</h4>
   <img src="/readme/vagas-botao.gif" width="50% />
+  <br>
   <a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Página Cursos e Certificações</h4>
   <img src="/readme/cursos-link.gif"  width="50%" />
+  <br>
   <a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Captação de dados (Raspagem)</h4>
   <img src="/readme/raspagem.gif" width="50%" />
+  <br>
   <a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
