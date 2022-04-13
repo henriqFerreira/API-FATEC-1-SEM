@@ -98,21 +98,21 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p>Demonstração do layout da página home. Sendo dividida em 3 seções, sendo a primeira a principal, onde contém a primeira impressão do usuário, que tem como objetivo chamar a atenção do mesmo, para que ele prossiga pela página ou vá para as vagas. A segunda contendo uma seção, falando sobre a disposição de cursos e certificações no site, e a terceira, dando a opção do usuário de pesquisar por categorias, as vagas que ele deseja encontrar.</p>
 
   <br>
-  <h4 align="center">Página Home e Página Vagas &#8594; Link 'vagas' da barra de navegação<br><a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a></h4>
+  <h4 align="center">Navegação da página home para página vagas via link da barra de navegação<br><a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/vagas-link.gif" width="65%" />
   </p>
   <p>Demonstração do funcionamento do link 'vagas', localização na barra de navegação.</p>
 
   <br>
-  <h4 align="center">Página Home e Página de Vagas &#8594; Botão 'conferir vagas'<br><a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a></h4>
+  <h4 align="center">Navegação da página home para página vagas via botão na seção principal<br><a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/vagas-botao.gif" width="65%" />
   </p>
   <p>Demonstração do funcionamento do botão 'Confira as vagas agora mesmo!', localizado na seção principal da página home. </p>
 
   <br>
-  <h4 align="center">Página Home e Página Cursos e Certificações &#8594; Link 'cursos e certificações' da barra de navegação<br><a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a></h4>
+  <h4 align="center">Navegação e demonstração da página home para página cursos via link da barra de navegação<br><a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/cursos-link.gif"  width="65%" />
   </p>
