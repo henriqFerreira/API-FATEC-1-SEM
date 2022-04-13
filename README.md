@@ -88,6 +88,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <h3>Demostração de usabilidade:</h3>
 <p>Página Home</p>
 
+<img src="/readme/home.gif" width="100%" />
 ![Equipe B1NAR10S](/readme/home.gif) <!-- home -->
 
 <p>Página Vagas</p>
