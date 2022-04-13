@@ -90,36 +90,50 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <h1 align="center">Sprint 1</h1>
   <h3 align="center">Demonstração de usabilidade</h3>
   
-  <h4>Página Home</h4>
-  <img src="/readme/home.gif" width="50% />
   <br>
+  <h4>Página Home</h4>
+  <p align="center">
+    <img src="/readme/home.gif" width="50%" />
+  </p>
   <a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a>
   <br>
-  <p></p>
+  <p>Demonstração do conteúdo da página home. Sendo dividida em 3 seções, sendo a primeira a principal, onde contém a primeira impressão do usuário, que tem como objetivo chamar a atenção do mesmo, para que ele prossiga pela página ou vá para as vagas. A segunda contendo uma seção, falando sobre a disposição de cursos e certificações no site, e a terceira, dando a opção do usuário de pesquisar por categorias, as vagas que ele deseja encontrar.</p>
 
-  <h4>Página Home > Link 'vagas' da barra de navegação</h4>
-  <img src="/readme/vagas-link.gif" width="50% />
+  <br>
+  <h4>Página Home Link 'vagas' da barra de navegação</h4>
+  <p align="center">
+    <img src="/readme/vagas-link.gif" width="50%" />
+  </p>
   <br>
   <a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
+  <br>
   <h4>Página Home > Botão 'conferir vagas'</h4>
-  <img src="/readme/vagas-botao.gif" width="50% />
+  <p align="center">
+    <img src="/readme/vagas-botao.gif" width="50%" />
+  </p>
   <br>
   <a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
+  <br>
   <h4>Página Cursos e Certificações</h4>
-  <img src="/readme/cursos-link.gif"  width="50%" />
+  <p align="center">
+    <img src="/readme/cursos-link.gif"  width="50%" />
+  </p>
   <br>
   <a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
+  <br>
   <h4>Captação de dados (Raspagem)</h4>
-  <img src="/readme/raspagem.gif" width="50%" />
+  <p align="center">
+    <img src="/readme/raspagem.gif" width="50%" />
+  </p>
   <br>
   <a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a>
   <br>
