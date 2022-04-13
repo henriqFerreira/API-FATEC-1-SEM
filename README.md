@@ -75,7 +75,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 ![Equipe B1NAR10S](/readme/Cronograma.png)
 
 <br>
-<h1 align="center">PRODUCT BACKLOG</h1>
+<h1 align="center"><samp>PRODUCT BACKLOG</samp></h1>
 
 ![Equipe B1NAR10S](/readme/ProductBacklog.png)
 
@@ -84,7 +84,29 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
-<h1 align="center">EQUIPE<samp></samp></h1>
+<h1 align="center"><samp>SPRINT 1</samp></h1>
+<h3>Demostração de usabilidade:</h3>
+<p>Página Home</p>
+
+![Equipe B1NAR10S](/readme/home.gif) <!-- home -->
+
+<p>Página Vagas</p>
+
+![Equipe B1NAR10S](/readme/vagas-botao.gif) <!-- vagas botão-->
+
+![Equipe B1NAR10S](/readme/vagas-link.gif) <!-- vagas link-->
+
+<p>Página Cursos</p>
+
+![Equipe B1NAR10S](/readme/cursos-link.gif) <!-- cursos -->
+
+<h3>Captação de dados:</h3> <!-- raspagem de dados -->
+
+![Equipe B1NAR10S](/readme/raspagem.mp4) <!-- raspagem de dados -->
+
+<!-- <h3>Tratamento de dados:</h3> tratamento de vagas -->
+
+<h1 align="center"><samp>EQUIPE</samp></h1>
 
 <table align="center">
   <tr>
