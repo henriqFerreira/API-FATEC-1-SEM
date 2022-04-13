@@ -94,17 +94,11 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <br>
 <p></p>
 
-<<<<<<< HEAD
-![Equipe B1NAR10S](/readme/home.gif) <!-- home -->
-<br>
-<a  href="https://youtu.be/tYYEdszhfYs">Link para o vídeo</a>
-=======
 <h4>Página Home > Link 'vagas' da barra de navegação</h4>
 <img src="/readme/vagas-link.gif" width="100%" />
 <a href="">Youtube (Qualidade melhor)</a>
 <br>
 <p></p>
->>>>>>> 4cfd3283fcbce750f61ad275e32e843a588eadc0
 
 <h4>Página Home > Botão 'conferir vagas'</h4>
 (GIF a ser colocado)
@@ -112,29 +106,6 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <br>
 <p></p>
 
-<<<<<<< HEAD
-![Equipe B1NAR10S](/readme/vagas-botao.gif) <!-- vagas botão-->
-<br>
-<a  href="">Link para o vídeo</a>
-
-![Equipe B1NAR10S](/readme/vagas-link.gif) <!-- vagas link-->
-<br>
-<a  href="https://youtu.be/Ap9goqxyAiI">Link para o vídeo</a>
-
-<p>Página Cursos</p>
-
-![Equipe B1NAR10S](/readme/cursos-link.gif) <!-- cursos -->
-<br>
-<a  href="">Link para o vídeo</a>
-
-<h3>Captação de dados:</h3> <!-- raspagem de dados -->
-
-![Equipe B1NAR10S](/readme/raspagem.gif)
-<br>
-<a href="https://youtu.be/vKMSfNvmp7g">Link para o vídeo</a> <!-- raspagem de dados -->
-
-<!-- <h3>Tratamento de dados:</h3> tratamento de vagas -->
-=======
 <h4>Página Cursos e Certificações</h4>
 (GIF a ser colocado)
 <a href="">Youtube (Qualidade melhor)</a>
@@ -152,7 +123,6 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <a href="">Youtube (Qualidade melhor)</a>
 <br>
 <p></p>
->>>>>>> 4cfd3283fcbce750f61ad275e32e843a588eadc0
 
 <br>
 <h1 align="center"><samp>EQUIPE</samp></h1>
