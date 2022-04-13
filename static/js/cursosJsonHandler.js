@@ -12,11 +12,13 @@ fetch("../static/json/cursos.json")
             content.innerHTML += `
                 <!-- Cada class="row" é uma linha na lista de cursos -->
                 <div class="row">
-                    <!-- Cada class="col" é uma coluna na row em que está contida -->
-                    <div class="col card-curso">
+                    <div class="curso">
                         <img src="../static/images/SVG-Certificados.svg" alt="Placeholder da imagem dos cursos">
-                        <p class="titulo">${titulo}</p>
-                        <p class="subtitulo">${descricao}</p>
+                        <!-- Cada class="col" é uma coluna na row em que está contida -->
+                        <div class="col curso-content">
+                            <h3 class="titulo">${titulo}</h3>
+                            <p class="descricao">${descricao}</p>
+                        </div>
                     </div>
                 </div>
             `;

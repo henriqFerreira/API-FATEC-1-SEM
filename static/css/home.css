@@ -6,6 +6,8 @@
     --yellow: #FFD500; 
 }
 
+html { scroll-behavior: smooth; }
+
 #section-1 { height: 100vh; position: relative; }
     .title {
         position: relative;
