@@ -89,19 +89,29 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <p>Página Home</p>
 
 ![Equipe B1NAR10S](/readme/home.gif) <!-- home -->
+<br>
+<a  href="https://youtu.be/tYYEdszhfYs">Link para o vídeo</a>
 
 <p>Página Vagas</p>
 
 ![Equipe B1NAR10S](/readme/vagas-botao.gif) <!-- vagas botão-->
+<br>
+<a  href="">Link para o vídeo</a>
 
 ![Equipe B1NAR10S](/readme/vagas-link.gif) <!-- vagas link-->
+<br>
+<a  href="https://youtu.be/Ap9goqxyAiI">Link para o vídeo</a>
 
 <p>Página Cursos</p>
 
 ![Equipe B1NAR10S](/readme/cursos-link.gif) <!-- cursos -->
+<br>
+<a  href="">Link para o vídeo</a>
 
 <h3>Captação de dados:</h3> <!-- raspagem de dados -->
 
+![Equipe B1NAR10S](/readme/raspagem.gif)
+<br>
 <a href="https://youtu.be/vKMSfNvmp7g">Link para o vídeo</a> <!-- raspagem de dados -->
 
 <!-- <h3>Tratamento de dados:</h3> tratamento de vagas -->
