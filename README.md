@@ -135,6 +135,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   </p>
   <p>Demonstração do funcionamento do código que realiza a raspagem de vagas e cursos.</p> 
   <p>Quando executado, o código retorna um arquivo contendo os dados solicitados em um formato legível e organizado.</p>
+  <p>Para ver esse código em funcionamento, acesse o link do youtube que se encontra logo acima do GIF</p>
 </details>
 
 <br>
@@ -157,7 +158,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
     <td>Camila Redondo</td>
     <td>Scrum Master</td>
     <td><a href="https://github.com/CamilaRedondo">Github</a></td>
-    <td><a href=""></a></td>
+    <td><a href="https://www.linkedin.com/in/camila-silveira-redondo-7941631ab/">Linked-In</a></td>
   </tr>
   <tr>
     <td>Micael Leal</td>
