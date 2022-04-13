@@ -19,6 +19,7 @@
 
 ![Equipe B1NAR10S](/readme/Objetivo.png)
 
+<br>
 <h1 align="center"><samp>PROPOSTA</samp></h1>
 
 Desenvolver um sistema web para automatizar o processo de catalogar vagas de diversas profissões, principalmente na área de TI.
@@ -84,29 +85,46 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
+<br>
 <h1 align="center"><samp>SPRINT 1</samp></h1>
-<h3>Demostração de usabilidade:</h3>
-<p>Página Home</p>
-
+<h3 align="center">Demostração de usabilidade</h3>
+<h4>Página Home</h4>
 <img src="/readme/home.gif" width="100%" />
-![Equipe B1NAR10S](/readme/home.gif) <!-- home -->
+<a href="">Youtube (Qualidade melhor)</a>
+<br>
+<p></p>
 
-<p>Página Vagas</p>
+<h4>Página Home > Link 'vagas' da barra de navegação</h4>
+<img src="/readme/vagas-link.gif" width="100%" />
+<a href="">Youtube (Qualidade melhor)</a>
+<br>
+<p></p>
 
-![Equipe B1NAR10S](/readme/vagas-botao.gif) <!-- vagas botão-->
+<h4>Página Home > Botão 'conferir vagas'</h4>
+(GIF a ser colocado)
+<a href="">Youtube (Qualidade melhor)</a>
+<br>
+<p></p>
 
-![Equipe B1NAR10S](/readme/vagas-link.gif) <!-- vagas link-->
+<h4>Página Cursos e Certificações</h4>
+(GIF a ser colocado)
+<a href="">Youtube (Qualidade melhor)</a>
+<br>
+<p></p>
 
-<p>Página Cursos</p>
+<h4>Página Home</h4>
+<img src="/readme/home.gif" width="100%" />
+<a href="">Youtube (Qualidade melhor)</a>
+<br>
+<p></p>
 
-![Equipe B1NAR10S](/readme/cursos-link.gif) <!-- cursos -->
+<h4>Captação de dados (Raspagem)</h4>
+(GIF a ser colocado)
+<a href="">Youtube (Qualidade melhor)</a>
+<br>
+<p></p>
 
-<h3>Captação de dados:</h3> <!-- raspagem de dados -->
-
-![Equipe B1NAR10S](/readme/raspagem.mp4) <!-- raspagem de dados -->
-
-<!-- <h3>Tratamento de dados:</h3> tratamento de vagas -->
-
+<br>
 <h1 align="center"><samp>EQUIPE</samp></h1>
 
 <table align="center">
