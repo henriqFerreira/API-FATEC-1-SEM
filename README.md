@@ -103,8 +103,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p align="center">
     <img src="/readme/vagas-link.gif" width="65%" />
   </p>
-  <p>Demonstração do layout da página vagas, assim como o modo de acessa-la. 
-    Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "vagas" na barra de navegação o mesmo é direcionado a página que contém as vagas de emprego.</p>
+  <p>Demonstração do layout da página vagas, assim como o modo de acessa-la.</p> 
+  <p>Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "vagas" na barra de navegação o mesmo é direcionado a página que contém as vagas de emprego.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página vagas via botão na seção principal<br><a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a></h4>
@@ -118,8 +118,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p align="center">
     <img src="/readme/cursos-link.gif"  width="65%" />
   </p>
-  <p>Demonstração do layout da página de cursos e certificações, assim como o modo de acessa-la.
-    Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "Cursos e certificações" na barra de navegação o mesmo é direcionado a página que contém os respectivos cursos.</p>
+  <p>Demonstração do layout da página de cursos e certificações, assim como o modo de acessa-la.</p>
+  <p>Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "Cursos e certificações" na barra de navegação o mesmo é direcionado a página que contém os respectivos cursos.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página cursos via botão na seção principal<br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
@@ -133,8 +133,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p align="center">
     <img src="/readme/raspagem.gif" width="65%" />
   </p>
-  <p>Demonstração do funcionamento do código que realiza a raspagem de vagas e cursos. 
-    Quando executado, o código retorna um arquivo contendo os dados solicitados em um formato legível e organizado.</p>
+  <p>Demonstração do funcionamento do código que realiza a raspagem de vagas e cursos.</p> 
+  <p>Quando executado, o código retorna um arquivo contendo os dados solicitados em um formato legível e organizado.</p>
 </details>
 
 <br>
