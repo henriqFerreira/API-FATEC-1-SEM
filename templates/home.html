@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/template.css">
     <link rel="stylesheet" href="../static/css/home.css">
-    <!-- <link rel="stylesheet" href="../static/css/bootstrap.min.css"> -->
     <title>Home</title>
 </head>
 <body>
@@ -28,7 +27,7 @@
         <div class="alinhamento">
             <div class="title">
                 <h1>A vaga ideal para você, <br>se encontra aqui, <br>confira!</h1>
-                <button type="button" class="btn btn-outline-primary"><a href="/vagas">Confira as vagas agora mesmo!</a></button>
+                <button type="button" class="btn btn-outline-primary" onclick="vagas()">Confira as vagas agora mesmo!</button>
             </div>
         </div>
         <div class="svg-1">
@@ -84,11 +83,10 @@
             </ul>
         </div>
     </footer>
-
-    <!-- animações em js -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script>
+        function vagas() {
+            window.location.href = "/vagas";
+        }
+    </script>
 </body>
 </html>
