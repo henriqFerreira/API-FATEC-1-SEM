@@ -92,37 +92,31 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   
   <h4>Página Home</h4>
   <img src="/readme/home.gif" width="100%" />
-  <a href="">Youtube (Qualidade melhor)</a>
+  <a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Página Home > Link 'vagas' da barra de navegação</h4>
   <img src="/readme/vagas-link.gif" width="100%" />
-  <a href="">Youtube (Qualidade melhor)</a>
+  <a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Página Home > Botão 'conferir vagas'</h4>
-  (GIF a ser colocado)
-  <a href="">Youtube (Qualidade melhor)</a>
+  <img src="/readme/vagas-botao.gif" width="100%" />
+  <a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Página Cursos e Certificações</h4>
-  (GIF a ser colocado)
-  <a href="">Youtube (Qualidade melhor)</a>
-  <br>
-  <p></p>
-
-  <h4>Página Home</h4>
-  <img src="/readme/home.gif" width="100%" />
-  <a href="">Youtube (Qualidade melhor)</a>
+  <img src="/readme/cursos-link.gif" width="100%" />
+  <a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 
   <h4>Captação de dados (Raspagem)</h4>
-  (GIF a ser colocado)
-  <a href="">Youtube (Qualidade melhor)</a>
+  <img src="/readme/raspagem.gif" width="100%" />
+  <a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
 </details>
