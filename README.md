@@ -18,7 +18,6 @@
 <h1 align="center"><samp>O PROJETO</samp></h1>
 
 ![Equipe B1NAR10S](/readme/Objetivo.png)
----
 
 <h1 align="center"><samp>PROPOSTA</samp></h1>
 
@@ -35,11 +34,12 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 + - [x] Raspagem das vagas
 + - [x] Raspagem dos cursos
 
+![Equipe B1NAR10S](/readme/Projeto.png)
+
 <br>
 <h1 align="center"><samp>TECNOLOGIAS</samp></h1>
 
 ![Equipe B1NAR10S](/readme/Tecnologias.png)
----
 
 <table align="center">
   <tr>
@@ -73,20 +73,56 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <h1 align="center"><samp>CRONOGRAMA DAS SPRINTS</samp></h1>
 
 ![Equipe B1NAR10S](/readme/Cronograma.png)
----
 
 <br>
 <h1 align="center">PRODUCT BACKLOG</h1>
 
 ![Equipe B1NAR10S](/readme/ProductBacklog.png)
----
 
 <br>
 <h1 align="center"><samp>SPRINTS BACKLOG</samp></h1>
 
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
----
 
+<h1 align="center">EQUIPE<samp></samp></h1>
+
+<table align="center">
+  <tr>
+    <th><b>Nome</b></th>
+    <th><b>Função</b></th>
+    <th><b>Github</b></th>
+  </tr>
+  <tr>
+    <td>Gustavo Marques</td>
+    <td>Product Owner</td>
+    <td><a href="https://github.com/gusta7597">Github</a></td>
+  </tr>
+  <tr>
+    <td>Camila Redondo</td>
+    <td>Scrum Master</td>
+    <td><a href="https://github.com/CamilaRedondo">Github</a></td>
+  </tr>
+  <tr>
+    <td>Micael Leal</td>
+    <td>Desenvolvedor</td>
+    <td><a href="https://github.com/micael-leal">Github</a></td>
+  </tr>
+  <tr>
+    <td>João Henrique</td>
+    <td>Desenvolvedor</td>
+    <td><a href="https://github.com/JoaoHenrique7">Github</a></td>
+  </tr>
+  <tr>
+    <td>Simone Kanzawa</td>
+    <td>Desenvolvedor</td>
+    <td><a href="https://github.com/Simonehk">Github</a></td>
+  </tr>
+  <tr>
+    <td>Henrique Neto</td>
+    <td>Desenvolvedor</td>
+    <td><a href="https://github.com/henriqFerreira">Github</a></td>
+  </tr>
+</table>
 
 <details>
   <summary>Detalhes técnicos</summary>
