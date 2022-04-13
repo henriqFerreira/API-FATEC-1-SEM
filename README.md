@@ -85,44 +85,49 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
-<br>
-<h1 align="center"><samp>SPRINT 1</samp></h1>
-<h3 align="center">Demostração de usabilidade</h3>
-<h4>Página Home</h4>
-<img src="/readme/home.gif" width="100%" />
-<a href="">Youtube (Qualidade melhor)</a>
-<br>
-<p></p>
+<h3>Detalhes das sprints</h3>
+<details>
+  <summary>Sprint 1</summary>
+  
+  <h1 align="center">Sprint 1</h1>
+  <h3 align="center">Demonstração de usabilidade</h3>
+  
+  <h4>Página Home</h4>
+  <img src="/readme/home.gif" width="100%" />
+  <a href="">Youtube (Qualidade melhor)</a>
+  <br>
+  <p></p>
 
-<h4>Página Home > Link 'vagas' da barra de navegação</h4>
-<img src="/readme/vagas-link.gif" width="100%" />
-<a href="">Youtube (Qualidade melhor)</a>
-<br>
-<p></p>
+  <h4>Página Home > Link 'vagas' da barra de navegação</h4>
+  <img src="/readme/vagas-link.gif" width="100%" />
+  <a href="">Youtube (Qualidade melhor)</a>
+  <br>
+  <p></p>
 
-<h4>Página Home > Botão 'conferir vagas'</h4>
-(GIF a ser colocado)
-<a href="">Youtube (Qualidade melhor)</a>
-<br>
-<p></p>
+  <h4>Página Home > Botão 'conferir vagas'</h4>
+  (GIF a ser colocado)
+  <a href="">Youtube (Qualidade melhor)</a>
+  <br>
+  <p></p>
 
-<h4>Página Cursos e Certificações</h4>
-(GIF a ser colocado)
-<a href="">Youtube (Qualidade melhor)</a>
-<br>
-<p></p>
+  <h4>Página Cursos e Certificações</h4>
+  (GIF a ser colocado)
+  <a href="">Youtube (Qualidade melhor)</a>
+  <br>
+  <p></p>
 
-<h4>Página Home</h4>
-<img src="/readme/home.gif" width="100%" />
-<a href="">Youtube (Qualidade melhor)</a>
-<br>
-<p></p>
+  <h4>Página Home</h4>
+  <img src="/readme/home.gif" width="100%" />
+  <a href="">Youtube (Qualidade melhor)</a>
+  <br>
+  <p></p>
 
-<h4>Captação de dados (Raspagem)</h4>
-(GIF a ser colocado)
-<a href="">Youtube (Qualidade melhor)</a>
-<br>
-<p></p>
+  <h4>Captação de dados (Raspagem)</h4>
+  (GIF a ser colocado)
+  <a href="">Youtube (Qualidade melhor)</a>
+  <br>
+  <p></p>
+</details>
 
 <br>
 <h1 align="center"><samp>EQUIPE</samp></h1>
