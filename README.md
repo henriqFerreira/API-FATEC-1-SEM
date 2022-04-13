@@ -91,53 +91,39 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <h3 align="center">Demonstração de usabilidade</h3>
   
   <br>
-  <h4 align="center">Página Home</h4>
+  <h4 align="center">Página Home<br><a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/readme/home.gif" width="50%" />
+    <img src="/readme/home.gif" width="65%" />
   </p>
-  <a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a>
-  <br>
-  <p>Demonstração do conteúdo da página home. Sendo dividida em 3 seções, sendo a primeira a principal, onde contém a primeira impressão do usuário, que tem como objetivo chamar a atenção do mesmo, para que ele prossiga pela página ou vá para as vagas. A segunda contendo uma seção, falando sobre a disposição de cursos e certificações no site, e a terceira, dando a opção do usuário de pesquisar por categorias, as vagas que ele deseja encontrar.</p>
+  <p>Demonstração do layout da página home. Sendo dividida em 3 seções, sendo a primeira a principal, onde contém a primeira impressão do usuário, que tem como objetivo chamar a atenção do mesmo, para que ele prossiga pela página ou vá para as vagas. A segunda contendo uma seção, falando sobre a disposição de cursos e certificações no site, e a terceira, dando a opção do usuário de pesquisar por categorias, as vagas que ele deseja encontrar.</p>
 
   <br>
-  <h4>Página Home Link 'vagas' da barra de navegação</h4>
+  <h4 align="center">Página Home e Página Vagas &#8594; Link 'vagas' da barra de navegação<br><a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/readme/vagas-link.gif" width="50%" />
+    <img src="/readme/vagas-link.gif" width="65%" />
   </p>
-  <br>
-  <a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a>
-  <br>
-  <p></p>
+  <p>Demonstração do funcionamento do link 'vagas', localização na barra de navegação.</p>
 
   <br>
-  <h4>Página Home > Botão 'conferir vagas'</h4>
+  <h4 align="center">Página Home e Página de Vagas &#8594; Botão 'conferir vagas'<br><a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/readme/vagas-botao.gif" width="50%" />
+    <img src="/readme/vagas-botao.gif" width="65%" />
   </p>
-  <br>
-  <a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a>
-  <br>
-  <p></p>
+  <p>Demonstração do funcionamento do botão 'Confira as vagas agora mesmo!', localizado na seção principal da página home. </p>
 
   <br>
-  <h4>Página Cursos e Certificações</h4>
+  <h4 align="center">Página Home e Página Cursos e Certificações &#8594; Link 'cursos e certificações' da barra de navegação<br><a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/readme/cursos-link.gif"  width="50%" />
+    <img src="/readme/cursos-link.gif"  width="65%" />
   </p>
-  <br>
-  <a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a>
-  <br>
-  <p></p>
+  <p>Demonstração do layout da página de cursos e certificações, sendo dividida em duas seções, a primeira sendo a principal, onde há um recebimento para o usuário, e a segunda, contendo os respectivos cursos.</p>
 
   <br>
-  <h4>Captação de dados (Raspagem)</h4>
+  <h4 align="center">Captação de dados (Raspagem)<br><a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/readme/raspagem.gif" width="50%" />
+    <img src="/readme/raspagem.gif" width="65%" />
   </p>
-  <br>
-  <a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a>
-  <br>
-  <p></p>
+  <p>Demonstração do funcionamento do código da raspagem de vagas e cursos, na qual o código é executado e nos retorna uma busca completa dos dados que buscamos, em um formato legível e, até então, cru.</p>
 </details>
 
 <br>
@@ -148,36 +134,43 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
     <th><b>Nome</b></th>
     <th><b>Função</b></th>
     <th><b>Github</b></th>
+    <th><b>Linked-In</b></th>
   </tr>
   <tr>
     <td>Gustavo Marques</td>
     <td>Product Owner</td>
     <td><a href="https://github.com/gusta7597">Github</a></td>
+    <td><a href=""></a></td>
   </tr>
   <tr>
     <td>Camila Redondo</td>
     <td>Scrum Master</td>
     <td><a href="https://github.com/CamilaRedondo">Github</a></td>
+    <td><a href=""></a></td>
   </tr>
   <tr>
     <td>Micael Leal</td>
     <td>Desenvolvedor</td>
     <td><a href="https://github.com/micael-leal">Github</a></td>
+    <td><a href=""></a></td>
   </tr>
   <tr>
     <td>João Henrique</td>
     <td>Desenvolvedor</td>
     <td><a href="https://github.com/JoaoHenrique7">Github</a></td>
+    <td><a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-trist%C3%A3o-b63385207/">Linked-In</a></td>
   </tr>
   <tr>
     <td>Simone Kanzawa</td>
     <td>Desenvolvedor</td>
     <td><a href="https://github.com/Simonehk">Github</a></td>
+    <td><a href=""></a></td>
   </tr>
   <tr>
     <td>Henrique Neto</td>
     <td>Desenvolvedor</td>
     <td><a href="https://github.com/henriqFerreira">Github</a></td>
+    <td><a href="https://www.linkedin.com/in/henriquepfneto/">Linked-In</a></td>
   </tr>
 </table>
 
