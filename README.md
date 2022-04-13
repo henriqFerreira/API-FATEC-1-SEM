@@ -88,21 +88,21 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <h3>Demostração de usabilidade:</h3>
 <p>Página Home</p>
 
-![Equipe B1NAR10S](/API-FATEC/readme/home.gif) <!-- home -->
+![Equipe B1NAR10S](/readme/home.gif) <!-- home -->
 
 <p>Página Vagas</p>
 
-![Equipe B1NAR10S](/API-FATEC/readme/vagas-botao.gif) <!-- vagas botão-->
+![Equipe B1NAR10S](/readme/vagas-botao.gif) <!-- vagas botão-->
 
-![Equipe B1NAR10S](/API-FATEC/readme/vagas-link.gif) <!-- vagas link-->
+![Equipe B1NAR10S](/readme/vagas-link.gif) <!-- vagas link-->
 
 <p>Página Cursos</p>
 
-![Equipe B1NAR10S](/API-FATEC/readme/cursos-link.gif) <!-- cursos -->
+![Equipe B1NAR10S](/readme/cursos-link.gif) <!-- cursos -->
 
 <h3>Captação de dados:</h3> <!-- raspagem de dados -->
 
-![Equipe B1NAR10S](/API-FATEC/readme/raspagem.mp4) <!-- raspagem de dados -->
+![Equipe B1NAR10S](/readme/raspagem.mp4) <!-- raspagem de dados -->
 
 <!-- <h3>Tratamento de dados:</h3> tratamento de vagas -->
 
