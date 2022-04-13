@@ -1,7 +1,7 @@
-const content1 = document.getElementById("content-1");
-const arquivo1 = '../static/json/vagas.json';
+const content2 = document.getElementById("content-2");
+const arquivo2 = '../static/json/vagas-gerais.json';
 
-    fetch(arquivo1)
+    fetch(arquivo2)
         .then(resposta => {
             return resposta.json();
         })
@@ -17,10 +17,10 @@ const arquivo1 = '../static/json/vagas.json';
                 var descricao = i.descricao;
                 var localizacao = i.localizacao;
 
-                content1.innerHTML += `
+                content2.innerHTML += `
                     <div class="vaga">
                         <img src="../static/images/icone.svg">
-                        <div class="vaga-content1" id="${id}" onclick="getData(this.id)">
+                        <div class="vaga-content2" id="${id}" onclick="getData(this.id)">
                             <h3>
                                 <a>${titulo}</a>
                                 <span class="nivel">${nivel}</span>
@@ -35,7 +35,7 @@ const arquivo1 = '../static/json/vagas.json';
         });
 
 function getData(elementId) {
-    fetch(arquivo1)
+    fetch(arquivo2)
         .then(resposta => {
             return resposta.json()
         })

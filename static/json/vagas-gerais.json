@@ -1,0 +1,152 @@
+[
+    {
+        "id": "1",
+        "categoria": "engenharia",
+        "titulo": "Engenheiro",
+        "salario": "À combinar",
+        "empresa": "Confidencial",
+        "nivel": "Técnico",
+        "descricao": "Descrição: FORMAÇÃO: Engenharia ambiental, ou outra formação em engenharia acrescida de curso de especialização aplicável ao setor de petróleo e gás; 6) Capacidade de trabalho em equipe. 7) Conhecimento em projetos de engenharia  DESCRIÇÃO DAS ATIVIDADES:a) Elaborar ou prestar suporte de engenharia à equipe da PETROBRAS na orientação Impacto A...",
+        "localizacao": "Aracaju"
+    },
+    {
+        "id": "2",
+        "categoria": "engenharia",
+        "titulo": "Engenheiro Pleno",
+        "salario": "À combinar",
+        "empresa": "BUREAU VERITAS",
+        "nivel": "Pleno",
+        "descricao": "Descrição: Gerenciar obras de unidade operacional de cliente que atua na cadeia do petróleo como distribuidora de combustíveis.Principais atividades e responsabilidades:Acompanhar prazos de entrega, prazos de execução e inspeção dos projetos sob sua supervisão e dar as orientações necessárias para que o cronograma seja seguido;Contato direto com cliente e reuniões periódicas;Garantir o avanço f...",
+        "localizacao": "Amapá"
+    },
+    {
+        "id": "3",
+        "categoria": "engenharia",
+        "titulo": "Engenheiro(a) Sênior",
+        "salario": "À combinar",
+        "empresa": "Alupar Investimento",
+        "nivel": "Sênior",
+        "descricao": "Requisitos:\r\n\r\nGraduação em Engenharia Civil, Elétrica, Mecânica ou Eletrotécnica;\r\nDesejável Pós Graduação",
+        "localizacao": "Aracati"
+    },
+    {
+        "id": "4",
+        "categoria": "engenharia",
+        "titulo": "Engenheiro",
+        "salario": "À combinar",
+        "empresa": "Maritima & Offshore",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Rio de Janeiro/RJ e/ou Macaé/RJ\r\nDescrição das Atividades:\r\nQualificação: Formação Universitária em Engenharia",
+        "localizacao": "Rio de Janeiro"
+    },
+    {
+        "id": "5",
+        "categoria": "engenharia",
+        "titulo": "Engenharia (17 a, 17 B)",
+        "salario": "À combinar",
+        "empresa": "Confidencial",
+        "nivel": "Técnico",
+        "descricao": "Descrição: LOCAL DA PRESTAÇÃO DE SERVIÇOS; Rio de Janeiro / São Paulo\r\nFORMAÇÃO;1) AVANÇADO: Formação em nível superior acrescida de curso de especialização ou pós-graduação, na área ambiental, ou SMS, ou planejamento ou gestão de projetos ou Petróleo e Gá.                                                                         2) SÊNIOR Formação em nível superior, acrescida de curso de especia...",
+        "localizacao": "Rio de Janeiro"
+    },
+    {
+        "id": "6",
+        "categoria": "piloto",
+        "titulo": "Piloto de Aeronaves Agrícolas",
+        "salario": "À combinar",
+        "empresa": "Scheffer",
+        "nivel": "Pleno",
+        "descricao": "Descrição: Agendar e acompanhar a manutenção preventiva, periódica e corretiva das aeronaves agrícolas; Pilotar",
+        "localizacao": "Brasil"
+    },
+    {
+        "id": "7",
+        "categoria": "piloto",
+        "titulo": "Analista Documentação Farmacotécnico Jr",
+        "salario": "À combinar",
+        "empresa": "Apsen Farmacêutica",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Descrição: Atividades\r\nResponsável pelas atividades de Validação de Processo de lotes pilotos de novos Acompanhamento dos lotes pilotos para amostragem das etapas críticas com a finalidade de atender aos Prospecção de equipamentos para Planta Piloto e laboratório farmacotécnico com suporte do Analista Sênior Conferir as instruções de fabricação (IF) dos lo...",
+        "localizacao": "São Paulo"
+    },
+    {
+        "id": "8",
+        "categoria": "piloto",
+        "titulo": "Técnico Automação III",
+        "salario": "À combinar",
+        "empresa": "BP BUNGE BIOENERGIA",
+        "nivel": "Técnico",
+        "descricao": "Descrição: Responsável pelo suporte e manutenção de computador de bordo, sistema de abastecimento, piloto",
+        "localizacao": "Orindiúva"
+    },
+    {
+        "id": "9",
+        "categoria": "piloto",
+        "titulo": "Analista Pleno - Seguimento Energia - 719323",
+        "salario": "À combinar",
+        "empresa": "Indra Company",
+        "nivel": "Técnico",
+        "descricao": "Participação na melhoria de processos, propondo ideias, implementando pilotos, etc.",
+        "localizacao": "Goiânia"
+    },
+    {
+        "id": "10",
+        "categoria": "piloto",
+        "titulo": "Estagiário   Processos Agrícolas",
+        "salario": "À combinar",
+        "empresa": "BP BUNGE BIOENERGIA",
+        "nivel": "Estágio",
+        "descricao": "Descrição: Atividades:\r\n\r\nAcompanhar diariamente os dados de uso de piloto automático;\r\nAcompanhar junto",
+        "localizacao": "Santa Juliana"
+    },
+    {
+        "id": "11",
+        "categoria": "professor",
+        "titulo": "Professor de Direito",
+        "salario": "À combinar",
+        "empresa": "UNA",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Descrição: Docente do curso de Direito\r\nDisciplina: Pessoas, relações familiares e sucessórias\r\nModalidade: presencial\r\n \r\nPrincipais responsabilidades: \r\n\r\nPreparar material de acordo com plano de Ensino e Ministrar aulas;\r\nDespertar a produção de conhecimento permitindo que o aluno tenha uma visão ampla do conteúdo;\r\nAplicar e conduz atividade;\r\nDesenvolver em aula e esclarece dúvidas.\r\nDespe...",
+        "localizacao": "Itumbiara"
+    },
+    {
+        "id": "12",
+        "categoria": "professor",
+        "titulo": "Professor de Odontologia",
+        "salario": "À combinar",
+        "empresa": "UNISOCIESC",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Descrição: Professor de Odontologia\r\nDisciplina: Técnicas Cirúrgicas\r\n \r\nRequisitos:\r\nMestre em Odontologia",
+        "localizacao": "Joinville"
+    },
+    {
+        "id": "13",
+        "categoria": "professor",
+        "titulo": "Professor de Infra 2",
+        "salario": "À combinar",
+        "empresa": "UNISUL",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Descrição: Professor de ensino superior para os cursos de Ciência da computação, Sistemas da informação",
+        "localizacao": "Tubarão"
+    },
+    {
+        "id": "14",
+        "categoria": "professor",
+        "titulo": "Professor de Odontologia",
+        "salario": "À combinar",
+        "empresa": "UNISOCIESC",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Descrição: Professor de Odontologia\r\nDisciplina: Periodontia, aulas práticas\r\n \r\nRequisitos:\r\nMestre, Modalidade: PresencialOutros requisitos: Professor de Odontologia\r\nDisciplina: Periodontia, aulas práticas",
+        "localizacao": "Joinville"
+    },
+    {
+        "id": "15",
+        "categoria": "professor",
+        "titulo": "Professor de Medicina Veterinária",
+        "salario": "À combinar",
+        "empresa": "UNA",
+        "nivel": "Júnior/Trainee",
+        "descricao": "Descrição: Ministrar aulas no noturno para alunos do curso de Medicina Veterinária.\r\nDisciplina: Práticas veterinárias: Medicina e Meio ambiente\r\nRequisitos: Desejável mestrado.\r\nModalidade: Presencial",
+        "localizacao": "Itabira"
+    }
+]
