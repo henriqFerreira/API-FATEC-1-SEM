@@ -102,7 +102,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 <h3>Captação de dados:</h3> <!-- raspagem de dados -->
 
-![Equipe B1NAR10S](/readme/raspagem.mp4) <!-- raspagem de dados -->
+<a href="https://youtu.be/vKMSfNvmp7g">Link para o vídeo</a> <!-- raspagem de dados -->
 
 <!-- <h3>Tratamento de dados:</h3> tratamento de vagas -->
 
