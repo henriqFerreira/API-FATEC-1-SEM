@@ -95,14 +95,15 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p align="center">
     <img src="/readme/home.gif" width="65%" />
   </p>
-  <p>Demonstração do layout da página home. Sendo dividida em 3 seções, sendo a primeira a principal, onde contém a primeira impressão do usuário, que tem como objetivo chamar a atenção do mesmo, para que ele prossiga pela página ou vá para as vagas. A segunda contendo uma seção, falando sobre a disposição de cursos e certificações no site, e a terceira, dando a opção do usuário de pesquisar por categorias, as vagas que ele deseja encontrar.</p>
+  <p>Demonstração do layout da página home sendo a mesma dividida em 3 seções. A seção principal contém a primeira impressão que o site transmitirá para o usuário logo, tem como meta trasmitir o objetivo do site: que é proporcionar um busca facil a oportunidades de emprego assim como acesso a cursos que ofereçam certificações. A segunda seção tem como objetivo direcionar o usuário para a página que contém os cursos oferecidos pelo site. Por fim, a terceira seção da página home, oferece a opção de uma pesquisa por categorias, tornando a busca por vagas de emprego muito mais direta e prática.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página vagas via link da barra de navegação<br><a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/vagas-link.gif" width="65%" />
   </p>
-  <p>Demonstração do funcionamento do link 'vagas', localização na barra de navegação.</p>
+  <p>Demonstração do layout da página vagas, assim como o modo de acessa-la. 
+    Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "vagas" na barra de navegação o mesmo é direcionado a página que contém as vagas de emprego.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página vagas via botão na seção principal<br><a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a></h4>
@@ -112,18 +113,27 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p>Demonstração do funcionamento do botão 'Confira as vagas agora mesmo!', localizado na seção principal da página home. </p>
 
   <br>
-  <h4 align="center">Navegação e demonstração da página home para página cursos via link da barra de navegação<br><a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a></h4>
+  <h4 align="center">Navegação da página home para página cursos via link da barra de navegação<br><a href="https://youtu.be/L_Cu1CS14Fo">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/cursos-link.gif"  width="65%" />
   </p>
-  <p>Demonstração do layout da página de cursos e certificações, sendo dividida em duas seções, a primeira sendo a principal, onde há um recebimento para o usuário, e a segunda, contendo os respectivos cursos.</p>
+  <p>Demonstração do layout da página de cursos e certificações, assim como o modo de acessa-la.
+    Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "Cursos e certificações" na barra de navegação o mesmo é direcionado a página que contém os respectivos cursos.</p>
 
+  <br>
+  <h4 align="center">Navegação da página home para página cursos via botão na seção principal<br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/cursos-botao.gif"  width="65%" />
+  </p>
+  <p>Demonstração do funcionamento do botão 'Saiba mais', localizado na seção principal da página home.</p>
+  
   <br>
   <h4 align="center">Captação de dados (Raspagem)<br><a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/raspagem.gif" width="65%" />
   </p>
-  <p>Demonstração do funcionamento do código da raspagem de vagas e cursos, na qual o código é executado e nos retorna uma busca completa dos dados que buscamos, em um formato legível e, até então, cru.</p>
+  <p>Demonstração do funcionamento do código que realiza a raspagem de vagas e cursos. 
+    Quando executado, o código retorna um arquivo contendo os dados solicitados em um formato legível e organizado.</p>
 </details>
 
 <br>
