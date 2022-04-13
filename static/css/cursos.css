@@ -9,7 +9,7 @@
 #section-1 { height: 100vh; position: relative; }
     #section-1 h2 {
         position: absolute;
-        top: 10%; left: 50%;
+        top: 5%; left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         margin-top: 40px;

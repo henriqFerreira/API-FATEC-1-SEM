@@ -43,7 +43,7 @@
             </div>
             <div class="text-1">
                 <p>Quer algo a mais? Oferecemos também cursos e certificados para que você conquiste muito mais em sua carreira.</p>
-                <button type="button" class="btn btn-outline-secondary">Saiba mais &#8594;</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="cursos()">Saiba mais &#8594;</button>
             </div>
         </div>
     </section>
@@ -84,9 +84,8 @@
         </div>
     </footer>
     <script>
-        function vagas() {
-            window.location.href = "/vagas";
-        }
+        function vagas() { window.location.href = "/vagas";}
+        function cursos() { window.location.href = "/cursos" }
     </script>
 </body>
 </html>
