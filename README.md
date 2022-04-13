@@ -91,7 +91,9 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <h3 align="center">Demonstração de usabilidade</h3>
   
   <h4>Página Home</h4>
-  <img src="/readme/home.gif" align="center" width="50% />
+  <p align="center">
+    <img src="/readme/home.gif" width="50% />
+  </p>
   <a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a>
   <br>
   <p></p>
