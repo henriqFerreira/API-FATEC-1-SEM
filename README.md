@@ -34,6 +34,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 ### 🔖 Requisitos funcionais
 + - [x] Raspagem das vagas
 + - [x] Raspagem dos cursos
++ - [X] Implementação do Flask
 
 <br>
 <h1 align="center"><samp>TECNOLOGIAS</samp></h1>
@@ -96,15 +97,15 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
     <img src="/readme/home.gif" width="65%" />
   </p>
   <p>Demonstração do layout da página home sendo a mesma dividida em 3 seções.</p> 
-  <p>A seção principal contém a primeira impressão que o site transmitirá para o usuário. Logo, ela tem como meta trasmitir o objetivo do site: que é proporcionar uma busca facil a oportunidades de emprego assim como acesso a cursos que ofereçam certificações. A segunda seção tem como objetivo direcionar o usuário para a página que contém os cursos oferecidos pelo site. Por fim, a terceira seção da página home, oferece a opção de uma pesquisa por categorias, tornando a busca por vagas de emprego muito mais direta e prática.</p>
+  <p>A seção principal contém a primeira impressão que o site transmitirá para o usuário. Logo, ela tem como meta trasmitir o objetivo do site: que é proporcionar uma busca fácil a oportunidades de emprego assim como acesso a cursos que ofereçam certificações. A segunda seção tem como objetivo direcionar o usuário para a página que contém os cursos oferecidos pelo site. Por fim, a terceira seção da página home, oferece a opção de uma pesquisa por categorias, tornando a busca por vagas de emprego muito mais direta e prática.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página vagas via link da barra de navegação<br><a href="https://youtu.be/Ap9goqxyAiI">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
     <img src="/readme/vagas-link.gif" width="65%" />
   </p>
-  <p>Demonstração do layout da página vagas, assim como o modo de acessa-la.</p> 
-  <p>Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "vagas" na barra de navegação o mesmo é direcionado a página que contém as vagas de emprego.</p>
+  <p>Demonstração do layout da página vagas, assim como o modo de acessá-la.</p> 
+  <p>Primeiramente o usuário é recepcionado na seção principal e ao efetuar o click em "vagas" na barra de navegação, o mesmo é direcionado a página que contém as vagas de emprego.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página vagas via botão na seção principal<br><a href="https://youtu.be/3PkO0mMF3cU">Youtube (Qualidade melhor)</a></h4>
@@ -119,7 +120,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
     <img src="/readme/cursos-link.gif"  width="65%" />
   </p>
   <p>Demonstração do layout da página de cursos e certificações, assim como o modo de acessa-la.</p>
-  <p>Primeiramente o usuário é recepcionado na seção principal e ao efetuar o clik em "Cursos e certificações" na barra de navegação o mesmo é direcionado a página que contém os respectivos cursos.</p>
+  <p>Primeiramente o usuário é recepcionado na seção principal e ao efetuar o click em "Cursos e certificações" na barra de navegação o mesmo é direcionado a página que contém os respectivos cursos.</p>
 
   <br>
   <h4 align="center">Navegação da página home para página cursos via botão na seção principal<br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
