@@ -14,5 +14,9 @@ def cursos():
 def vagas():
     return render_template("vagas.html")
 
+@app.route("/institucional")
+def institucional():
+    return render_template("institucional.html")
+
 if __name__ == "__main__":
     app.run()
