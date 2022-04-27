@@ -14,7 +14,7 @@ palavras_chaves = [
 dict_vagas = []
 
 # Arquivo JSON que armazenará cada vaga
-arquivo = "./vagas-geral/vagas-geral.json"
+arquivo = "./web-crawler/vagas-geral/vagas-geral.json"
 
 def remove(dictionary):
   for key, value in dictionary.items():
