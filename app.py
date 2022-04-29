@@ -15,7 +15,7 @@ def vagas():
     return render_template("vagas.html")
 
 @app.route("/contato")
-def vagas():
+def contato():
     return render_template("contato.html")
 
 @app.route("/institucional")
