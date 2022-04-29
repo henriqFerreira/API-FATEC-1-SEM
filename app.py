@@ -14,7 +14,7 @@ def cursos():
 def vagas():
     return render_template("vagas.html")
 
-    @app.route("/contato")
+@app.route("/contato")
 def vagas():
     return render_template("contato.html")
 
