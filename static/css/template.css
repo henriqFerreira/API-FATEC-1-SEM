@@ -32,17 +32,23 @@
         align-items: center;
         list-style: none;
     }
+        .activated {
+            color: var(--dark-yellow) !important;
+            border-bottom: 1px solid;
+            border-color: var(--dark-yellow);
+        }
         .navbar-list li a {
             text-decoration: none;
             color: var(--dark-blue);
         }
+
 
     #navbar-logo {
         font-size: 2em;
     }
 
     #navbar-bar {
-        width: 50%; height: 2px;
+        width: 25%; height: 2px;
         background-color: var(--darker-blue);
     }
 
