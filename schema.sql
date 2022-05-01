@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
 CREATE TABLE IF NOT EXISTS vagas (
 	vaga_id INTEGER PRIMARY KEY,
 	vaga_categoria VARCHAR(30) NOT NULL,
+	vaga_focada BOOLEAN NOT NULL CHECK (vaga_focada IN (0, 1)),
 	vaga_titulo VARCHAR(40) NOT NULL,
 	vaga_empresa VARCHAR(50) NOT NULL,
 	vaga_salario VARCHAR(15) NOT NULL,
