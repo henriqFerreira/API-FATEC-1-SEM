@@ -1,10 +1,10 @@
-CREATE TABLE usuarios (
+CREATE TABLE IF NOT EXISTS usuarios (
 	user_id INTEGER PRIMARY KEY,
 	user_name varchar(50) not NULL,
 	user_senha varchar(64) NOT NULL
 );
 
-CREATE TABLE vagas (
+CREATE TABLE IF NOT EXISTS vagas (
 	vaga_id INTEGER PRIMARY KEY,
 	vaga_categoria VARCHAR(30) NOT NULL,
 	vaga_titulo VARCHAR(40) NOT NULL,
@@ -16,10 +16,10 @@ CREATE TABLE vagas (
 	vaga_descricao_empresa TEXT
 );
 
-CREATE TABLE inscricoes (
+CREATE TABLE IF NOT EXISTS inscricoes (
 	inscri_ID INTEGER PRIMARY KEY,
-	user_id INTEGER,
-	vaga_id INTEGER,
-	FOREIGN KEY (user_id) REFERENCES usuarios (user_id),
-	FOREIGN KEY (vaga_id) REFERENCES vagas (vaga_id)
-)
+	inscri_userid INTEGER NOT NULL,
+	inscri_vagaid INTEGER NOT NULL,
+	FOREIGN KEY (inscri_userid) REFERENCES usuarios (user_id),
+	FOREIGN KEY (inscri_vagaid) REFERENCES vagas (vaga_id)
+);
