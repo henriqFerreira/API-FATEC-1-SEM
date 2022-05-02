@@ -2,17 +2,16 @@ import json
 from bs4 import BeautifulSoup
 import requests
 
-contador = 0
-limite = 1
+focada = True
 
 # Variáveis de tratamento de URL
 urlbase = "https://www.vagas.com.br/vagas-de-"
 urlVaga = "https://www.vagas.com.br"
 palavras_chaves = [
     "ti", "banco-de-dados", "redes", "software",
-    "hardware", "matematica", "back-end", "front-end",
-    "segurança-da-informação", "engenheiro-de-dados", "administração",
-    "cientista-de-dados"
+    "hardware", "back-end", "front-end", "segurança-da-informação",
+    "engenheiro-de-dados", "cientista-de-dados", "programação", "desenvolvedor",
+    "business-inteligence", "cloud-computing", "inteligência-artificial"
 ]
 # Variável de armazenamento de um 'dicionário' de vagas
 dict_vagas = []
@@ -25,14 +24,14 @@ def remove(dictionary):
     if isinstance(value, dict):
       remove(value)
     else:
-      dictionary[key] = value.strip()
+      if isinstance(dictionary[key], str):
+        dictionary[key] = value.strip()
 
 for palavra in palavras_chaves:
     urlContent = requests.get(urlbase+palavra).content
     interpretedHtml = BeautifulSoup(urlContent, 'html.parser')
 
-    for htmlVagas in interpretedHtml.find_all('li', class_='vaga odd')[:int(limite)]:
-        contador += 1
+    for htmlVagas in interpretedHtml.find_all('li', class_='vaga odd')[:5]:
 
         tituloVaga = htmlVagas.find('a', class_='link-detalhes-vaga').text
         empresaVaga = htmlVagas.find('span', class_='emprVaga').text
@@ -51,7 +50,7 @@ for palavra in palavras_chaves:
               descricaoEmpresa = info.find('div', class_="job-company-presentation").text
 
               dict_vagas.append({
-                  "id": f"{contador}",
+                  "focada": focada,
                   "categoria": palavra,
                   "titulo": tituloVaga,
                   "salario": "À combinar",
@@ -66,7 +65,7 @@ for palavra in palavras_chaves:
               beneficiosVaga = info.find('ul', class_="job-benefits__list").text
 
               dict_vagas.append({
-                  "id": f"{contador}",
+                  "focada": focada,
                   "categoria": palavra,
                   "titulo": tituloVaga,
                   "salario": "À combinar",
@@ -80,7 +79,7 @@ for palavra in palavras_chaves:
               descricaoEmpresa = info.find('div', class_="job-company-presentation").text
 
               dict_vagas.append({
-                  "id": f"{contador}",
+                  "focada": focada,
                   "categoria": palavra,
                   "titulo": tituloVaga,
                   "salario": "À combinar",
@@ -92,7 +91,7 @@ for palavra in palavras_chaves:
               })
             else:
               dict_vagas.append({
-                  "id": f"{contador}",
+                  "focada": focada,
                   "categoria": palavra,
                   "titulo": tituloVaga,
                   "salario": "À combinar",
