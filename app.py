@@ -22,5 +22,9 @@ def contato():
 def institucional():
     return render_template("institucional.html")
 
+@app.route("/dados")
+def dados():
+    return render_template("dados.html")
+
 if __name__ == "__main__":
     app.run()
