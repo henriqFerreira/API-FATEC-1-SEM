@@ -37,6 +37,3 @@ class db:
         vagasTi = stmt[0]
         stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=0").fetchone()
         vagasGerais = stmt[0]
-
-datab = db()
-datab.get_data_grafico()
