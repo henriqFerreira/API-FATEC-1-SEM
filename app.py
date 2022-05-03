@@ -1,6 +1,18 @@
 from flask import Flask, render_template
+import sqlite3
+from db import db
 
 app = Flask("__name__")
+
+class Conexao(db):
+    def __init__(self, bancoDeDados):
+        self.bd = bancoDeDados
+
+    def conectarBD(self):
+        db = db()
+        db.create_db()
+        conn = sqlite3.connect(self.bd+".sqlite")
+        return conn
 
 @app.route("/")
 def home():
