@@ -31,9 +31,20 @@ class db:
         conn = sqlite3.connect("data.sqlite")
         cur = conn.cursor()
 
+
         stmt = cur.execute("SELECT COUNT(*) FROM vagas").fetchone()
         totalVagas = stmt[0]
         stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1").fetchone()
         vagasTi = stmt[0]
         stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=0").fetchone()
         vagasGerais = stmt[0]
+
+        data = {
+            "totalVagas": totalVagas,
+            "vagasTi": vagasTi,
+            "vagasGerais": vagasGerais,
+        }
+
+        return data
+
+

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../static/css/template.css">
-    <link rel="stylesheet" href="../static/css/institucional.css">
+    <link rel="stylesheet" href="../static/css/dados.css">
     <title>Dados</title>
 </head>
 
@@ -30,7 +30,10 @@
     <div class="alinhamento">
            <!-- Gráficos - código em JS -->
     </div>
-
+    
+    <div class="doughnut">
+        <canvas id="myChart"></canvas>
+    </div>
 
      <!-- Footer -->
     <footer class="footer">
@@ -43,4 +46,40 @@
         </div>
     </footer>
 </body>
+<!-- biblioteca -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+
+<!-- conteudo -->
+<script>
+    var vagasTi = "{{ data['vagasTi'] }}" 
+    var vagasGerais = "{{ data['vagasGerais'] }}"
+    const data = {
+  labels: [
+    'TI',
+    'Geral',
+  ],
+  datasets: [{
+    label: 'Categorias de vagas',
+    data: [vagasTi, vagasGerais],
+    backgroundColor: [
+      '#FDC500',
+      '#00296B',
+    ],
+    hoverOffset: 4
+  }]
+};
+  
+    const config = {
+      type: 'doughnut',
+      data: data,
+      options: {}
+    };
+  </script>
+
+<script>
+    const myChart = new Chart(
+      document.getElementById('myChart'),
+      config
+    );
+  </script>
 </html>

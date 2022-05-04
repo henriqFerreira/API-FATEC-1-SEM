@@ -64,7 +64,9 @@ def institucional():
 
 @app.route("/dados")
 def dados():
-    return render_template("dados.html")
+    datab = db()
+    dados = datab.get_data_grafico()
+    return render_template("dados.html", data = dados)
 
 if __name__ == "__main__":
     app.run()
