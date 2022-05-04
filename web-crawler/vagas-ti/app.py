@@ -11,7 +11,9 @@ palavras_chaves = [
     "ti", "banco-de-dados", "redes", "software",
     "hardware", "back-end", "front-end", "segurança-da-informação",
     "engenheiro-de-dados", "cientista-de-dados", "programação", "desenvolvedor",
-    "business-inteligence", "cloud-computing", "inteligência-artificial"
+    "business-inteligence", "cloud-computing", "inteligência-artificial", "python",
+    "php", "javaScript", "fullstack", "java", "web-designer", "sênior",
+	"pleno", "dba", "sistemas", "SQL", "server", "informática", "tecnologia",
 ]
 # Variável de armazenamento de um 'dicionário' de vagas
 dict_vagas = []
@@ -20,18 +22,18 @@ dict_vagas = []
 arquivo = "./web-crawler/vagas-ti/vagas-ti.json"
 
 def remove(dictionary):
-  for key, value in dictionary.items():
-    if isinstance(value, dict):
-      remove(value)
-    else:
-      if isinstance(dictionary[key], str):
-        dictionary[key] = value.strip()
+	for key, value in dictionary.items():
+		if isinstance(value, dict):
+			remove(value)
+		else:
+			if isinstance(dictionary[key], str):
+				dictionary[key] = value.strip()
 
 for palavra in palavras_chaves:
     urlContent = requests.get(urlbase+palavra).content
     interpretedHtml = BeautifulSoup(urlContent, 'html.parser')
 
-    for htmlVagas in interpretedHtml.find_all('li', class_='vaga odd')[:5]:
+    for htmlVagas in interpretedHtml.select('li.vaga')[:5]:
 
         tituloVaga = htmlVagas.find('a', class_='link-detalhes-vaga').text
         empresaVaga = htmlVagas.find('span', class_='emprVaga').text
