@@ -38,13 +38,12 @@
             color: var(--dark-blue);
         }
 
-
     #navbar-logo {
         font-size: 2em;
     }
 
     #navbar-bar {
-        width: 25%; height: 2px;
+        width: 40%; height: 2px;
         background-color: var(--darker-blue);
     }
 
@@ -73,6 +72,6 @@
     }
 
     #footer-bar {
-        width: 70%; height: 2px;
+        width: 60%; height: 2px;
         background-color: var(--darker-blue);
     }

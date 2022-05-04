@@ -1,30 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/css/template.css">
+{% extends 'base.html' %}
+
+{% block style %}
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/home.css">
-    <title>Home</title>
-</head>
-<body>
-    <!-- Barra de navegação -->
-    <nav>
-        <div class="alinhamento">
-            <ul class="navbar-list">
-                <li id="navbar-logo"><a href="">LOGO</a></li>
-                <li id="navbar-bar"><span></span></li>
-                <li class="link"><a href="/" class="activated">Início</a></li>
-                <li class="link"><a href="/vagas">Vagas</a></li>
-                <li class="link"><a href="/cursos">Cursos e Certificações</a></li>
-                <li class="link"><a href="/institucional">Institucional</a></li>
-                <li class="link"><a href="/contato">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Section 1 -->
+{% endblock %}
+
+{% block title %} Joblog {% endblock %}
+
+{% block content %}
     <section id="section-1">
         <div class="alinhamento">
             <div class="title">
@@ -36,7 +19,7 @@
             <img src="../static/images/SVG-1-Principal.svg" >
         </div>
     </section>
-    
+
     <!-- Section 2 -->
     <section id="section-2">
         <div class="alinhamento">
@@ -55,21 +38,19 @@
         <div class="alinhamento">
             <div class="categorias">
                 <ul class="categorias-list">
-
                     <!-- filtro das categorias -->
-                    <li class="list-item"><a href="#">Banco de dados</a></li>
-                    <li class="list-item"><a href="#">TI</a></li>
-                    <li class="list-item"><a href="#">Redes</a></li>
-                    <li class="list-item"><a href="#">Software</a></li>
-                    <li class="list-item"><a href="#">Hardware</a></li>
-                    <li class="list-item"><a href="#">Back-end</a></li>
-                    <li class="list-item"><a href="#">Engenheiro de Dados</a></li>
-                    <li class="list-item"><a href="#">Cientista de Dados</a></li>
-                    <li class="list-item"><a href="#">Segurançada Informação</a></li>
-                    <li class="list-item"><a href="#">Desenvolvedor</a></li>
-                    <li class="list-item"><a href="#">Web</a></li>
-                    <li class="list-item"><a href="#">Tecnologia</a></li>
-
+                    <li class="list-item">Banco de dados</li>
+                    <li class="list-item">TI</li>
+                    <li class="list-item">Redes</li>
+                    <li class="list-item">Software</li>
+                    <li class="list-item">Hardware</li>
+                    <li class="list-item">Back-end</li>
+                    <li class="list-item">Engenheiro de Dados</li>
+                    <li class="list-item">Cientista de Dados</li>
+                    <li class="list-item">Segurançada Informação</li>
+                    <li class="list-item">Desenvolvedor</li>
+                    <li class="list-item">Web</li>
+                    <li class="list-item">Tecnologia</li>
                 </ul>
             </div>
             <div class="text-2">
@@ -77,21 +58,11 @@
             </div>
         </div>
     </section>
+{% endblock %}
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="alinhamento">
-            <ul class="footer-list">
-                <li id="footer-logo"><a href="">LOGO</a></li>
-                <li id="footer-bar"><span></span></li>
-                <li class="link"><a href="">All Rights Reserved</a></li>
-            </ul>
-        </div>
-    </footer>
+{% block js %}
     <script>
         function vagas() { window.location.href = "/vagas";}
         function cursos() { window.location.href = "/cursos" }
-        function cursos() { window.location.href = "/contato" }
     </script>
-</body>
-</html>
+{% endblock %}
