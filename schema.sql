@@ -12,7 +12,8 @@ CREATE TABLE IF NOT EXISTS vagas (
 	vaga_nivel VARCHAR(20) NOT NULL,
 	vaga_empresa VARCHAR(50) NOT NULL,
 	vaga_salario VARCHAR(15) NOT NULL,
-	vaga_localizacao VARCHAR(30) NOT NULL,
+	vaga_cidade VARCHAR(30),
+	vaga_estado VARCHAR(30),
 	vaga_descricao TEXT NOT NULL,
 	vaga_beneficios VARCHAR(200),
 	vaga_descricao_empresa TEXT

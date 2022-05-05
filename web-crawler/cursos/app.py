@@ -1,16 +1,10 @@
-from encodings import utf_8
 import json
 from bs4 import BeautifulSoup
 import requests
 
 # Variáveis de tratamento de URL
-urlbase = "https://www.cursosonlinebra.com.br/cursos/"
-palavras_chaves = [
-    "15/informatica-e-tecnologia-.html", "1/administracao-e-contabilidade-.html", "5/biologia-e-meio-ambiente-.html",
-    "9/construcao-civil.html", "10/direito.html", "11/educacao-e-pedagogia.html", "13/educacao-fisica-e-estetica-.html",
-    "16/linguagens.html", "18/marketing-e-seus-seguimentos.html", "19/musica.html", "20/nutricao-e-gastronomia-.html", 
-    "23/politica.html", "odontologia-e-saude.html", "27/psicologia-.html"
-]
+url = "https://www.sebrae.com.br/sites/PortalSebrae/cursosonline"
+
 # Variável de armazenamento de um 'dicionário' de vagas
 dict_cursos = []
 
@@ -18,29 +12,24 @@ dict_cursos = []
 arquivo = "./web-crawler/cursos/cursos.json"
 
 def remove(dictionary):
-  for key, value in dictionary.items():
-    if isinstance(value, dict):
-      remove(value)
-    else:
-      dictionary[key] = value.strip()
+	for key, value in dictionary.items():
+		if isinstance(value, dict):
+			remove(value)
+		else:
+			dictionary[key] = value.strip()
 
-def format_mesage (txt):
-  txt = txt.replace(' ', '')
-  txt = txt.replace('\n', '')
-  return txt
+urlContent = requests.get(url).content
+interpretedHtml = BeautifulSoup(urlContent, 'html.parser')
+cursosContent = interpretedHtml.find('div', class_='sb-home-ead__learn-today__cards')
 
-for palavra in palavras_chaves:
-    urlContent = requests.get(urlbase+palavra).content
-    interpretedHtml = BeautifulSoup(urlContent, 'html.parser')
+for htmlCursos in cursosContent.find_all('div', class_='sb-components__card'):
+	tituloCurso = htmlCursos.find('div', class_='sb-components__card__info__title').text
+	print(tituloCurso)
 
-    for htmlCursos in interpretedHtml.find_all('div', class_='content col-md-6')[:3]:
-        tituloCurso = htmlCursos.find('h6', class_='').text
-        descricaoCurso = htmlCursos.find('p', class_='description').text
+	# dict_cursos.append({
+	# 		"titulo": format_mesage(tituloCurso),
+	# 		"descricao": format_mesage(descricaoCurso),
+	# 		})
 
-        dict_cursos.append({
-             "titulo": format_mesage(tituloCurso),
-             "descricao": format_mesage(descricaoCurso),
-             })
-
-with open(arquivo, 'w', encoding='utf-8') as f:
-  json.dump(dict_cursos, f, ensure_ascii=False, indent=4, separators=(',',': '))
+# with open(arquivo, 'w', encoding='utf-8') as f:
+#   json.dump(dict_cursos, f, ensure_ascii=False, indent=4, separators=(',',': '))

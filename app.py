@@ -27,7 +27,9 @@ class Conexao(db):
                 datab.insert_data("./web-crawler/vagas-ti/vagas-ti.json")
         else:
             datab.create_db()
-            datab.insert_data("./web-crawler/vagas-ti/vagas-ti.json")
+            dados = ["./web-crawler/vagas-ti/vagas-ti.json", "./web-crawler/vagas-geral/vagas-geral.json"]
+            for d in dados:
+                datab.insert_data(d)
 
 @app.before_first_request
 def inicializar():
@@ -49,7 +51,7 @@ def vagas():
     conn = cx.conectarBD()
     cur = conn.cursor()
 
-    stmt = cur.execute("SELECT * FROM vagas").fetchall()
+    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_focada=1").fetchall()
     conn.commit()
 
     return render_template("vagas.html", data=stmt)

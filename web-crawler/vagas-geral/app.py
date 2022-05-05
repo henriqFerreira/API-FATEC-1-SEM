@@ -35,75 +35,120 @@ for palavra in palavras_chaves:
     urlContent = requests.get(urlbase+palavra).content
     interpretedHtml = BeautifulSoup(urlContent, 'html.parser')
 
-    for htmlVagas in interpretedHtml.select('li.vaga')[:5]:
-
+    for htmlVagas in interpretedHtml.select('li.vaga')[:30]:
+        # Raspagem do título das vagas
         tituloVaga = htmlVagas.find('a', class_='link-detalhes-vaga').text
-        empresaVaga = htmlVagas.find('span', class_='emprVaga').text
-        nivelVaga = htmlVagas.find('span', class_='nivelVaga').text
-        localizacaoVaga = htmlVagas.find('span', class_='vaga-local').text
+        tituloVaga = tituloVaga.split()
+        tituloVaga = ' '.join(tituloVaga)
 
+        # Raspagem da empresa das vagas
+        empresaVaga = htmlVagas.find('span', class_='emprVaga').text
+        empresaVaga = empresaVaga.split()
+        empresaVaga = ' '.join(empresaVaga)
+
+        # Raspagem do nível técnico das vagas
+        nivelVaga = htmlVagas.find('span', class_='nivelVaga').text
+        nivelVaga = nivelVaga.split()
+        nivelVaga = ' '.join(nivelVaga)
+
+        # Raspagem da localização das vagas
+        if htmlVagas.find('span', class_='vaga-local') is not None:
+            localizacaoVaga = htmlVagas.find('span', class_='vaga-local').text
+            localizacaoVaga = localizacaoVaga.split()
+            localizacaoVaga = ' '.join(localizacaoVaga)
+            localizacaoVaga = localizacaoVaga.split("/")
+            cidade = localizacaoVaga[0]
+            if len(localizacaoVaga) > 1:
+                estado = localizacaoVaga[1]
+            else:
+                estado = None
+        else:
+            cidade = None
+            estado = None
+
+        # Request da página de cada vaga
         vagaHref = htmlVagas.find('a', class_='link-detalhes-vaga', href=True)
         vagaInfo = requests.get(urlVaga+vagaHref['href']).content
         interpretedVagaInfo = BeautifulSoup(vagaInfo, 'html.parser')
 
         for info in interpretedVagaInfo.find_all('article', class_="vaga job-group"):
+            # Raspagem da descrição das vagas
             descricaoVaga = info.find('div', class_="job-description__text").text
+            descricaoVaga = descricaoVaga.split()
+            descricaoVaga = ' '.join(descricaoVaga)
 
             if (info.find('ul', class_="job-benefits__list") and info.find('div', class_="job-company-presentation")):
-              beneficiosVaga = info.find('ul', class_="job-benefits__list").text
-              descricaoEmpresa = info.find('div', class_="job-company-presentation").text
+                #   Raspagem dos benefícios das vaga
+                beneficiosVaga = info.find('ul', class_="job-benefits__list").text
+                beneficiosVaga = beneficiosVaga.split()
+                beneficiosVaga = ' '.join(beneficiosVaga)
 
-              dict_vagas.append({
-                  "focada": focada,
-                  "categoria": palavra,
-                  "titulo": tituloVaga,
-                  "salario": "À combinar",
-                  "empresa": empresaVaga,
-                  "nivel": nivelVaga,
-                  "descricao": descricaoVaga,
-                  "localizacao": localizacaoVaga,
-                  "beneficios": beneficiosVaga,
-                  "descEmpresa": descricaoEmpresa
-                  })
+                # Raspagem da descrição da empresa das vagas
+                descricaoEmpresa = info.find('div', class_="job-company-presentation").text
+                descricaoEmpresa = descricaoEmpresa.split()
+                descricaoEmpresa = ' '.join(descricaoEmpresa)
+
+                dict_vagas.append({
+                    "focada": focada,
+                    "categoria": palavra,
+                    "titulo": tituloVaga,
+                    "salario": "À combinar",
+                    "empresa": empresaVaga,
+                    "nivel": nivelVaga,
+                    "descricao": descricaoVaga,
+                    "cidade": cidade,
+                    "estado": estado,
+                    "beneficios": beneficiosVaga,
+                    "descEmpresa": descricaoEmpresa
+                })
             elif (info.find('ul', class_="job-benefits__list")):
-              beneficiosVaga = info.find('ul', class_="job-benefits__list").text
+                #   Raspagem dos benefícios das vaga
+                beneficiosVaga = info.find('ul', class_="job-benefits__list").text
+                beneficiosVaga = beneficiosVaga.split()
+                beneficiosVaga = ' '.join(beneficiosVaga)
 
-              dict_vagas.append({
-                  "focada": focada,
-                  "categoria": palavra,
-                  "titulo": tituloVaga,
-                  "salario": "À combinar",
-                  "empresa": empresaVaga,
-                  "nivel": nivelVaga,
-                  "descricao": descricaoVaga,
-                  "localizacao": localizacaoVaga,
-                  "beneficios": beneficiosVaga,
-              })
+                dict_vagas.append({
+                    "focada": focada,
+                    "categoria": palavra,
+                    "titulo": tituloVaga,
+                    "salario": "À combinar",
+                    "empresa": empresaVaga,
+                    "nivel": nivelVaga,
+                    "descricao": descricaoVaga,
+                    "cidade": cidade,
+                    "estado": estado,
+                    "beneficios": beneficiosVaga,
+                })
             elif (info.find('div', class_="job-company-presentation")):
-              descricaoEmpresa = info.find('div', class_="job-company-presentation").text
+                # Raspagem da descrição da empresa das vagas
+                descricaoEmpresa = info.find('div', class_="job-company-presentation").text
+                descricaoEmpresa = descricaoEmpresa.split()
+                descricaoEmpresa = ' '.join(descricaoEmpresa)
 
-              dict_vagas.append({
-                  "focada": focada,
-                  "categoria": palavra,
-                  "titulo": tituloVaga,
-                  "salario": "À combinar",
-                  "empresa": empresaVaga,
-                  "nivel": nivelVaga,
-                  "descricao": descricaoVaga,
-                  "localizacao": localizacaoVaga,
-                  "descEmpresa": descricaoEmpresa
-              })
+                dict_vagas.append({
+                    "focada": focada,
+                    "categoria": palavra,
+                    "titulo": tituloVaga,
+                    "salario": "À combinar",
+                    "empresa": empresaVaga,
+                    "nivel": nivelVaga,
+                    "descricao": descricaoVaga,
+                    "cidade": cidade,
+                    "estado": estado,
+                    "descEmpresa": descricaoEmpresa
+                })
             else:
-              dict_vagas.append({
-                  "focada": focada,
-                  "categoria": palavra,
-                  "titulo": tituloVaga,
-                  "salario": "À combinar",
-                  "empresa": empresaVaga,
-                  "nivel": nivelVaga,
-                  "descricao": descricaoVaga,
-                  "localizacao": localizacaoVaga,
-              })
+                dict_vagas.append({
+                    "focada": focada,
+                    "categoria": palavra,
+                    "titulo": tituloVaga,
+                    "salario": "À combinar",
+                    "empresa": empresaVaga,
+                    "nivel": nivelVaga,
+                    "descricao": descricaoVaga,
+                    "cidade": cidade,
+                    "estado": estado,
+                })
 
 with open(arquivo, mode='r', encoding='utf-8') as loadJson:
     data = json.load(loadJson)
