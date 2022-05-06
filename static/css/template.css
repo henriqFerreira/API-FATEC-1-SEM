@@ -75,3 +75,37 @@
         width: 60%; height: 2px;
         background-color: var(--darker-blue);
     }
+    /* Responsividade */
+    @media (max-width: 1100px) {
+    .link{
+        display: none;
+    }
+    .navbar-bar{
+        width: 90%;
+    }
+    .navbar-list{
+        justify-content: space-around;
+    }
+    .footer-list{
+        justify-content: space-around;
+    }
+    .svg-1{
+        display: none;
+    }
+    .title{
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    }
+
+@media (max-width:1000px){
+    .svg-2{
+        display:none;
+    }
+    .text-1{
+        text-align: center;
+        left:50%;
+        transform: translateX(-85%);
+    }
+    }
