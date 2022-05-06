@@ -1,1 +1,2322 @@
-[]
+[
+    {
+        "tituloCurso": "Marketing digital para sua empresa: equipe comercial",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Artesão empreendedor: nível 1",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 30h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Legislação e negócios para o audiovisual",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 120h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Ética e integridade empresarial na prevenção da corrupção",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Marketing digital para sua empresa: primeiros passos",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Formação pedagógica: empreendedorismo e BNCC",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 40h",
+        "conclusaoCurso": "Conclusão em 45 dias"
+    },
+    {
+        "tituloCurso": "Comercialização e distribuição para o Audiovisual",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 34h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Artesão empreendedor: nível 2",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 23h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Up Digital: Marketing",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Trade marketing",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Contador Parceiro: construindo o sucesso",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 48h",
+        "conclusaoCurso": "Conclusão em 18 meses"
+    },
+    {
+        "tituloCurso": "Marketing digital para sua empresa: reforçando sua presença",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Hora da virada",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como tornar sua empresa uma franquia",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 5h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "No corre! Tá na trilha. Tá no corre do projeto de vida",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 25h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Qualidade na taça",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 48h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como despertar comportamentos empreendedores em crianças",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Volte a empreender!",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Educação integral",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 50h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Professor do futuro",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 17h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Socorro! Eu não tenho a menor ideia do que eu quero para a minha vida",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 9h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Fundamentos básicos para a criação de negócios",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 19h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão de pessoas",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 29h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "O despertar do empreendedorismo nas escolas",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 18h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão da comunicação",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 13h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Tecnologias para a educação",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 18h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão financeira",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 9h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Empreendendo em educação a distância",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Inovação e o lúdico favorecendo os processos de aprendizagem",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão tecnológica",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 21h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Gestão escolar",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Ensino híbrido para integralização curricular na educação básica",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Como desenvolver produtos e modelos de negócios inovadores",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 20h",
+        "conclusaoCurso": "Conclusão em 45 dias"
+    },
+    {
+        "tituloCurso": "Pré-aceleração Sebrae Like a Boss",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 85h",
+        "conclusaoCurso": "Conclusão em 120 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão de relacionamento",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 32h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão administrativa",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 37h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão pedagógica",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 29h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "O futuro das profissões",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Atualização em empreendedorismo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 26h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão de tempo e eficiência",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Empreendedorismo e características do comportamento empreendedor",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 26h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Pilares da gestão escolar: gestão de recursos de estoque",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 5h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "O mundo da educação no pós-pandemia",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 14h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Boas práticas nos serviços de alimentação",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 20h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Propriedade intelectual para Startups",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Modelagem financeira para Startups",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Modelagem e validação da proposta de valor para Startups",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Inovação de impacto para Startups",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Inovação e agilidade: o futuro do empreendedorismo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 20h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Inovação pós-pandemia",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como expandir seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Jovem empreendedor no campo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 32h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Acesso a mercado para Startups",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Acesso a capital para Startups",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como comprar bem e de bons fornecedores",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como definir preço de venda",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Introdução ao BIM para pequenas empresas",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Contrato de trabalho",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como criar uma página no Facebook",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Receita de sucesso: cardápio, cozinha e alimentos",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Custos para produzir no campo",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Marketing digital - módulo 4",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como melhorar a gestão de sua loja virtual em marketplace",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "O que é marketplace e como isso pode ajudar o seu negócio",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Atrativos turísticos",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Pregão eletrônico para o fornecedor",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Líder Coach: liderando para a alta performance",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Gestão empresarial integrada",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Mantendo o estoque em dia",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Design na empresa",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Formação de equipes como estratégia de sucesso",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como elaborar um plano de negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como utilizar recursos do smartphone para aulas remotas",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 40h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Exportação: seu negócio cruzando fronteiras",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como turbinar suas vendas",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como analisar o mercado",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Compras governamentais",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 4º ano - Produções culturais criativas",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Expansão: a estratégia de crescimento certa para seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Disciplina de empreendedorismo para a educação profissional",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 48h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Passo a passo para alcançar o sucesso financeiro",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como agir de maneira empreendedora",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Gestão de qualidade de bares e restaurantes",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Gestão estratégica para comércio eletrônico",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Sua empresa nas redes sociais",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como formalizar seu negócio como microempreendedor individual",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como divulgar sua empresa",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como vender pela internet na crise do coronavírus",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Varejo de moda: o ponto de venda como experiência",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "MEG na avaliação da gestão de negócios",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": "Conclusão em 20 dias"
+    },
+    {
+        "tituloCurso": "LGPD: a sua empresa está preparada?",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como captar recursos para o seu negócio",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Planejamento para fazer acontecer: ferramentas - parte I",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Gestão de bares e restaurantes",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 5º ano - Sabores e cores regionais",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Negociação",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Responsabilidade social empresarial",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "JEPP: preparação pedagógica de professores e central JEPP",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Controle de gastos no comércio",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Recrutamento e seleção: como formar um time vencedor",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como controlar o fluxo de caixa",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Marketing digital - módulo 3",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Criatividade",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 1º ano - Descobertas no jardim sensorial",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Planejamento estratégico para empreendedores",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Despertar",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 32h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Receita de sucesso: equipe e atendimento",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Despertando para o Lean",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Fluxo de caixa: microempreendedor individual",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Simples Nacional",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Domínio de plataformas para aulas remotas: Zoom, Meet, Teams",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Oficinas de funilaria sustentáveis",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Design Thinking: melhore seus resultados nas mídias sociais",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 9h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Compras governamentais: agricultura familiar",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Iniciando um pequeno grande negócio",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 30h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Planejando meu sucesso profissional",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Invista no planejamento",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Disciplina de empreendedorismo para a educação superior",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 32h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como unir forças para crescer",
+        "categoriaCurso": " Cooperação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como usar sites de busca para sua empresa",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Negociar no campo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Plano de vida e carreira",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 8º ano - Tecnologias digitais e soluções",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como se tornar um franqueado",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 5h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Ferramentas Lean",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Gestão financeira",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Formação do preço de venda",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Já sou empresário. E agora?",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Compras governamentais para MPEs",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Branding: porque ele é importante para a sua empresa",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como ter ideias criativas e inovar na prática",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Estratégia financeira para o crescimento",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Cultura digital e PBL",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Iniciando na importação",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Empreendedorismo como opção de carreira",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Empreendedorismo e competências empreendedoras para professores da EJA",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 40h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Avaliação da gestão na propriedade rural",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Gestão de equipe de vendas",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Marketing digital - módulo 1",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Estratégias de vendas para o comércio eletrônico",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Mapeamento do fluxo de valor",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Gestão empresarial para os desafios do mercado audiovisual",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 50h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Receita de sucesso: seu negócio no caminho certo",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como criar um modelo de negócio de impacto socioambiental",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 24h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como se tornar um microempreendedor individual",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Microcrédito consciente",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como validar seu modelo de negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Marketing digital - módulo 2",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como planejar o seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Palestra empreendedorismo em dois tempos",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Planejamento para inovar: ferramentas - parte II",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Fluxo de caixa para pessoa jurídica",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Tecnologia e inovação",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 34h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Identidade empreendedora",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como administrar um pequeno negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Planeje-se para o comércio eletrônico",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 2º ano - Descobrindo alimentos e temperos naturais",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como aumentar suas vendas",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Projeto de extensão em empreendedorismo social e negócios de impacto social",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 24h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Gestão de equipes como diferencial competitivo",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Superando barreiras com criatividade",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como construir uma loja virtual",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Controle de gastos no serviço",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Ganhe mercado com o plano de marketing",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Empreendendo no mundo da imaginação",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Aprender a empreender",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Customer Success: como conquistar e manter clientes",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como criar um site para sua empresa",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Qualidade no atendimento ao cliente",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Potencialize suas vendas entendendo a jornada do consumidor",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como gerenciar as finanças da sua empresa",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Logística para comércio eletrônico",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como reconhecer características empreendedoras",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Políticas públicas de incentivo aos pequenos negócios",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Nota fiscal eletrônica",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Quanto vale a minha empresa?",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Os segredos por trás de um Instagram vendedor",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Sua Startup está pronta para captar recursos?",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 7º ano - Robótica empreendedora",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Planejamento de marketing: ferramentas práticas",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Crescendo e empreendendo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 23h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como planejar aulas remotas na plataforma Google Classroom",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como anunciar em sites de vendas",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como vender mais e melhor",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Inovação",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Viabilidade de negócios",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Sucessão empresarial",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Compras governamentais: gestores públicos",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Aprenda a planejar as estratégias do seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "O mundo do trabalho",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 6h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Transforme sua ideia em modelo de negócio",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Comunicação e relacionamento com seus clientes",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "A liderança na gestão de equipes",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 9º ano - GerAção empreendedora",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como funciona uma franquia",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Educação financeira empresarial",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Gestão de pessoas em bares e restaurantes",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Como fazer sua loja virtual em marketplace vender mais",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Patentes: tudo o que o empresário precisa saber",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Internacionalização de Startups",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Compras governamentais para fornecedores - MEIs",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 3º ano - Brinquedos ecológicos",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Gestão de pessoas",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Importação: como comprar do mundo",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 20 dias"
+    },
+    {
+        "tituloCurso": "JEPP Professor: 6º ano - Soluções sustentáveis",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 15h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Análise de negócio: pesquisa de mercado",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 1h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Bora empreender",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 40h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Boas práticas como diferencial na gestão das propriedades rurais",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Como administrar uma empresa familiar",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Disciplina de empreendedorismo e inovação",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 32h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Marketing digital para o empreendedor",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Liderança: como desenvolver times de alta performance",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "As dimensões da gestão escolar",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 40h",
+        "conclusaoCurso": "Conclusão em 60 dias"
+    },
+    {
+        "tituloCurso": "Exportar: sua empresa também pode",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 20 dias"
+    },
+    {
+        "tituloCurso": "Atendimento ao cliente",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 8h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Atitudes empreendedoras e tipos de empreendedorismo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 10h",
+        "conclusaoCurso": "Conclusão em 30 dias"
+    },
+    {
+        "tituloCurso": "Pregão eletrônico para o comprador",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 4h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "Controle de gastos na indústria",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 3h",
+        "conclusaoCurso": "Conclusão em 15 dias"
+    },
+    {
+        "tituloCurso": "eBook: Pequenas empresas podem exportar",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Aprenda a fazer o fluxo de caixa para MEI",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Sua startup está pronta para captar recursos?",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Controle de gastos na indústria, comércio e serviços",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Como desenvolver negócios inovadores",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Invista no planejamento",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Fluxo de caixa para pessoa jurídica",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Empreendedorismo como opção de carreira",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Como divulgar sua empresa",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Mantendo o estoque em dia",
+        "categoriaCurso": " Organização",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Políticas Públicas de incentivo aos pequenos negócios",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Ganhe mercado com o plano de marketing",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Sucessão empresarial",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Exportação: seu negócio cruzando fronteiras",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Como turbinar suas vendas",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Negociação",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: A liderança na gestão de equipes",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: O treinamento do profissional de atendimento",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Viabilidade de negócios",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Compras governamentais",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Aprenda a planejar as estratégias do seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Gestão de equipes de vendas",
+        "categoriaCurso": " Pessoas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Qualidade no atendimento",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Sua empresa nas redes sociais",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Comércio eletrônico",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Gestão financeira",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "eBook: Responsabilidade Social Empresarial",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Cidade Colaborativa",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Cidade dos Brinquedos",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Barbaridade",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Fazendinha de Negócios",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Copo com Saúde",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Nem parece jogo de Pizzaria",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: A Fantástica Loja de Feitiços",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Saga do Herói",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Pizza Delivery",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Negócio de outro Planeta",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Fábrica de Chocolate",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Jogo: Sr. Ciclo",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": null,
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Quando e como captar recursos para negócios criativos?",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Economia criativa",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 18h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Quais os passos para a definição de preço de produtos e serviços?",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Super MEI: organize seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Controle da movimentação financeira",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "O que é economia criativa?",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "O caminho para a formalização: benefícios e responsabilidades",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Acesso a crédito",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Avaliando as vendas do seu negócio",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Desenquadramento do MEI e novas possibilidades de tributação",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "A gestão da propriedade rural por um novo ponto de vista",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Reinventar-se e superar a crise",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Associativismo e cooperativismo: a união faz a força",
+        "categoriaCurso": " Cooperação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Como posso empreender para fortalecer negócios criativos?",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Formalização da propriedade rural: por onde começar?",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Como devo gerenciar o dinheiro em um negócio criativo?",
+        "categoriaCurso": " Finanças",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "O que preciso saber sobre marketing e vendas?",
+        "categoriaCurso": " Mercado e Vendas",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Por que devo entender o que é formalização? E como me preparar?",
+        "categoriaCurso": " Leis",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Superare",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 16h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Empreendedor de sucesso",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Marketing digital: planejar para vender pela Internet",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Super MEI: primeiros passos",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Indicadores para seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Crescimento planejado e orientado para resultados",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Conhecendo e valorizando seu cliente",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Como devo agir para liderar e promover a criatividade e a inovação?",
+        "categoriaCurso": " Inovação",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Será que sou empreendedor?",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Inovação e possibilidades de crescimento",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Como planejar e agir de forma estratégica em negócios criativos?",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Planeje suas metas e resultados",
+        "categoriaCurso": " Empreendedorismo",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Fluxo de caixa como ferramenta de gestão para o seu negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "A formação de preço para o meu tipo de negócio",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 2h",
+        "conclusaoCurso": null
+    },
+    {
+        "tituloCurso": "Super MEI: pronto para crescer",
+        "categoriaCurso": " Planejamento",
+        "tipoCurso": "Gratuito",
+        "formatoCurso": "Online",
+        "duracaoCurso": "Duração 12h",
+        "conclusaoCurso": null
+    }
+]
