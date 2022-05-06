@@ -22,14 +22,20 @@ class Conexao(db):
             conn = cx.conectarBD()
             cur = conn.cursor()
             stmt = cur.execute("SELECT COUNT(*) FROM vagas").fetchone()[0]
+            stmt2 = cur.execute("SELECT COUNT(*) FROM cursos").fetchone[0]
 
-            if stmt <= 0:
-                datab.insert_data("./web-crawler/vagas-ti/vagas-ti.json")
+            if stmt <= 0 and stmt2 <= 0:
+                dados_vagas = ["./web-crawler/vagas-ti/vagas-ti.json", "./web-crawler/vagas-geral/vagas-geral.json"]
+                for d in dados_vagas:
+                    datab.insert_vagas(d)
+                datab.insert_cursos("./web-crawler/cursos/cursos.json")
         else:
             datab.create_db()
-            dados = ["./web-crawler/vagas-ti/vagas-ti.json", "./web-crawler/vagas-geral/vagas-geral.json"]
-            for d in dados:
-                datab.insert_data(d)
+            dados_vagas = ["./web-crawler/vagas-ti/vagas-ti.json", "./web-crawler/vagas-geral/vagas-geral.json"]
+            for d in dados_vagas:
+                datab.insert_vagas(d)
+            datab.insert_cursos("./web-crawler/cursos/cursos.json")
+
 
 @app.before_first_request
 def inicializar():

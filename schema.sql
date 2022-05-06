@@ -26,3 +26,13 @@ CREATE TABLE IF NOT EXISTS inscricoes (
 	FOREIGN KEY (inscri_userid) REFERENCES usuarios (user_id),
 	FOREIGN KEY (inscri_vagaid) REFERENCES vagas (vaga_id)
 );
+
+CREATE TABLE IF NOT EXISTS cursos (
+	curso_ID INTEGER PRIMARY KEY,
+	curso_categoria VARCHAR(30) NOT NULL,
+	curso_titulo VARCHAR(40) NOT NULL,
+	curso_tipo VARCHAR(10) NOT NULL,
+	curso_formato VARCHAR(10) NOT NULL,
+	curso_duracao VARCHAR(30),
+	curso_conclusao VARCHAR(30)
+);
