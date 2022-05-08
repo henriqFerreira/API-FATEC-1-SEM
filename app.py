@@ -22,7 +22,7 @@ class Conexao(db):
             conn = cx.conectarBD()
             cur = conn.cursor()
             stmt = cur.execute("SELECT COUNT(*) FROM vagas").fetchone()[0]
-            stmt2 = cur.execute("SELECT COUNT(*) FROM cursos").fetchone[0]
+            stmt2 = cur.execute("SELECT COUNT(*) FROM cursos").fetchone()[0]
 
             if stmt <= 0 and stmt2 <= 0:
                 dados_vagas = ["./web-crawler/vagas-ti/vagas-ti.json", "./web-crawler/vagas-geral/vagas-geral.json"]
