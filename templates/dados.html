@@ -1,85 +1,182 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../static/css/template.css">
-    <link rel="stylesheet" href="../static/css/dados.css">
-    <title>Dados</title>
-</head>
+{% block style %}
+	<link rel="stylesheet" href="../static/css/dados.css">
+{% endblock %}
 
-<body>
-    <!-- Template a ser seguido em todas as páginas da API -->
-    <!-- Barra de navegação -->
-    <nav>
-        <div class="alinhamento">
-            <ul class="navbar-list">
-				<li id="navbar-logo"><a href="">LOGO</a></li>
-				<li id="navbar-bar"><span></span></li>
-				<li class="link"><a href="/">Início</a></li>
-				<li class="link"><a href="/vagas">Vagas</a></li>
-				<li class="link"><a href="/cursos">Cursos e Certificações</a></li>
-				<li class="link"><a href="/institucional">Institucional</a></li>
-			</ul>
-        </div>
-    </nav>
- 
+{% block title %} Vagas | Joblog {% endblock %}
 
-    <div class="alinhamento">
-           <!-- Gráficos - código em JS -->
-    </div>
-    
+{% block content %}
+	<div class="alinhamento">
+		<section id="section-1">
+			<h2>Encontre aqui, informações sobre vagas e cursos</h2>
+			<div class="svg">
+				<img src="../static/images/SVG-Dados.png" alt="Mulher apontando para gráficos"/>
+		  </div>
+			<span class="seta">
+				<a href="#section-2">
+					<img src="../static/images/Seta-Baixo.svg" alt="Seta para baixo">
+				</a>
+			</span>
+		</section>
     <div class="doughnut">
-        <canvas id="myChart"></canvas>
+      <canvas id="vagas_TI_Geral"></canvas>
     </div>
+    <div class="bar">
+      <canvas id="vagas_Geral"></canvas>
+    </div>
+	</div>
 
-     <!-- Footer -->
-    <footer class="footer">
-        <div class="alinhamento">
-            <ul class="footer-list">
-                <li id="footer-logo"><a href="">LOGO</a></li>
-                <li id="footer-bar"><span></span></li>
-                <li class="link"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
-            </ul>
-        </div>
-    </footer>
-</body>
 <!-- biblioteca -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
 
-<!-- conteudo -->
+<!-- Conteúdo gráfico de pizza - Vagas de TI e gerais -->
 <script>
-    var vagasTi = "{{ data['vagasTi'] }}" 
-    var vagasGerais = "{{ data['vagasGerais'] }}"
-    const data = {
+  var vagasTi = "{{ data['vagasTi'] }}" 
+  var vagasGerais = "{{ data['vagasGerais'] }}"
+  const data_vagas_TI_Geral = {
   labels: [
     'TI',
     'Geral',
   ],
   datasets: [{
-    label: 'Categorias de vagas',
-    data: [vagasTi, vagasGerais],
-    backgroundColor: [
-      '#FDC500',
-      '#00296B',
-    ],
-    hoverOffset: 4
+  label: 'Categorias de vagas',
+  data: [vagasTi, vagasGerais],
+  backgroundColor: [
+    '#FDC500',
+    '#00296B',
+  ],
+  hoverOffset: 4
   }]
-};
-  
-    const config = {
-      type: 'doughnut',
-      data: data,
-      options: {}
-    };
-  </script>
+  };
+
+  const config_vagas_TI_Geral = {
+    type: 'doughnut',
+    data: data_vagas_TI_Geral,
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+        },
+        title: {
+          display: true,
+          text: 'Quantidade de vagas de TI e Gerais',
+        }
+      }
+    },
+  };
+</script>
+
 
 <script>
-    const myChart = new Chart(
-      document.getElementById('myChart'),
-      config
+const vagas_TI_Geral = new Chart(
+  document.getElementById('vagas_TI_Geral'),
+  config_vagas_TI_Geral
+);
+</script>
+
+<!-- Conteúdo gráfico de Barras - Vagas gerais -->
+<script>
+var vagasTI = "{{ data['vagasTI'] }}"
+var vagasBanco_de_dados = "{{ data['vagasBanco_de_dados'] }}"
+var vagasRedes = "{{ data['vagasRedes'] }}"
+var vagasSoftware = "{{ data['vagasSoftware'] }}"
+var vagasHardware = "{{ data['vagasHardware'] }}"
+var vagasBack_end = "{{ data['vagasBack_end'] }}"
+var vagasFront_end = "{{ data['vagasFront_end'] }}"
+var vagasSegurança_da_informação = "{{ data['vagasSegurança_da_informação'] }}"
+var vagasEngenheiro_de_dados = "{{ data['vagasEngenheiro_de_dados'] }}"
+var vagasCientista_de_dados = "{{ data['vagasCientista_de_dados'] }}"
+var vagasProgramação = "{{ data['vagasProgramação'] }}"
+var vagasDesenvolvedor = "{{ data['vagasDesenvolvedor'] }}"
+var vagasBusiness_inteligence = "{{ data['vagasBusiness_inteligence'] }}"
+var vagasCloud_computing = "{{ data['vagasCloud_computing'] }}"
+var vagasInteligência_artificial = "{{ data['vagasInteligência_artificial'] }}"
+var vagasPython = "{{ data['vagasPython'] }}"
+var vagasPhp = "{{ data['vagasPhp'] }}"
+var vagasJavaScript = "{{ data['vagasJavaScript'] }}"
+var vagasFullstack = "{{ data['vagasFullstack'] }}"
+var vagasJava = "{{ data['vagasJava'] }}"
+var vagasWeb_designer = "{{ data['vagasWeb_designer'] }}"
+var vagasSênior = "{{ data['vagasSênior'] }}"
+var vagasPleno = "{{ data['vagasPleno'] }}"
+var vagasDba = "{{ data['vagasDba'] }}"
+var vagasSistemas = "{{ data['vagasSistemas'] }}"
+var vagasSQL = "{{ data['vagasSQL'] }}"
+var vagasServer = "{{ data['vagasServer'] }}"
+var vagasInformática = "{{ data['vagasInformática'] }}"
+var vagasTecnologia = "{{ data['vagasTecnologia'] }}"
+  const data_vagas_Geral = {
+    labels: [
+      "TI",
+      "Banco de Dados",
+      "Redes", 
+      "Software",
+      "Hardware",
+      "Back-end",
+      "Front-end",
+      "Segurança-da-informação",
+      "Engenheiro-de-dados", 
+      "Cientista-de-dados", 
+      "Programação", 
+      "Desenvolvedor",
+      "Business-inteligence", 
+      "Cloud-computing", 
+      "Inteligência-artificial", 
+      "Python",
+      "Php", 
+      "JavaScript", 
+      "Fullstack", 
+      "Java", 
+      "Web-designer", 
+      "Sênior",
+      "Pleno", 
+      "Dba", 
+      "Sistemas", 
+      "SQL", 
+      "Server", 
+      "Informática", 
+      "Tecnologia",
+    ],
+    datasets: [{
+      type: 'bar',
+      label: 'Quantidade de Vagas',
+      data: [vagasTI, vagasBanco_de_dados, vagasRedes, vagasSoftware, vagasHardware, vagasBack_end, vagasFront_end, vagasSegurança_da_informação, vagasEngenheiro_de_dados, 
+      vagasCientista_de_dados, vagasProgramação, vagasDesenvolvedor, vagasBusiness_inteligence, vagasCloud_computing, vagasInteligência_artificial, vagasPython, vagasPhp, vagasJavaScript, 
+      vagasFullstack, vagasJava, vagasWeb_designer, vagasSênior, vagasPleno, vagasDba, vagasSistemas, vagasSQL, vagasServer, vagasInformática, vagasTecnologia],
+      borderColor: '#FDC500',
+      backgroundColor: '#FDC500'
+    }, ]
+  };
+  
+  const config_vagas_Geral = {
+    type: 'scatter',
+    data: data_vagas_Geral,
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+        },
+        title: {
+          display: true,
+          text: 'Categorias de vagas de TI',
+        }
+      }
+    }
+  };
+  </script>  
+  
+  <script>
+    const vagas_Geral= new Chart(
+      document.getElementById('vagas_Geral'),
+      config_vagas_Geral
     );
   </script>
-</html>
+{% endblock %}

@@ -39,10 +39,103 @@ class db:
         stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=0").fetchone()
         vagasGerais = stmt[0]
 
+
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='ti'").fetchone()
+        vagasTI = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='banco-de-dados'").fetchone()
+        vagasBanco_de_dados = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='redes'").fetchone()
+        vagasRedes = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='software'").fetchone()
+        vagasSoftware = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='hardware'").fetchone()
+        vagasHardware = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='back-end'").fetchone()
+        vagasBack_end = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='front-end'").fetchone()
+        vagasFront_end = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='segurança-da-informação'").fetchone()
+        vagasSegurança_da_informação = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='engenheiro-de-dados'").fetchone()
+        vagasEngenheiro_de_dados = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='cientista-de-dados'").fetchone()
+        vagasCientista_de_dados = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='programação'").fetchone()
+        vagasProgramação = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='desenvolvedor'").fetchone()
+        vagasDesenvolvedor = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='business-inteligence'").fetchone()
+        vagasBusiness_inteligence = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='cloud-computing'").fetchone()
+        vagasCloud_computing = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='inteligência-artificial'").fetchone()
+        vagasInteligência_artificial = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='python'").fetchone()
+        vagasPython = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='php'").fetchone()
+        vagasPhp = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='javaScript'").fetchone()
+        vagasJavaScript = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='fullstack'").fetchone()
+        vagasFullstack = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='java'").fetchone()
+        vagasJava = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='web-designer'").fetchone()
+        vagasWeb_designer = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='sênior'").fetchone()
+        vagasSênior = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='pleno'").fetchone()
+        vagasPleno = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='dba'").fetchone()
+        vagasDba = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='sistemas'").fetchone()
+        vagasSistemas = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='SQL'").fetchone()
+        vagasSQL = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='server'").fetchone()
+        vagasServer = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='informática'").fetchone()
+        vagasInformática = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM vagas WHERE vaga_focada=1 AND vaga_categoria='tecnologia'").fetchone()
+        vagasTecnologia = stmt[0]
+
+
         data = {
             "totalVagas": totalVagas,
             "vagasTi": vagasTi,
             "vagasGerais": vagasGerais,
+
+
+            "vagasTI": vagasTI,
+            "vagasBanco_de_dados": vagasBanco_de_dados,
+            "vagasRedes": vagasRedes,
+            "vagasSoftware": vagasSoftware,
+            "vagasHardware": vagasHardware,
+            "vagasBack_end": vagasBack_end,
+            "vagasFront_end": vagasFront_end,
+            "vagasSegurança_da_informação": vagasSegurança_da_informação,
+            "vagasEngenheiro_de_dados": vagasEngenheiro_de_dados,
+            "vagasCientista_de_dados": vagasCientista_de_dados,
+            "vagasProgramação": vagasProgramação,
+            "vagasDesenvolvedor": vagasDesenvolvedor,
+            "vagasBusiness_inteligence": vagasBusiness_inteligence,
+            "vagasCloud_computing": vagasCloud_computing,
+            "vagasInteligência_artificial": vagasInteligência_artificial,
+            "vagasPython": vagasPython,
+            "vagasPhp": vagasPhp,
+            "vagasJavaScript": vagasJavaScript,
+            "vagasFullstack": vagasFullstack,
+            "vagasJava": vagasJava,
+            "vagasWeb_designer": vagasWeb_designer,
+            "vagasSênior": vagasSênior,
+            "vagasPleno": vagasPleno,
+            "vagasDba": vagasDba,
+            "vagasSistemas": vagasSistemas,
+            "vagasSQL": vagasSQL,
+            "vagasServer": vagasServer,
+            "vagasInformática": vagasInformática,
+            "vagasTecnologia": vagasTecnologia,
+
         }
 
         return data
