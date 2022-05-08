@@ -8,7 +8,7 @@ class db:
         with open("schema.sql") as f:
             conn.executescript(f.read())
     
-    def insert_data(self, arquivo):
+    def insert_vagas(self, arquivo):
         conn = sqlite3.connect("data.sqlite")
         cur = conn.cursor()
 
@@ -26,7 +26,18 @@ class db:
                 conn.commit()
             else:
                 cur.execute("INSERT INTO vagas (vaga_focada, vaga_categoria, vaga_titulo, vaga_nivel, vaga_empresa, vaga_salario, vaga_cidade, vaga_estado, vaga_descricao) VALUES (?,?,?,?,?,?,?,?,?)", (data['focada'], data['categoria'], data['titulo'], data['nivel'], data['empresa'], data['salario'], data['cidade'], data['estado'], data['descricao']))
+                conn.commit()
     
+    def insert_cursos(self, arquivo):
+        conn = sqlite3.connect("data.sqlite")
+        cur = conn.cursor()
+
+        with open(arquivo, mode='r', encoding='utf-8') as f:
+            content = json.load(f)
+        for data in content:
+            cur.execute("INSERT INTO cursos (curso_categoria, curso_titulo, curso_tipo, curso_formato, curso_duracao, curso_conclusao) VALUES (?,?,?,?,?,?)", (data['categoriaCurso'], data['tituloCurso'], data['tipoCurso'], data['formatoCurso'], data['duracaoCurso'], data['conclusaoCurso']))
+            conn.commit()
+
     def get_data_grafico(self):
         conn = sqlite3.connect("data.sqlite")
         cur = conn.cursor()
