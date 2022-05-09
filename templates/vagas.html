@@ -2,6 +2,7 @@
 
 {% block style %}
 	<link rel="stylesheet" href="../static/css/vagas.css">
+	<link rel="stylesheet" href="../static/css/paginacao.css">
 {% endblock %}
 
 {% block title %} Vagas | Joblog {% endblock %}
@@ -22,18 +23,18 @@
 		<section class="categorias">
 			<h2>Categorias</h2>
 			<ul class="categorias-list">
-				<li class="list-item">Banco de dados</li>
-				<li class="list-item">TI</li>
-				<li class="list-item">Redes</li>
-				<li class="list-item">Software</li>
-				<li class="list-item">Hardware</li>
-				<li class="list-item">Back-end</li>
-				<li class="list-item">Engenheiro de Dados</li>
-				<li class="list-item">Cientista de Dados</li>
-				<li class="list-item">Segurança da Informação</li>
-				<li class="list-item">Desenvolvedor</li>
-				<li class="list-item">Web</li>
-				<li class="list-item">Tecnologia</li>
+				<li class="list-item"><a href="/vagas/banco-de-dados">Banco de dados</a></li>
+				<li class="list-item"><a href="/vagas/ti">TI</a></li>
+				<li class="list-item"><a href="/vagas/redes">Redes</a></li>
+				<li class="list-item"><a href="/vagas/software">Software</a></li>
+				<li class="list-item"><a href="/vagas/hardware">Hardware</a></li>
+				<li class="list-item"><a href="/vagas/back-end">Back-end</a></li>
+				<li class="list-item"><a href="/vagas/engenheiro-de-dados">Engenheiro de Dados</a></li>
+				<li class="list-item"><a href="/vagas/cientista-de-dados">Cientista de Dados</a></li>
+				<li class="list-item"><a href="/vagas/segurança-da-informação">Segurança da Informação</a></li>
+				<li class="list-item"><a href="/vagas/desenvolvedor">Desenvolvedor</a></li>
+				<li class="list-item"><a href="/vagas/web">Web</a></li>
+				<li class="list-item"><a href="/vagas/tecnologia">Tecnologia</a></li>
 			</ul>
 		</section>
 		<div id="section-2">
@@ -56,14 +57,54 @@
 						</div>
 					</div>
 				{% endfor %}
+				<div class="paginacao">
+					<a href="?page=1">&laquo; Primeiro </a> 
+					<p> - </p>
+					<a onclick="previous()"> Anterior </a> 
+					<p> || </p>
+					<a onclick="next()"> Próximo </a> 
+					<p> - </p>
+					<a href="?page={{ obj.paginator.num_pages }}"> Último &raquo;</a>	
+				</div>
+				
 			</div>
 		</div>
-		<div id="section-3">
-			<ul class="navbar-list">
-				<li class="titulo">Vagas em outras áreas</li>
-				<li id="navbar-bar" style="width: 70%;"></li>
-			</ul>
-			<div id="content-2"></div>
-		</div>
 	</div>
+{% endblock %}
+
+{% block js %}
+    <script>
+        function next() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+            console.log(urlParam + " | " + url)
+
+            if (!url) {
+                window.location.href = "/vagas?page=2"
+            } else if (page > maxPage) {
+                console.log("Não há mais paginas")
+                page = page
+            } else {
+                page = parseInt(page) + 1
+                window.location.href = "/vagas?page="+page
+            }
+        }
+        function previous() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+
+            if (page <= 1) {
+                console.log("Não há mais paginas")
+            } else {
+                page = parseInt(page) - 1
+                window.location.href = "/vagas?page="+page
+            }
+        }
+    </script>
 {% endblock %}

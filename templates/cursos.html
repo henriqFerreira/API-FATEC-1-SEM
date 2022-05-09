@@ -2,6 +2,8 @@
 
 {% block style %}
     <link rel="stylesheet" href="../static/css/cursos.css">
+    <link rel="stylesheet" href="../static/css/paginacao.css">
+    
 {% endblock %}
 
 {% block title %} Cursos e Certificações | Joblog {% endblock %}
@@ -20,10 +22,63 @@
             </span>
         </section>
         <section id="section-2">
+            {% for curso in data %}
+                <div class="curso">
+                    <img src="../static/images/SVG-Certificados.svg" alt="Placeholder da imagem dos cursos">
+                    <!-- Cada class="col" é uma coluna na row em que está contida -->
+                    <div class="col curso-content">
+                        <h3 class="titulo">{{ curso.curso_titulo }}</h3>
+                        <p class="descricao">{{ curso.curso_duracao}}</p>
+                    </div>
+                </div>
+            {% endfor %}
         </section>
+        <div class="paginacao">
+            <a href="?page=1">&laquo; Primeiro </a> 
+            <p> - </p>
+            <a onclick="previous()"> Anterior </a> 
+            <p> || </p>
+            <a onclick="next()"> Próximo </a> 
+            <p> - </p>
+            <a href="?page={{ obj.paginator.num_pages }}"> Último &raquo;</a>	
+        </div>
+
     </div>
 {% endblock %}
 
 {% block js %}
-    <script src="../static/js/cursosJsonHandler.js"></script>
+    <script>
+        function next() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+            console.log(urlParam + " | " + url)
+
+            if (!url) {
+                window.location.href = "/cursos?page=2"
+            } else if (page > maxPage) {
+                console.log("Não há mais paginas")
+                page = page
+            } else {
+                page = parseInt(page) + 1
+                window.location.href = "/cursos?page="+page
+            }
+        }
+        function previous() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+
+            if (page <= 1) {
+                console.log("Não há mais paginas")
+            } else {
+                page = parseInt(page) - 1
+                window.location.href = "/vagas?page="+page
+            }
+        }
+    </script>
 {% endblock %}

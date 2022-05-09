@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from django.core.paginator import Paginator
 import sqlite3
 from os.path import exists
 from db import db
@@ -49,7 +50,23 @@ def home():
 
 @app.route("/cursos")
 def cursos():
-    return render_template("cursos.html")
+    cx = Conexao("data")
+    conn = cx.conectarBD()
+    cur = conn.cursor()
+
+    stmt = cur.execute("SELECT * FROM cursos ORDER BY RANDOM()").fetchall()
+    conn.commit()
+    
+    try:
+        page_num = int(request.args.get('page', 1))
+    except:
+        page_num = 1
+
+    paginator = Paginator(stmt, 10)
+    objects = list(paginator.get_page(page_num))
+    obj = paginator.get_page(page_num)
+
+    return render_template('cursos.html', data=objects, obj=obj)
 
 @app.route("/vagas")
 def vagas():
@@ -57,10 +74,40 @@ def vagas():
     conn = cx.conectarBD()
     cur = conn.cursor()
 
-    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_focada=1").fetchall()
+    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_focada=1 ORDER BY RANDOM()").fetchall()
     conn.commit()
+    
+    try:
+        page_num = int(request.args.get('page', 1))
+    except:
+        page_num = 1
 
-    return render_template("vagas.html", data=stmt)
+    paginator = Paginator(stmt, 10)
+    objects = list(paginator.get_page(page_num))
+    obj = paginator.get_page(page_num)
+
+    return render_template('vagas.html', data=objects, obj=obj)
+
+@app.route('/vagas/<categoria>')
+def categoria(categoria):
+    cx = Conexao("data")
+    conn = cx.conectarBD()
+    cur = conn.cursor()
+
+    categoriaStr = "%"+categoria+"%"
+    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_categoria LIKE (?) ORDER BY RANDOM();", [categoriaStr]).fetchall()
+    conn.commit()
+    
+    try:
+        page_num = int(request.args.get('page', 1))
+    except:
+        page_num = 1
+
+    paginator = Paginator(stmt, 10)
+    objects = list(paginator.get_page(page_num))
+    obj = paginator.get_page(page_num)
+
+    return render_template('categoria.html', data=objects, obj=obj, categoria=categoria)
 
 @app.route("/contato")
 def contato():
