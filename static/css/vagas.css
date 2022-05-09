@@ -40,6 +40,9 @@ html { scroll-behavior: smooth; }
 
 .categorias { height: 20vh; margin-bottom: 100px; }
 	.categorias h2 { text-align: center; color: var(--dark-blue); }
+	.categorias a {
+		color: white;
+	}
 	.categorias-list {
 		display: flex;
 		justify-content: center;
