@@ -2,6 +2,7 @@
 
 {% block style %}
 	<link rel="stylesheet" href="../static/css/vagas.css">
+	<link rel="stylesheet" href="../static/css/paginacao.css">
 {% endblock %}
 
 {% block title %} Vagas | Joblog {% endblock %}
@@ -56,6 +57,16 @@
 						</div>
 					</div>
 				{% endfor %}
+				<div class="paginacao">
+					<a href="?page=1">&laquo; Primeiro </a> 
+					<p> - </p>
+					<a onclick="previous()"> Anterior </a> 
+					<p> || </p>
+					<a onclick="next()"> Próximo </a> 
+					<p> - </p>
+					<a href="?page={{ obj.paginator.num_pages }}"> Último &raquo;</a>	
+				</div>
+				
 			</div>
 		</div>
 		<div id="section-3">
@@ -66,4 +77,41 @@
 			<div id="content-2"></div>
 		</div>
 	</div>
+{% endblock %}
+
+{% block js %}
+    <script>
+        function next() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+            console.log(urlParam + " | " + url)
+
+            if (!url) {
+                window.location.href = "/vagas?page=2"
+            } else if (page > maxPage) {
+                console.log("Não há mais paginas")
+                page = page
+            } else {
+                page = parseInt(page) + 1
+                window.location.href = "/vagas?page="+page
+            }
+        }
+        function previous() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+
+            if (page <= 1) {
+                console.log("Não há mais paginas")
+            } else {
+                page = parseInt(page) - 1
+                window.location.href = "/vagas?page="+page
+            }
+        }
+    </script>
 {% endblock %}

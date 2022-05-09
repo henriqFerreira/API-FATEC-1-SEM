@@ -1,0 +1,31 @@
+:root {
+    --darker-blue: #00296B;
+    --dark-blue: #003F88;
+    --blue: #00509D;
+    --dark-yellow: #FDC500;
+    --yellow: #FFD500; 
+}
+
+.paginacao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.paginacao a{
+	margin: 5px;
+}
+
+.paginacao p{
+	color: var(--dark-blue);
+}
+
+a {
+	text-decoration: none;
+	color: var(--dark-blue);
+}
+
+a:hover {
+	color: var(--dark-yellow);
+}
+   

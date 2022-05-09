@@ -2,6 +2,8 @@
 
 {% block style %}
     <link rel="stylesheet" href="../static/css/cursos.css">
+    <link rel="stylesheet" href="../static/css/paginacao.css">
+    
 {% endblock %}
 
 {% block title %} Cursos e Certificações | Joblog {% endblock %}
@@ -21,6 +23,17 @@
         </section>
         <section id="section-2">
         </section>
+
+        <div class="paginacao">
+            <a href="?page=1">&laquo; Primeiro </a> 
+            <p> - </p>
+            <a onclick="previous()"> Anterior </a> 
+            <p> || </p>
+            <a onclick="next()"> Próximo </a> 
+            <p> - </p>
+            <a href="?page={{ obj.paginator.num_pages }}"> Último &raquo;</a>	
+        </div>
+
     </div>
 {% endblock %}
 
