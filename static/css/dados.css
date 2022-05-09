@@ -38,8 +38,7 @@ html { scroll-behavior: smooth; }
     }
     .bar{
         position: relative;
-        width: 85%;
-        left: 8%;
+        width: 90vw;
     }
 	.titulo{
 		text-align: center;
