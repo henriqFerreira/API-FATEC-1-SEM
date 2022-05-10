@@ -59,23 +59,13 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   </tr>
   <tr>
     <td>Bootstrap</td>
-    <td></td>
+    <td>SQL</td>
     <td>Git</td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
-    <td>Github</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>SQL</td>
-    <td></td>
-  </tr>
-    <tr>
-    <td></td>
     <td>SQLite</td>
-    <td></td>
+    <td>Github</td>
   </tr>
 </table>
 
