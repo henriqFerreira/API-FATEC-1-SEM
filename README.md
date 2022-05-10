@@ -56,6 +56,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
     <td>CSS</td>
     <td>Python</td>
     <td>Figma</td>
+    <td>SQLite</td>
+    <td>SQL</td>
   </tr>
   <tr>
     <td>Bootstrap</td>
