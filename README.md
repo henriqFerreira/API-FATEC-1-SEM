@@ -28,8 +28,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 + - [x] Página Home
 + - [x] Página de vagas
 + - [x] Página Cursos
-+ - [ ] Página Institucional
-+ - [ ] Página para cada vaga
++ - [x] Página Institucional
++ - [x] Página para cada vaga
 
 ### 🔖 Requisitos funcionais
 + - [x] Raspagem das vagas
