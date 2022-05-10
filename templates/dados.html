@@ -9,7 +9,7 @@
 {% block content %}
 	<div class="alinhamento">
 		<section id="section-1">
-			<h2>Encontre aqui, informações sobre vagas e cursos</h2>
+			<h2>Levantamento de dados</h2>
 			<div class="svg">
 				<img src="../static/images/SVG-Dados.png" alt="Mulher apontando para gráficos"/>
 		  </div>
@@ -22,9 +22,18 @@
     <div class="doughnut">
       <canvas id="vagas_TI_Geral"></canvas>
     </div>
-    <div class="bar">
-      <canvas id="vagas_Geral"></canvas>
-    </div>
+    <details>
+      <summary style="color: #00296B">Mais informações sobre vagas</summary>
+      <div class="bar">
+        <canvas id="vagas_ti"></canvas>
+      </div>
+    </details>
+    <details>
+      <summary style="color: #00296B">Mais informações sobre cursos</summary>
+      <div class="bar">
+        <canvas id="categoria_cursos"></canvas>
+      </div>
+    </details>
 	</div>
 
 <!-- biblioteca -->
@@ -107,7 +116,7 @@ var vagasSQL = "{{ data['vagasSQL'] }}"
 var vagasServer = "{{ data['vagasServer'] }}"
 var vagasInformática = "{{ data['vagasInformática'] }}"
 var vagasTecnologia = "{{ data['vagasTecnologia'] }}"
-  const data_vagas_Geral = {
+  const data_vagas_ti = {
     labels: [
       "TI",
       "Banco de Dados",
@@ -150,9 +159,9 @@ var vagasTecnologia = "{{ data['vagasTecnologia'] }}"
     }, ]
   };
   
-  const config_vagas_Geral = {
+  const config_vagas_ti = {
     type: 'scatter',
-    data: data_vagas_Geral,
+    data: data_vagas_ti,
     options: {
       responsive: true,
       scales: {
@@ -174,9 +183,71 @@ var vagasTecnologia = "{{ data['vagasTecnologia'] }}"
   </script>  
   
   <script>
-    const vagas_Geral= new Chart(
-      document.getElementById('vagas_Geral'),
-      config_vagas_Geral
+    const vagas_ti= new Chart(
+      document.getElementById('vagas_ti'),
+      config_vagas_ti
     );
   </script>
+
+<script>
+  var cursos_cooperacao = "{{ data['cursos_cooperacao'] }}"
+  var cursos_empreendedorismo = "{{ data['cursos_empreendedorismo'] }}"
+  var cursos_financas = "{{ data['cursos_financas'] }}"
+  var cursos_inovacao = "{{ data['cursos_inovacao'] }}"
+  var cursos_leis = "{{ data['cursos_leis'] }}"
+  var cursos_mercado_e_vendas = "{{ data['cursos_mercado_e_vendas'] }}"
+  var cursos_organizacao = "{{ data['cursos_organizacao'] }}"
+  var cursos_pessoas = "{{ data['cursos_pessoas'] }}"
+  var cursos_planejamento = "{{ data['cursos_planejamento'] }}"
+
+    const data_cursos = {
+      labels: [
+        'Cooperação',
+        'Empreendedorismo',
+        'Finanças',
+        'Inovação',
+        'Leis',
+        'Mercado e Vendas',
+        'Organização',
+        'Pessoas',
+        'Planejamento'
+      ],
+      datasets: [{
+        type: 'bar',
+        label: 'Quantidade de Cursos',
+        data: [cursos_cooperacao, cursos_empreendedorismo, cursos_financas, cursos_inovacao, cursos_leis, cursos_mercado_e_vendas, cursos_organizacao, cursos_pessoas, cursos_planejamento],
+        borderColor: '#FDC500',
+        backgroundColor: '#FDC500'
+      }, ]
+    };
+    
+    const config_cursos = {
+      type: 'scatter',
+      data: data_cursos,
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        },
+        plugins: {
+          legend: {
+            position: 'bottom',
+          },
+          title: {
+            display: true,
+            text: 'Categorias dos cursos',
+          }
+        }
+      }
+    };
+    </script>  
+    
+    <script>
+      const categoria_cursos= new Chart(
+        document.getElementById('categoria_cursos'),
+        config_cursos
+      );
+    </script>
 {% endblock %}

@@ -111,6 +111,26 @@ class db:
         vagasTecnologia = stmt[0]
 
 
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Cooperação%'").fetchone()
+        cursos_cooperacao = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Empreendedorismo%'").fetchone()
+        cursos_empreendedorismo = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Finanças%'").fetchone()
+        cursos_financas = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Inovação%'").fetchone()
+        cursos_inovacao = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Leis%'").fetchone()
+        cursos_leis = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Mercado e Vendas%'").fetchone()
+        cursos_mercado_e_vendas = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Organização%'").fetchone()
+        cursos_organizacao = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE'%Pessoas%'").fetchone()
+        cursos_pessoas = stmt[0]
+        stmt = cur.execute("SELECT COUNT(*) FROM cursos WHERE curso_categoria LIKE '%Planejamento%'").fetchone()
+        cursos_planejamento = stmt[0]
+        
+
         data = {
             "totalVagas": totalVagas,
             "vagasTi": vagasTi,
@@ -146,6 +166,17 @@ class db:
             "vagasServer": vagasServer,
             "vagasInformática": vagasInformática,
             "vagasTecnologia": vagasTecnologia,
+
+
+            "cursos_cooperacao": cursos_cooperacao,
+            "cursos_empreendedorismo": cursos_empreendedorismo,
+            "cursos_financas": cursos_financas,
+            "cursos_inovacao": cursos_inovacao,
+            "cursos_leis": cursos_leis,
+            "cursos_mercado_e_vendas": cursos_mercado_e_vendas,
+            "cursos_organizacao": cursos_organizacao,
+            "cursos_pessoas": cursos_pessoas,
+            "cursos_planejamento": cursos_planejamento
 
         }
 
