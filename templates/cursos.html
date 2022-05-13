@@ -28,7 +28,17 @@
                     <!-- Cada class="col" é uma coluna na row em que está contida -->
                     <div class="col curso-content">
                         <h3 class="titulo">{{ curso.curso_titulo }}</h3>
-                        <p class="descricao">{{ curso.curso_duracao}}</p>
+                        <p class="categoria">/ {{ curso.curso_categoria }}</p>
+                        <div class="detalhes">
+                            <p class="det">{{ curso.curso_tipo }}</p>
+                            <p class="det">{{ curso.curso_formato }}</p>
+                            {% if curso.curso_duracao is not none %}
+                                <p class="det">{{ curso.curso_duracao }}</p>
+                            {% endif %}
+                            {% if curso.curso_conclusao is not none %}
+                                <p class="det">{{ curso.curso_conclusao }}</p>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             {% endfor %}
