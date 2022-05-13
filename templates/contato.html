@@ -1,48 +1,60 @@
-{% extends 'base.html' %}
 
-{% block style %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Joblog </title>
+    <link rel="stylesheet" href="../static/css/template.css">
     <link rel="stylesheet" href="../static/css/contato.css">
-{% endblock %}
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav>
+        <div class="alinhamento">
+            <ul class="navbar-list">
+                <li id="logo-w"><a href="/" id="logo"><img src="../static/images/LOGO.svg"></a></li>
+                <li id="navbar-bar"><span></span></li>
+                <li class="link"><a href="/">Início</a></li>
+                <li class="link"><a href="/vagas">Vagas</a></li>
+                <li class="link"><a href="/cursos">Cursos e Certificações</a></li>
+                <li class="link"><a href="/institucional">Institucional</a></li>
+                <!-- <li class="link" id="bt-login"><a href="/login">Entrar</a></li> -->
+            </ul>
+        </div>
+    </nav>
 
-{% block title %} Contate-nos! | Joblog {% endblock %}
+    <h1>Formulário de Contato Joblog </h1>
 
-{% block content %}
+    <form action="https://formsubmit.co/SEU_EMAIL" method="POST" class="form">
+
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Digite seu Nome" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+        <label for="name">Celular (Whatsapp):</label>
+        <input type="text" name="name" id="name" placeholder="Digite seu número de Telefone" required>
+        <label for="message">Observação</label>
+        <textarea name="message" id="message" placeholder="Alguma Observação?"></textarea>
+        <!-- Esse comando serve para desabilitar o reCAPTCHA -->
+       <!-- <input type="hidden" name="_captcha" value="false"> --> 
+       
+       <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+
+        <button type="submit">Enviar</button>
+   </form>
+   <!-- Footer -->
+   <footer class="footer">
     <div class="alinhamento">
-        <section id="section-1">
-            <h2>Entre em contato conosco!</h2>
-            <div class="svg">
-                <img src="../static/images/email_svg.svg" alt="Mulher segurando um certificado">
-            </div>
-            <span class="seta">
-                <a href="#section-2">
-                    <img src="../static/images/Seta-Baixo.svg" alt="Seta para baixo">
-                </a>
-            </span>
-        </section>
+        <ul class="footer-list">
+            <li id="logo-w"><a href="" id="logo"><img src="../static/images/LOGO.svg"></a></li>
+            <li id="footer-bar"><span></span></li>
+            <li class="link"><a href="/contato">Contato</a></li>
+            <li class="link rights"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
+        </ul>
     </div>
-    <div id="section-2">
-        <form action="https://formsubmit.co/tristaoteste@gmail.com" method="POST">
-            <div class="cont c1">
-                <label for="inp_name">Nome:</label>
-                <input type="text" name="inp_name">
-            </div>
-            <div class="cont c2">
-                <label for="inp_email">E-mail:</label>
-                <input type="email" name="inp_email">
-            </div>
-            <div class="cont c3">
-                <label for="inp_tel">Telefone/Celular:</label>
-                <input type="tel" name="inp_tel">
-            </div>
-            <div class="cont c4">
-                <label for="inp_textbox">Mensagem:</label>
-                <textarea name="inp_textbox"></textarea>
-            </div>
-
-            <div class="c5">
-                <!-- <input type="submit"value="Enviar" > -->
-                <a href="/obrigado">Enviar</a>
-            </div>
-        </form>
-    </div>
-{% endblock %}
+</footer>
+</body>
+</html>
