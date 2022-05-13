@@ -3,6 +3,7 @@
 {% block style %}
 	<link rel="stylesheet" href="../static/css/vagas.css">
 	<link rel="stylesheet" href="../static/css/paginacao.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 {% endblock %}
 
 {% block title %} Vagas | Joblog {% endblock %}
@@ -44,6 +45,18 @@
 			</ul>
 			<div id="content-1">
 				{% for vaga in data %}
+					<!-- <div class="vaga">
+						<img src="../static/images/icone.svg">
+						<div class="vaga-content1" onclick="getVagas(this.id)" id="{{ vaga['vaga_id'] }}">
+							<h3>
+								<a>{{ vaga['vaga_titulo'][:45] }}</a>
+								<span class="nivel">{{ vaga['vaga_nivel'] }}</span>
+							</h3>
+							<span class="empresa">{{ vaga['vaga_empresa'] }}</span>
+							<span class="local">{{ vaga['vaga_localizacao'] }}</span>
+							<p class="descricao">{{ vaga['vaga_descricao'][20:300].replace("?", "") }}...</p>
+						</div>
+					</div> -->
 					<div class="vaga">
 						<img src="../static/images/icone.svg">
 						<div class="vaga-content1" onclick="getVagas(this.id)" id="{{ vaga['vaga_id'] }}">

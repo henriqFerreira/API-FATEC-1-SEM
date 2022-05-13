@@ -110,6 +110,11 @@
     }
     }
 
+#bt-login{
+    border: 1px solid var(--dark-blue);
+    border-radius: 15%;
+}
+
 @media (max-width:1000px){
     .svg-2{
         display:none;
