@@ -46,7 +46,7 @@
 				{% for vaga in data %}
 					<div class="vaga">
 						<img src="../static/images/icone.svg">
-						<div class="vaga-content1" id="{{ vaga['vaga_id'] }}">
+						<div class="vaga-content1" onclick="getVagas(this.id)" id="{{ vaga['vaga_id'] }}">
 							<h3>
 								<a>{{ vaga['vaga_titulo'] }}</a>
 								<span class="nivel">TODO: Colocar essa merda  de nivel</span>
@@ -105,6 +105,9 @@
                 page = parseInt(page) - 1
                 window.location.href = "/vagas?page="+page
             }
+        }
+		function getVagas(vaga_id) {
+			window.location.href = "/vaga_especifica/"+vaga_id;			
         }
     </script>
 {% endblock %}

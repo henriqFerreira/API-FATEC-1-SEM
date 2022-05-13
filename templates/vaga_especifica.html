@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block style %}
+	<link rel="stylesheet" href="../static/css/vaga_especifica.css">
+	<link rel="stylesheet" href="../static/css/paginacao.css">
+{% endblock %}
+
+{% block title %} Vagas | Joblog {% endblock %}
+
+{% block content %}
+<div>
+	<p class="titulos">{{ stmt[3] }}</p>
+</div>
+
+<!-- <img class="svgmetricas" type="image/svg+xml" src="../static/imagens/Frame 2.svg">  -->
+
+<div class="roundmetricas">
+	<ul class="navbar-list">
+		<!-- <li><img class="svgmetricas" src="../static/images/Frame 2.svg">
+			<img class="svgmetricas" src="../static/images/Localization.svg"> -->
+		</li>
+		<div class="conteudometricas">
+
+
+			<li>
+				<ul>
+					<!-- <p class="texto">{{ stmt[1] }}</p> -->
+					<br>
+					<p class=" listametricas texto" style="text-align: center;">{{ stmt[4] }}</p>
+					<li class="listametricas texto">{{ stmt[5] }}</li>
+					<li class="listametricas texto">{{ stmt[6] }}</li>
+					<li class="listametricas texto">{{ stmt[7] }}</li>
+					<li class="listametricas texto">{{ stmt[8] }}</li>
+					<li class="listametricas texto">{{ stmt[9] [20:]}}</li>
+					<!-- <li><img class="svgmetricas" src="../static/images/Frame 2.svg"></li> -->
+					<br>
+						
+				</ul>
+		</div>
+	</ul>
+</div>
+{% endblock %}
+

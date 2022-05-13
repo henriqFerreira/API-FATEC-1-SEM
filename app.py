@@ -109,6 +109,19 @@ def categoria(categoria):
 
     return render_template('categoria.html', data=objects, obj=obj, categoria=categoria)
 
+@app.route('/vaga_especifica/<vaga_id>')
+def idVagas(vaga_id):
+    conn = sqlite3.connect("data.sqlite")
+    cur = conn.cursor()
+
+    vaga_id= int(vaga_id)
+    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_id = (?);", (vaga_id,)).fetchone()
+    conn.commit()
+    print (stmt)
+    return render_template("vaga_especifica.html", stmt=stmt)
+
+
+
 @app.route("/contato")
 def contato():
     return render_template("contato.html")
