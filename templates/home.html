@@ -58,11 +58,25 @@
             </div>
         </div>
     </section>
+
+    <!-- Section 4 -->
+    <section id="section-4">
+        <div class="alinhamento">
+            <div class="text-3">
+                <p>Dados sobre vagas e cursos.</p>
+                <button type="button" class="btn btn-outline-secondary" onclick="dados()">Clique aqui!</button>
+            </div>
+        </div>
+        <div class="svg-3">
+            <img src="../static/images/data.svg" >
+        </div>
+    </section>
 {% endblock %}
 
 {% block js %}
     <script>
         function vagas() { window.location.href = "/vagas";}
         function cursos() { window.location.href = "/cursos" }
+        function dados() { window.location.href = "/dados" }
     </script>
 {% endblock %}

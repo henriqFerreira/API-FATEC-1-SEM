@@ -44,7 +44,7 @@ html { scroll-behavior: smooth; }
         width: 30%;
         position: absolute;
         top: 40%; left: 60%;
-        text-align: ri;
+        text-align: right;
     }
     .text-1 p { margin-bottom: 30px; color: var(--dark-blue); font-size: 1.2em; }
     .btn-outline-secondary {
@@ -93,4 +93,31 @@ html { scroll-behavior: smooth; }
         text-align: center;
         color: white;
         font-size: 1.2em;
+    }
+
+#section-4 { height: 100vh; position: relative; }
+    .text-3 {
+        width: 30%;
+        position: absolute;
+        top: 50%; left: 10%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+        font-size: 1.2em;
+    }
+    .text-3 p { margin-bottom: 30px; color: var(--dark-blue); font-size: 1.2em; }
+    .btn-outline-secondary {
+        border-color: var(--dark-yellow) !important;
+        color: var(--dark-yellow) !important;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .btn-outline-secondary:hover {
+        background-color: var(--dark-yellow) !important;
+        color: white !important;
+    }
+    .svg-3 {
+        position: absolute;
+        top: 50%; right: 10%;
+        transform: translateY(-50%);
     }
