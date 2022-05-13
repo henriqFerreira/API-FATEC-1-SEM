@@ -1,10 +1,10 @@
-#ambiente virtual Henrique
+#ambiente virtual venv
 venv/
 
-#ambiente virtual João
+#ambiente virtual api
 api/
 
-#ambiente virtual de alguem
+#cache do python
 __pycache__/
 
 #lib do live server no vscode

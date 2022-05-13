@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %} Joblog | Login  {% endblock %}</title>
+    {% block style %} 
+        <link rel="stylesheet" href="../static/css/template.css">
+        <link rel="stylesheet" href="../static/css/login.css">
+    {% endblock %}
+</head>
+<body>
+    {% block content %} 
+    <div>
+        <form>
+
+            <h3>Login</h3>
+            <input type="text" placeholder="Email" id="login">
+            <input type="password" placeholder="Senha" id="senha">
+            <input type="submit" onclick="logar(); false">
+            <a href="/register">Criar Conta</a>
+    
+        </form>
+    </div>
+    {% endblock %}
+
+    {% block js %}
+    <script>
+        function logar(){
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "admin" && senha == "admin"){
+                alert('Sucesso');
+                location.href = "home.html";
+            }else{
+                alert('Usuario ou senha incorretos');
+            }
+        }
+    </script>
+    {% endblock %}
+
+</body>
+</html>
+

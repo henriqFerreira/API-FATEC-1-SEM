@@ -28,8 +28,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 + - [x] Página Home
 + - [x] Página de vagas
 + - [x] Página Cursos
-+ - [ ] Página Institucional
-+ - [ ] Página para cada vaga
++ - [x] Página Institucional
++ - [x] Página para cada vaga
 
 ### 🔖 Requisitos funcionais
 + - [x] Raspagem das vagas
@@ -59,12 +59,12 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   </tr>
   <tr>
     <td>Bootstrap</td>
-    <td></td>
+    <td>SQL</td>
     <td>Git</td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
+    <td>SQLite</td>
     <td>Github</td>
   </tr>
 </table>

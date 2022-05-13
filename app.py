@@ -126,6 +126,10 @@ def idVagas(vaga_id):
 def contato():
     return render_template("contato.html")
 
+@app.route("/obrigado")
+def obrigado():
+    return render_template("obrigado.html")
+
 @app.route("/institucional")
 def institucional():
     return render_template("institucional.html")
@@ -135,6 +139,14 @@ def dados():
     datab = db()
     dados = datab.get_data_grafico()
     return render_template("dados.html", data = dados)
+
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+@app.route("/register")
+def register():
+    return render_template("register.html")
 
 if __name__ == "__main__":
     app.run()
