@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
-
 :root {
     --darker-blue: #00296B;
     --dark-blue: #003F88;
@@ -8,13 +6,33 @@
     --yellow: #FFD500; 
 }
 
-*{
-    box-sizing: border-box;
+.form-w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; height: 100vh;
+    background-image: url("../images/Background-l.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-body{
-    width: 100%;
-    height: 100%;
+.form {
+    position: relative;
+    width: 40%; height: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.25);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+}
+
+/* .form {
+    position: absolute;
+    width: 40%; height: 70%;
+    top: 40%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: white;
 }
 
 form{
@@ -28,4 +46,4 @@ input{
     margin: 10px auto;
     width: 250px;
     height: 30px;
-}
+} */

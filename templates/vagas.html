@@ -48,10 +48,10 @@
 						<img src="../static/images/icone.svg">
 						<div class="vaga-content1" onclick="getVagas(this.id)" id="{{ vaga['vaga_id'] }}">
 							<h3>
-								<a>{{ vaga['vaga_titulo'] }}</a>
-								<span class="nivel">TODO: Colocar essa merda  de nivel</span>
+								<a>{{ vaga['vaga_titulo'][:45] }}</a>
+								<span class="nivel">{{ vaga['vaga_nivel'] }}</span>
 							</h3>
-							<span class="empresa">{{ vaga['vaga_empresa'] }} |</span>
+							<span class="empresa">{{ vaga['vaga_empresa'] }}</span>
 							<span class="local">{{ vaga['vaga_localizacao'] }}</span>
 							<p class="descricao">{{ vaga['vaga_descricao'][20:300].replace("?", "") }}...</p>
 						</div>
