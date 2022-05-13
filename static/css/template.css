@@ -46,6 +46,17 @@
         width: 40%; height: 2px;
         background-color: var(--darker-blue);
     }
+    
+    .btn-outline-primary {
+        border-color: var(--blue) !important;
+        color: var(--blue) !important;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .btn-outline-primary:hover {
+        background-color: var(--blue) !important;
+        color: white !important;
+    }
 
 /* Footer */
     .footer{
