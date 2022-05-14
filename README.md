@@ -139,6 +139,66 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p>Para ver esse código em funcionamento, acesse o link do youtube que se encontra logo acima do GIF</p>
 </details>
 
+<details>
+  <summary>Sprint 2</summary>
+  
+  <h1 align="center">Sprint 2</h1>
+  <h3 align="center">Demonstração de usabilidade</h3>
+  
+  <br>
+  <h4 align="center">Página Vagas - Paginação e Filtragem de Categorias<br><a href="https://youtu.be/-I-bJT9uoOw">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/paginacao_categorias_parte1.gif" width="65%" />
+    <br>
+    <img src="/readme/paginacao_categorias_parte2.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e funcionamento da página vagas depois de implementado a páginação de seu conteúdo e a filtragem de categorias.</p> 
+  <p>O primeiro Gif mostra a funcionalidade da páginação e o segundo Gif demostra as funcionalidades do botões, que no caso possuem como objetivo apresentar ao usuário vagas especificas da categoria escolhida. Ambas as funcionalidades proporcionam uma experiencia de navegação pelo site muito mais organizada e dinâmica. </p>  
+  
+   <br>
+  <h4 align="center">Página de cada Vaga <br><a href="https://youtu.be/Cos0_ZjeOeU">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/cada_vaga.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e funcionamento da página de cada vaga de emprego.</p> 
+  <p>Ao navegar pela página de vagas de emprego ofertada pelo site, o usuário tem a possibilidade de acessar maiores informações sobre uma vaga escolhida ao clicar sobre a vaga desejada. Ao efetuar o "clique", o usuário é direcionado a uma página especifica de cada vaga. </p>  
+  
+  <br>
+  <h4 align="center">Página Cursos - Paginação (Raspagem)<br><a href="https://youtu.be/RiO6NTr2fgE">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/paginacao_cursos.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e funcionamento da página cursos depois de implementado a páginação de seu conteúdo.</p> 
+  
+  <br>
+  <h4 align="center">Página Métricas<br><a href="https://youtu.be/GsF3vHnyO84">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/graficos_parte1.gif" width="65%" />
+    <br>
+    <img src="/readme/graficos_parte2.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e funcionamento da página Métricas.</p> 
+  <p>Ao ser direcionado para a página métricas o usuário encontra um gráfico de pizza que evidencia a quantidade de vagas na área de T.I. ofertas pelo site, assim como a quantidade de vagas em áreas gerais. Ao abrir a sessão "Mais informações sobre vagas", o usuário se depara com um gráfico de barras que transmite a informação de quantas vagas há no site em cada categoria das vagas de T.I. Por fim, na sessão "Mais informações sobre cursos", o usuario encontra as quantidades de cursos existentes em cada categoria oferecida.</p>  
+  
+  <br>
+  <h4 align="center">Página Institucional<br><a href="https://www.youtube.com/watch?v=788R1xHVsLw">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/institucional.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e conteúdo da página institucional.</p> 
+  <p>A pagina Institucional busca oferecer para o usuário informações sobre a empresa JobLog.</p>
+  
+  <br>
+  <h4 align="center">Página Contato<br><a href="https://youtu.be/iMzZy33cA94">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/contatos.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e conteúdo da página contato.</p> 
+  <p>A pagina Contatos busca oferecer para o usuário a possibilidade de entrar em contato com a empresa JobLog.</p>
+</details>
+
+
+
 <br>
 <h1 align="center"><samp>EQUIPE</samp></h1>
 
