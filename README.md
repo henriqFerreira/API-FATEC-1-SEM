@@ -84,7 +84,8 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
-<h3>Detalhes das sprints</h3>
+<br>
+<h1 align="center"><samp>DETALHES DAS SPRINTS</samp></h1>
 <details>
   <summary>Sprint 1</summary>
   
