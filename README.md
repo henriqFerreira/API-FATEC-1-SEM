@@ -137,7 +137,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p>Para ver esse código em funcionamento, acesse o link do youtube que se encontra logo acima do GIF</p>
 </details>
 
-<h2>Sprint 1</h2>
+<h2>Sprint 2</h2>
 <details>
   <summary>Detalhes</summary>
   <h3 align="center">Demonstração de usabilidade</h3>
