@@ -121,7 +121,6 @@ def idVagas(vaga_id):
     return render_template("vaga_especifica.html", stmt=stmt)
 
 
-
 @app.route("/contato")
 def contato():
     return render_template("contato.html")
