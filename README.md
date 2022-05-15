@@ -78,8 +78,15 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/ProductBacklog.png)
 
+
 <br>
-<h1 align="center"><samp>SPRINTS BACKLOG</samp></h1>
+<h1 align="center"><samp>BURNDOWN DAS SPRINTS </samp></h1>
+
+<br>
+<h1 align="center"><samp>(/readme/1sprint.jpeg)</samp></h1>
+
+<br>
+<h1 align="center"><samp>(/readme/2sprint.jpeg)</samp></h1>
 
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
