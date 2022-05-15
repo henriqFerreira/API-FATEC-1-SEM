@@ -41,7 +41,7 @@
     .curso-content { width: 100%; margin: auto 0; }
     .curso-content h3 { vertical-align: middle; color: var(--darker-blue); }
     .categoria { color: var(--dark-yellow); }
-    .detalhes { display: flex; justify-content: flex-start; }
+    .detalhes { position: relative; top: 20px; display: flex; justify-content: flex-start; }
     .det {
         background-color: var(--darker-blue);
         color: white;

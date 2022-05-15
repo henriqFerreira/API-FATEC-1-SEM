@@ -85,6 +85,13 @@ html { scroll-behavior: smooth; }
         background-color: white;
         color: var(--darker-blue);
     }
+    .list-item a {
+        color: var(--dark-blue);
+        text-decoration: none;
+    }
+    .list-item a:hover {
+        color: var(--dark-yellow);
+    }
     .text-2 {
         width: 30%;
         position: absolute;
