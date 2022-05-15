@@ -83,12 +83,12 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <h1 align="center"><samp>BURNDOWN DAS SPRINTS </samp></h1>
 
 <br>
-<!-- <h1 align="center"><samp>(/readme/1sprint.jpeg)</samp></h1> -->
+<h1 align="center"><samp>PRIMEIRA SPRINT</samp></h1>
 
 ![Equipe B1NAR10S](/readme/1sprint.jpeg)
 
 <br>
-<!-- <h1 align="center"><samp>(/readme/2sprint.jpeg)</samp></h1> -->
+<h1 align="center"><samp>SEGUNDA SPRINT</samp></h1>
 
 ![Equipe B1NAR10S](/readme/2sprint.jpeg)
 
