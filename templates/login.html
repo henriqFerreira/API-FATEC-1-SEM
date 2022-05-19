@@ -15,8 +15,9 @@
             <ul class="navbar-list">
                 <li id="logo-w"><a href="/" id="logo"><img src="../static/images/LOGO.svg"></a></li>
                 <li id="navbar-bar"><span></span></li>
+                <li class="link"><button type="button" class="btn-inicio" onclick="window.location.href='/'">Início</button></li>
                 <li class="link"><button type="button" class="btn btn-outline-primary" onclick="window.location.href='/login'">Entrar</button></li>
-                <li class="link"><button type="button" class="btn btn-outline-primary" onclick="window.location.href='/register'">Criar Conta</button></li>
+                <li class="link"><button type="button" class="btn btn-outline-primary" onclick="window.location.href='/register'">Cadastrar</button></li>
             </ul>
         </div>
     </nav>
@@ -24,13 +25,29 @@
         <div class="form">
             <form action="">
                 <h3>Login</h3>
-                <input type="text" placeholder="Email" id="login">
-                <input type="password" placeholder="Senha" id="senha">
-                <input type="submit" onclick="logar(); false">
-                <a href="/register">Criar Conta</a>
+                <div>
+                    <label for="logEmail">E-mail</label>
+                    <input type="text" name="logEmail" placeholder="E-mail" id="login">
+                </div>
+                <div>
+                    <label for="logSenha">Senha</label>
+                    <input type="password" name="logSenha" placeholder="Senha" id="senha">
+                </div>
+                <input type="submit" value="Entrar" onclick="logar(); false">
             </form>
         </div>
     </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="alinhamento">
+            <ul class="footer-list">
+                <li id="logo-w"><a href="" id="logo"><img src="../static/images/LOGO.svg"></a></li>
+                <li id="footer-bar"><span></span></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link rights"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
+            </ul>
+        </div>
+    </footer>
     <script>
         function logar(){
 

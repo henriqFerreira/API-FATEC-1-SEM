@@ -112,7 +112,8 @@
 
 #bt-login{
     border: 1px solid var(--dark-blue);
-    border-radius: 15%;
+    padding: .3rem .5rem;
+    border-radius: 10%;
 }
 
 @media (max-width:1000px){

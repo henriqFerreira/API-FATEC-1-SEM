@@ -6,6 +6,13 @@
     --yellow: #FFD500; 
 }
 
+.btn-inicio {
+    background: none;
+    outline: none;
+    color: var(--darker-blue);
+    border: none;
+}
+
 .form-w {
     display: flex;
     justify-content: center;
@@ -19,31 +26,54 @@
 
 .form {
     position: relative;
-    width: 40%; height: 80%;
+    width: 40%; height: 60%;
     margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     background-color: rgb(255, 255, 255, 0.25);
-    backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
-/* .form {
-    position: absolute;
-    width: 40%; height: 70%;
-    top: 40%; left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 15px;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form h3 {
+    padding-top: 7%;
+    color: var(--dark-blue);
+}
+
+form div {
+    margin-top: 5%;
+}
+
+form div input {
+    width: 100%;
+    padding: 1% 5%;
+    border: 1px solid var(--dark-yellow);
+    border-radius: 12px;
+    outline: none;
+}
+
+form div label {
+    color: var(--dark-yellow);
+}
+
+form input[type="submit"] {
+    margin-top: 5%;
     background-color: white;
+    border: 1px solid var(--dark-yellow);
+    padding: .3rem .8rem;
+    border-radius: 6px;
+    color: var(--dark-yellow);
+    transition: all .3s;
 }
 
-form{
-    width: 300px;
-    margin: 200px auto;
-    text-align: center;
+form input[type="submit"]:hover {
+    color: white;
+    background-color: var(--dark-yellow);
 }
-
-input{
-    display: block;
-    margin: 10px auto;
-    width: 250px;
-    height: 30px;
-} */
