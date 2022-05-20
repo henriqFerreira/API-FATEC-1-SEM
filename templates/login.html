@@ -23,7 +23,7 @@
     </nav>
     <section class="form-w">
         <div class="form">
-            <form action="">
+            <form action="/loginForm" method="POST">
                 <h3>Login</h3>
                 <div>
                     <label for="logEmail">E-mail</label>
@@ -33,7 +33,8 @@
                     <label for="logSenha">Senha</label>
                     <input type="password" name="logSenha" placeholder="Senha" id="senha">
                 </div>
-                <input type="submit" value="Entrar" onclick="logar(); false">
+                <!-- <input type="submit" value="Entrar" onclick="logar(); false"> -->
+                <input type="submit" value="Entrar">
             </form>
         </div>
     </section>
@@ -48,7 +49,7 @@
             </ul>
         </div>
     </footer>
-    <script>
+    <!-- <script>
         function logar(){
 
             var login = document.getElementById('login').value;
@@ -61,6 +62,6 @@
                 alert('Usuario ou senha incorretos');
             }
         }
-    </script>
+    </script> -->
 </body>
 </html>

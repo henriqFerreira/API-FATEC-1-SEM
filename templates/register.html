@@ -23,21 +23,22 @@
     </nav>
     <section class="form-w">
         <div class="form">
-            <form action="">
+            <form action="/registerForm" method="POST">
                 <h3>Cadastro</h3>
                 <div>
                     <label for="logEmail">Nome</label>
-                    <input type="text" name="logNome" placeholder="Nome" id="login">
+                    <input type="text" name="cadNome" placeholder="Nome" id="login">
                 </div>
                 <div>
                     <label for="logEmail">E-mail</label>
-                    <input type="text" name="logEmail" placeholder="E-mail" id="login">
+                    <input type="text" name="cadEmail" placeholder="E-mail" id="login">
                 </div>
                 <div>
                     <label for="logSenha">Senha</label>
-                    <input type="password" name="logSenha" placeholder="Senha" id="senha">
+                    <input type="password" name="cadSenha" placeholder="Senha" id="senha">
                 </div>
-                <input type="submit" value="Cadastrar" onclick="logar(); false">
+                <!-- <input type="submit" value="Cadastrar" onclick="logar(); false"> -->
+                <input type="submit" value="Cadastrar">
             </form>
         </div>
     </section>
@@ -52,7 +53,7 @@
             </ul>
         </div>
     </footer>
-    <script>
+    <!-- <script>
         function logar(){
 
             var login = document.getElementById('login').value;
@@ -65,6 +66,6 @@
                 alert('Usuario ou senha incorretos');
             }
         }
-    </script>
+    </script> -->
 </body>
 </html>
