@@ -1,34 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %} Joblog | Login  {% endblock %}</title>
-    {% block style %} 
-        <link rel="stylesheet" href="../static/css/template.css">
-        <link rel="stylesheet" href="../static/css/register.css">
-    {% endblock %}
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/template.css">
+    <link rel="stylesheet" href="../static/css/register.css">
+    <title>Entrar | Joblog</title>
 </head>
 <body>
-    {% block content %} 
-    <div>
-        <form>
-
-            <h3>Criar Conta</h3>
-            <input type="text" placeholder="Nome" id="name">
-            <input type="text" placeholder="Localidade" id="location">
-            <input type="text" placeholder="Email" id="login">
-            <input type="password" placeholder="Senha" id="senha">
-            <input type="submit" placeholder="Criar ContaS" onclick="logar(); false">
-            <a href="/login">Já tem conta? Entrar</a>
-    
-        </form>
-    </div>
-    {% endblock %}
-
-    {% block js %}
-    <script>
+    <nav>
+        <div class="alinhamento">
+            <ul class="navbar-list">
+                <li id="logo-w"><a href="/" id="logo"><img src="../static/images/LOGO.svg"></a></li>
+                <li id="navbar-bar"><span></span></li>
+                <li class="link"><button type="button" class="btn-inicio" onclick="window.location.href='/'">Início</button></li>
+                <li class="link"><button type="button" class="btn btn-outline-primary" onclick="window.location.href='/login'">Entrar</button></li>
+                <li class="link"><button type="button" class="btn btn-outline-primary" onclick="window.location.href='/register'">Cadastrar</button></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="form-w">
+        <div class="form">
+            <form action="/registerForm" method="POST">
+                <h3>Cadastro</h3>
+                <div>
+                    <label for="logEmail">Nome</label>
+                    <input type="text" name="cadNome" placeholder="Nome" id="login">
+                </div>
+                <div>
+                    <label for="logEmail">E-mail</label>
+                    <input type="text" name="cadEmail" placeholder="E-mail" id="login">
+                </div>
+                <div>
+                    <label for="logSenha">Senha</label>
+                    <input type="password" name="cadSenha" placeholder="Senha" id="senha">
+                </div>
+                <!-- <input type="submit" value="Cadastrar" onclick="logar(); false"> -->
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="alinhamento">
+            <ul class="footer-list">
+                <li id="logo-w"><a href="" id="logo"><img src="../static/images/LOGO.svg"></a></li>
+                <li id="footer-bar"><span></span></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link rights"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
+            </ul>
+        </div>
+    </footer>
+    <!-- <script>
         function logar(){
 
             var login = document.getElementById('login').value;
@@ -41,9 +66,6 @@
                 alert('Usuario ou senha incorretos');
             }
         }
-    </script>
-    {% endblock %}
-
+    </script> -->
 </body>
 </html>
-

@@ -20,7 +20,12 @@
                 <li class="link"><a href="/vagas">Vagas</a></li>
                 <li class="link"><a href="/cursos">Cursos e Certificações</a></li>
                 <li class="link"><a href="/institucional">Institucional</a></li>
-                <!-- <li class="link" id="bt-login"><a href="/login">Entrar</a></li> -->
+                {% if sessao is not none %}
+                    <li class="link"><a class="auth" href="">{{ sessao }}</a></li>
+                    <li class="link"><a class="logout" href="/logout">Sair</a></li>
+                {% else %}
+                    <li class="link" id="bt-login"><a href="/login">Entrar</a></li>
+                {% endif %}
             </ul>
         </div>
     </nav>

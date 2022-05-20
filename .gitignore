@@ -8,4 +8,7 @@ api/
 __pycache__/
 
 #lib do live server no vscode
-.vscode/   
+.vscode/
+
+# Sessões do flask
+flask_session/

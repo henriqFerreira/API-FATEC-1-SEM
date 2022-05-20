@@ -1,7 +1,8 @@
 CREATE TABLE IF NOT EXISTS usuarios (
 	user_id INTEGER PRIMARY KEY,
 	user_name varchar(50) not NULL,
-	user_senha varchar(64) NOT NULL
+	user_senha varchar(64) NOT NULL,
+	user_email varchar(100) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS vagas (

@@ -37,6 +37,14 @@
             text-decoration: none;
             color: var(--dark-blue);
         }
+        .auth {
+            text-transform: uppercase;
+            color: var(--dark-yellow) !important;
+        }
+        .logout {
+            text-transform: uppercase;
+            color: rgb(248, 61, 61) !important;
+        }
 
     #navbar-logo {
         font-size: 2em;
@@ -112,7 +120,8 @@
 
 #bt-login{
     border: 1px solid var(--dark-blue);
-    border-radius: 15%;
+    padding: .3rem .5rem;
+    border-radius: 10%;
 }
 
 @media (max-width:1000px){
