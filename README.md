@@ -5,7 +5,6 @@
     <a href="#o-projeto">Projeto</a> ▪️
     <a href="#proposta">Proposta</a> ▪️
     <a href="#tecnologias">Tecnologias</a> ▪️
-    <a href="#metodologia">Metodologia</a> ▪️
     <a href="#cronograma-das-sprints">Cronograma das Sprints</a> ▪️
     <a href="#product-backlog">Product Backlog</a> ▪️
     <a href="#sprints-backlog">Sprints Backlog</a> ▪️
@@ -79,19 +78,27 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/ProductBacklog.png)
 
-<br>
-<h1 align="center"><samp>SPRINTS BACKLOG</samp></h1>
-
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
 <br>
+<h1 align="center"><samp>BURNDOWN DAS SPRINTS </samp></h1>
+
+<br>
+<h1 align="center"><samp>PRIMEIRA SPRINT</samp></h1>
+
+![Equipe B1NAR10S](/readme/1sprint.jpeg)
+
+<br>
+<h1 align="center"><samp>SEGUNDA SPRINT</samp></h1>
+
+![Equipe B1NAR10S](/readme/2sprint.jpeg)
+
+<br>
 <h1 align="center"><samp>DETALHES DAS SPRINTS</samp></h1>
+<h2>Sprint 1</h2>
 <details>
-  <summary>Sprint 1</summary>
-  
-  <h1 align="center">Sprint 1</h1>
+  <summary>Detalhes</summary>
   <h3 align="center">Demonstração de usabilidade</h3>
-  
   <br>
   <h4 align="center">Página Home<br><a href="https://youtu.be/tYYEdszhfYs">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
@@ -140,10 +147,9 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
   <p>Para ver esse código em funcionamento, acesse o link do youtube que se encontra logo acima do GIF</p>
 </details>
 
+<h2>Sprint 2</h2>
 <details>
-  <summary>Sprint 2</summary>
-  
-  <h1 align="center">Sprint 2</h1>
+  <summary>Detalhes</summary>
   <h3 align="center">Demonstração de usabilidade</h3>
   
   <br>
