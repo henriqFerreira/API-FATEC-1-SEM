@@ -291,9 +291,6 @@ def logout():
     session.clear()
     return redirect(url_for('home'))
 
-@app.route("/localizacao")
-def localizacao():
-    return render_template("localizacao.html")
 
 if __name__ == "__main__":
     app.run()
