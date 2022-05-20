@@ -22,3 +22,8 @@ p{
     text-align: center;
     color: var(--dark-blue);    
 }
+
+.logo{
+    display: flex;
+    justify-content: center;
+}

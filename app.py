@@ -147,5 +147,9 @@ def login():
 def register():
     return render_template("register.html")
 
+@app.route("/localizacao")
+def localizacao():
+    return render_template("localizacao.html")
+
 if __name__ == "__main__":
     app.run()
