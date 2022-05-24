@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %} Joblog {% endblock %}
+
+{% block content %}
+    <div class="map-wrapper" style="width: 90%; margin: 20px auto;">
+        <object data="{{ url_for('static', filename='map/map.html') }}" style="width: 100%; height: 80vh;"></object>
+    </div>
+{% endblock %}
