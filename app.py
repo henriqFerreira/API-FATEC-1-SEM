@@ -120,6 +120,32 @@ def vagas():
     else:
         return render_template('vagas.html', data=objects, obj=obj, sessao=None)
 
+@app.route("/vagasgerais")
+def vagasgerais():
+    cx = Conexao("data")
+    conn = cx.conectarBD()
+    cur = conn.cursor()
+
+    sessao = session.get('usuario')
+    stmt2 = cur.execute("SELECT user_name FROM usuarios WHERE user_email = ?", (sessao,)).fetchone()
+
+    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_focada=0 ORDER BY RANDOM()").fetchall()
+    conn.commit()
+    
+    try:
+        page_num = int(request.args.get('page', 1))
+    except:
+        page_num = 1
+
+    paginator = Paginator(stmt, 10)
+    objects = list(paginator.get_page(page_num))
+    obj = paginator.get_page(page_num)
+
+    if session.get('usuario') is not None:
+        return render_template('vagasgerais.html', data=objects, obj=obj, sessao=stmt2['user_name'])
+    else:
+        return render_template('vagasgerais.html', data=objects, obj=obj, sessao=None)
+
 @app.route('/vagas/<categoria>')
 def categoria(categoria):
     cx = Conexao("data")
