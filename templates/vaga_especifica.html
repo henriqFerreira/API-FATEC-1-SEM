@@ -2,29 +2,65 @@
 
 {% block style %}
 	<link rel="stylesheet" href="../static/css/vaga_especifica.css">
-	<link rel="stylesheet" href="../static/css/paginacao.css">
 {% endblock %}
 
 {% block title %} Vagas | Joblog {% endblock %}
 
 {% block content %}
 <div>
-	<p class="titulos">{{ stmt[3] }}</p>
+	<p class="titulos">{{ stmt['vaga_titulo'] }}</p>
+</div>
+
+<div class="alinhamento">
+	<div class="vaga-wrapper">
+		<div class="content">
+			<p id="empresa" >{{ stmt['vaga_empresa'] }}</p>
+			<p id="nivel-salario">{{ stmt['vaga_nivel'] }} | {{ stmt['vaga_salario'] }}</p>
+			<div class="loc">
+				<p id="localizacao">
+					{% if stmt['vaga_cidade'] is not none %}
+						{{ stmt['vaga_cidade'] }}
+					{% endif %}
+					{% if stmt['vaga_estado'] is not none %}
+						| {{ stmt['vaga_estado'] }}
+					{% endif %}
+				</p>
+				<div class="map">
+					<object data="{{ url_for('static', filename='map/map.html') }}" style="width: 95%; height: 300px; "></object>
+					<br>
+					<a href="/localizacao/{{ stmt['vaga_id'] }}" target="_blank">Expandir</a>
+				</div>
+			</div>
+		</div>
+		<div class="desc">
+			<h3>Descrição da vaga</h3>
+			<p>
+				{{ stmt['vaga_descricao'][10:] }}
+			</p>
+			<br>
+			{% if stmt['vaga_descricao_empresa'] is not none %}
+				<h3>Sobre a empresa</h3>
+				<p>
+					{{ stmt['vaga_descricao_empresa'][8:] }}
+				</p>
+			{% endif %}
+		</div>
+	</div> 
 </div>
 
 <!-- <img class="svgmetricas" type="image/svg+xml" src="../static/imagens/Frame 2.svg">  -->
-
+<!-- 
 <div class="roundmetricas">
 	<ul class="navbar-list">
-		<!-- <li><img class="svgmetricas" src="../static/images/Frame 2.svg">
-			<img class="svgmetricas" src="../static/images/Localization.svg"> -->
+		<li><img class="svgmetricas" src="../static/images/Frame 2.svg">
+			<img class="svgmetricas" src="../static/images/Localization.svg">
 		</li>
 		<div class="conteudometricas">
 
 
 			<li>
 				<ul>
-					<!-- <p class="texto">{{ stmt[1] }}</p> -->
+					<p class="texto">{{ stmt[1] }}</p>
 					<br>
 					<p class=" listametricas texto" style="text-align: center;">{{ stmt[4] }}</p>
 					<li class="listametricas texto">{{ stmt[5] }}</li>
@@ -32,11 +68,11 @@
 					<li class="listametricas texto">{{ stmt[7] }}</li>
 					<li class="listametricas texto">{{ stmt[8] }}</li>
 					<li class="listametricas texto">{{ stmt[9] [20:]}}</li>
-					<!-- <li><img class="svgmetricas" src="../static/images/Frame 2.svg"></li> -->
+					<li><img class="svgmetricas" src="../static/images/Frame 2.svg"></li>
 					<br>
 						
 				</ul>
 		</div>
 	</ul>
-</div>
+</div> -->
 {% endblock %}

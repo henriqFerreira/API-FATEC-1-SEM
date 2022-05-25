@@ -157,9 +157,37 @@ def idVagas(vaga_id):
     sessao = session.get('usuario')
     stmt2 = cur.execute("SELECT user_name FROM usuarios WHERE user_email = ?", (sessao,)).fetchone()
 
-    vaga_id= int(vaga_id)
+    vaga_id = int(vaga_id)
     stmt = cur.execute("SELECT * FROM vagas WHERE vaga_id = (?);", (vaga_id,)).fetchone()
     conn.commit()
+
+    tooltip = "Clique-me"
+
+    if stmt['vaga_estado'] is not None:
+        if stmt['vaga_cidade'] is not None:
+            geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+            location = geolocator.geocode(f"{stmt['vaga_estado']} {stmt['vaga_cidade']}")
+            m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+            folium.Marker(
+                [location.latitude, location.longitude], popup=f"{stmt['vaga_estado']}, {stmt['vaga_cidade']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+            ).add_to(m)
+            m.save(os.path.join('static/map', 'map.html'))
+        else:
+            geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+            location = geolocator.geocode(f"{stmt['vaga_estado']}")
+            m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+            folium.Marker(
+                [location.latitude, location.longitude], popup=f"{stmt['vaga_estado']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+            ).add_to(m)
+            m.save(os.path.join('static/map', 'map.html'))
+    elif stmt['vaga_cidade'] is not None:
+        geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+        location = geolocator.geocode(f"{stmt['vaga_cidade']}")
+        m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+        folium.Marker(
+            [location.latitude, location.longitude], popup=f"{stmt['vaga_cidade']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+        ).add_to(m)
+        m.save(os.path.join('static/map', 'map.html'))
 
     if session.get('usuario') is not None:
         return render_template("vaga_especifica.html", stmt=stmt, sessao=stmt2['user_name'])
