@@ -173,6 +173,33 @@ def categoria(categoria):
     else:
         return render_template('categoria.html', data=objects, obj=obj, categoria=categoria, sessao=None)
 
+@app.route('/localizacao_especifica/<localizacao>')
+def localizacao_especifica(localizacao):
+    cx = Conexao("data")
+    conn = cx.conectarBD()
+    cur = conn.cursor()
+
+    sessao = session.get('usuario')
+    stmt2 = cur.execute("SELECT user_name FROM usuarios WHERE user_email = ?", (sessao,)).fetchone()
+
+    localizacaoStr = "%"+localizacao+"%"
+    stmt = cur.execute("SELECT * FROM vagas WHERE vaga_cidade LIKE (?) ORDER BY RANDOM();", [localizacaoStr]).fetchall()
+    conn.commit()
+    
+    try:
+        page_num = int(request.args.get('page', 1))
+    except:
+        page_num = 1
+
+    paginator = Paginator(stmt, 10)
+    objects = list(paginator.get_page(page_num))
+    obj = paginator.get_page(page_num)
+
+    if session.get('usuario') is not None:
+        return render_template('localizacao_especifica.html', data=objects, obj=obj, localizacao=localizacao, sessao=stmt2['user_name'])
+    else:
+        return render_template('localizacao_especifica.html', data=objects, obj=obj, localizacao=localizacao, sessao=None)
+
 
 @app.route('/vaga_especifica/<vaga_id>')
 def idVagas(vaga_id):

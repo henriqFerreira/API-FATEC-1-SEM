@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% block style %}
+	<link rel="stylesheet" href="../static/css/vagas.css">
+	<link rel="stylesheet" href="../static/css/paginacao.css">
+{% endblock %}
+
+{% block title %} Vagas | Joblog {% endblock %}
+
+{% block content %}
+	<div class="alinhamento">
+		<section id="section-1">
+			<h2>Encontre aqui, as vagas perfeitas para você</h2>
+			<div class="svg">
+				<img src="../static/images/SVG-Vagas.svg" alt="Mulher segurando um certificado">
+			</div>
+			<span class="seta">
+				<a href="#section-2">
+					<img src="../static/images/Seta-Baixo.svg" alt="Seta para baixo">
+				</a>
+			</span>
+		</section>
+		<section class="categorias">
+			<h2>Localidades</h2>
+			<ul class="categorias-list">
+				<li class="list-item"><a href="/localizacao_especifica/minas gerais">Minas Gerais</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/são paulo">São Paulo</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/rio de janeiro">Rio de Janeiro</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/santos">Santos</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/barueri">Barueri</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/louveira">Louveira</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/ribeirão preto">Ribeirão Preto</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/distrito federal">Distrito Federal</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/paraná">Paraná</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/duque de caxias">Duque de Caxias</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/marituba">Marituba</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/paranaguá">Paranaguá</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/porto felix">Porto Feliz</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/florianópolis">Florianópolis</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/são josé dos campos">São José dos Campos</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/campinas">Campinas</a></li>
+				<li class="list-item"><a href="/localizacao_especifica/salvador">Salvador</a></li>
+			</ul>
+		</section>
+		<div id="section-2">
+			<ul class="navbar-list">
+				<li class="titulo">Vagas localizadas em {{ localizacao }}</li>
+				<li id="navbar-bar" style="width: 40%;"></li>
+			</ul>
+			<div id="content-1">
+				{% for vaga in data %}
+					<div class="vaga">
+						<img src="../static/images/icone.svg">
+						<div class="vaga-content" onclick="getVagas(this.id)" id="{{ vaga['vaga_id'] }}">
+							<h3>
+								<a>{{ vaga['vaga_titulo'][:50] }}</a>
+								<span class="nivel">{{ vaga['vaga_nivel'] }}</span>
+							</h3>
+							<span class="empresa">{{ vaga['vaga_empresa'] }}</span>
+							<span class="local">{{ vaga['vaga_localizacao'] }}</span>
+							<p class="descricao">{{ vaga['vaga_descricao'][10:300].replace("?", "") }}...</p>
+						</div>
+					</div>
+				{% endfor %}
+				<div class="paginacao">
+					<a href="?page=1">&laquo; Primeiro </a> 
+					<p> - </p>
+					<a onclick="previous()"> Anterior </a> 
+					<p> || </p>
+					<a onclick="next()"> Próximo </a> 
+					<p> - </p>
+					<a href="?page={{ obj.paginator.num_pages }}"> Último &raquo;</a>	
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block js %}
+    <script>
+        function next() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            var categoria = "{{ categoria }}"
+
+            if (!url) {
+                window.location.href = "/vagas/"+categoria+"?page=2"
+            } else if (page > maxPage) {
+                console.log("Não há mais paginas")
+                page = page
+            } else {
+                page = parseInt(page) + 1
+                window.location.href = "/vagas/"+categoria+"?page="+page
+            }
+        }
+        function previous() {
+            const url = window.location.search
+            const urlParam = new URLSearchParams(url)
+            var maxPage = parseInt('{{ obj.paginator.num_pages }}')
+            var page = urlParam.get('page')
+            console.log(typeof(maxPage))
+
+            if (page <= 1) {
+                console.log("Não há mais paginas")
+            } else {
+                page = parseInt(page) - 1
+                window.location.href = "/vagas?page="+page
+            }
+        }
+		function getVagas(vaga_id) {
+			window.location.href = "/vaga_especifica/"+vaga_id;			
+        }
+    </script>
+{% endblock %}
