@@ -1,33 +1,30 @@
+{% extends 'base.html' %}
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Joblog </title>
-    <link rel="stylesheet" href="../static/css/template.css">
+{% block style %}
     <link rel="stylesheet" href="../static/css/contato.css">
-</head>
-<body>
-    <!-- Barra de navegação -->
-    <nav>
-        <div class="alinhamento">
-            <ul class="navbar-list">
-                <li id="logo-w"><a href="/" id="logo"><img src="../static/images/LOGO.svg"></a></li>
-                <li id="navbar-bar"><span></span></li>
-                <li class="link"><a href="/">Início</a></li>
-                <li class="link"><a href="/vagas">Vagas</a></li>
-                <li class="link"><a href="/cursos">Cursos e Certificações</a></li>
-                <li class="link"><a href="/institucional">Institucional</a></li>
-                <!-- <li class="link" id="bt-login"><a href="/login">Entrar</a></li> -->
-            </ul>
-        </div>
-    </nav>
+    <link rel="stylesheet" href="../static/css/paginacao.css">
+{% endblock %}
 
-    <h1>Formulário de Contato Joblog </h1>
+{% block title %} Contato | Joblog {% endblock %}
 
+{% block content %}
+
+    <div class="alinhamento">
+		<section id="section-1">
+			<h2>Entre em contato com a Joblog</h2>
+			<div>
+				<img src="../static/images/SVG-Contatos.svg" class="svg" alt="Mulher segurando um envelope">
+			</div>
+			<span class="seta">
+				<a href="#section-2">
+					<img src="../static/images/Seta-Baixo.svg" alt="Seta para baixo">
+				</a>
+			</span>
+		</section>
+    </div>
+    <!-- <h1>Formulário de Contato Joblog </h1> -->
+
+    <section id="section-2">
     <form action="https://formsubmit.co/SEU_EMAIL" method="POST" class="form">
 
         <label for="name">Nome:</label>
@@ -45,6 +42,7 @@
 
         <button type="submit">Enviar</button>
    </form>
+    </section>
    <!-- Footer -->
    <footer class="footer">
     <div class="alinhamento">
@@ -57,4 +55,4 @@
     </div>
 </footer>
 </body>
-</html>
+{% endblock %}
