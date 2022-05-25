@@ -1,10 +1,13 @@
 from flask import Flask, render_template, request, session, url_for, redirect
 from django.core.paginator import Paginator
+from geopy.geocoders import Nominatim
 from flask_session import Session
 from datetime import timedelta
 from os.path import exists
 from db import db
 import sqlite3
+import folium
+import os
 
 app = Flask(__name__)
 app.secret_key = 'binariosmelhorgrupo'
@@ -154,14 +157,87 @@ def idVagas(vaga_id):
     sessao = session.get('usuario')
     stmt2 = cur.execute("SELECT user_name FROM usuarios WHERE user_email = ?", (sessao,)).fetchone()
 
-    vaga_id= int(vaga_id)
+    vaga_id = int(vaga_id)
     stmt = cur.execute("SELECT * FROM vagas WHERE vaga_id = (?);", (vaga_id,)).fetchone()
     conn.commit()
+
+    tooltip = "Clique-me"
+
+    if stmt['vaga_estado'] is not None:
+        if stmt['vaga_cidade'] is not None:
+            geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+            location = geolocator.geocode(f"{stmt['vaga_estado']} {stmt['vaga_cidade']}")
+            m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+            folium.Marker(
+                [location.latitude, location.longitude], popup=f"{stmt['vaga_estado']}, {stmt['vaga_cidade']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+            ).add_to(m)
+            m.save(os.path.join('static/map', 'map.html'))
+        else:
+            geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+            location = geolocator.geocode(f"{stmt['vaga_estado']}")
+            m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+            folium.Marker(
+                [location.latitude, location.longitude], popup=f"{stmt['vaga_estado']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+            ).add_to(m)
+            m.save(os.path.join('static/map', 'map.html'))
+    elif stmt['vaga_cidade'] is not None:
+        geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+        location = geolocator.geocode(f"{stmt['vaga_cidade']}")
+        m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+        folium.Marker(
+            [location.latitude, location.longitude], popup=f"{stmt['vaga_cidade']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+        ).add_to(m)
+        m.save(os.path.join('static/map', 'map.html'))
 
     if session.get('usuario') is not None:
         return render_template("vaga_especifica.html", stmt=stmt, sessao=stmt2['user_name'])
     else:
         return render_template("vaga_especifica.html", stmt=stmt, sessao=None)
+
+@app.route('/localizacao/<vaga_id>')
+def localizacao(vaga_id):
+    cx = Conexao("data")
+    conn = cx.conectarBD()
+    cur = conn.cursor()
+
+    sessao = session.get('usuario')
+    stmt2 = cur.execute("SELECT user_name FROM usuarios WHERE user_email = ?", (sessao,)).fetchone()
+    stmt = cur.execute("SELECT vaga_cidade, vaga_estado FROM vagas WHERE vaga_id = ?", (vaga_id,)).fetchone()
+    
+    tooltip = "Clique-me"
+
+    if stmt['vaga_estado'] is not None:
+        if stmt['vaga_cidade'] is not None:
+            geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+            location = geolocator.geocode(f"{stmt['vaga_estado']} {stmt['vaga_cidade']}")
+            m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+            folium.Marker(
+                [location.latitude, location.longitude], popup=f"{stmt['vaga_estado']}, {stmt['vaga_cidade']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+            ).add_to(m)
+            m.save(os.path.join('static/map', 'map.html'))
+        else:
+            geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+            location = geolocator.geocode(f"{stmt['vaga_estado']}")
+            m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+            folium.Marker(
+                [location.latitude, location.longitude], popup=f"{stmt['vaga_estado']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+            ).add_to(m)
+            m.save(os.path.join('static/map', 'map.html'))
+    elif stmt['vaga_cidade'] is not None:
+        geolocator = Nominatim(user_agent="binarios.ltda@gmail.com")
+        location = geolocator.geocode(f"{stmt['vaga_cidade']}")
+        m = folium.Map(location=[location.latitude, location.longitude], zoom_start=12)
+        folium.Marker(
+            [location.latitude, location.longitude], popup=f"{stmt['vaga_cidade']}", tooltip=tooltip, icon=folium.Icon(color="darkblue", icon="info-sign")
+        ).add_to(m)
+        m.save(os.path.join('static/map', 'map.html'))
+    else:
+        return "Sem localizacao"
+
+    if session.get('usuario') is not None:
+        return render_template("localizacao.html", sessao=stmt2['user_name'])
+    else:
+        return render_template("localizacao.html", sessao=None)
 
 @app.route("/contato")
 def contato():
