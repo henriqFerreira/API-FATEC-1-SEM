@@ -128,3 +128,15 @@ html { scroll-behavior: smooth; }
         top: 50%; right: 10%;
         transform: translateY(-50%);
     }
+
+    #link-topo {
+        text-decoration: none;
+        background-color: var(--dark-yellow);
+        color: white;
+        padding: 15px;
+        position: fixed;
+        right: 20px;
+        bottom: 21px;
+        box-shadow: 3px 3px 10px #333;
+        border-radius: 5px;
+    }

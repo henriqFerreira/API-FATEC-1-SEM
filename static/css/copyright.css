@@ -1,0 +1,28 @@
+:root {
+    --darker-blue: #00296B;
+    --dark-blue: #003F88;
+    --blue: #00509D;
+    --dark-yellow: #FDC500;
+    --yellow: #FFD500; 
+}
+
+html { scroll-behavior: smooth;}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: var(--dark-yellow); 
+}   
+
+p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--dark-blue);    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}

@@ -67,6 +67,12 @@ def home():
     else:
         return render_template("home.html", sessao=None)
 
+@app.route("/rights")
+def rights():
+    if session.get('usuario') is not None:
+        return render_template("copyright.html", sessao=stmt2['user_name'])
+    else:
+        return render_template("copyright.html", sessao=None)
 
 @app.route("/cursos")
 def cursos():
