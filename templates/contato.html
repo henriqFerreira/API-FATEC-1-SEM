@@ -23,36 +23,24 @@
 		</section>
     </div>
     <!-- <h1>Formulário de Contato Joblog </h1> -->
-
     <section id="section-2">
-    <form action="https://formsubmit.co/SEU_EMAIL" method="POST" class="form">
+        <form action="https://formsubmit.co/SEU_EMAIL" method="POST" class="form">
 
-        <label for="name">Nome:</label>
-        <input type="text" name="name" id="name" placeholder="Digite seu Nome" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
-        <label for="name">Celular (Whatsapp):</label>
-        <input type="text" name="name" id="name" placeholder="Digite seu número de Telefone" required>
-        <label for="message">Observação</label>
-        <textarea name="message" id="message" placeholder="Alguma Observação?"></textarea>
-        <!-- Esse comando serve para desabilitar o reCAPTCHA -->
-       <!-- <input type="hidden" name="_captcha" value="false"> --> 
-       
-       <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu Nome" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+            <label for="name">Celular (Whatsapp):</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu número de Telefone" required>
+            <label for="message">Observação</label>
+            <textarea name="message" id="message" placeholder="Alguma Observação?"></textarea>
+            <!-- Esse comando serve para desabilitar o reCAPTCHA -->
+        <!-- <input type="hidden" name="_captcha" value="false"> --> 
+        
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
 
-        <button type="submit">Enviar</button>
-   </form>
+            <button type="submit">Enviar</button>
+    </form>
     </section>
-   <!-- Footer -->
-   <footer class="footer">
-    <div class="alinhamento">
-        <ul class="footer-list">
-            <li id="logo-w"><a href="" id="logo"><img src="../static/images/LOGO.svg"></a></li>
-            <li id="footer-bar"><span></span></li>
-            <li class="link"><a href="/contato">Contato</a></li>
-            <li class="link rights"><a href="">All Rights Reserved</a></li> <!-- B1NAR10S Todos os Direitos Reservados -->
-        </ul>
-    </div>
-</footer>
 </body>
 {% endblock %}

@@ -59,6 +59,16 @@ html { scroll-behavior: smooth; }
 		background-color: var(--darker-blue);
 		color: white;
 	}
+	.gerais {
+		padding: 8px 15px;
+		margin: 10px;
+		border-radius: 50px;
+		background-color: var(--dark-yellow);
+		color: white;
+	}
+	.gerais a:hover {
+		color: var(--darker-blue);
+	}
 
 .vaga {
 	display: flex;

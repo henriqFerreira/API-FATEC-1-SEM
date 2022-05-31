@@ -23,18 +23,6 @@
 		<section class="categorias">
 			<h2>Categorias</h2>
 			<ul class="categorias-list">
-				<li class="list-item"><a href="/vagas/banco-de-dados">Banco de dados</a></li>
-				<li class="list-item"><a href="/vagas/ti">TI</a></li>
-				<li class="list-item"><a href="/vagas/redes">Redes</a></li>
-				<li class="list-item"><a href="/vagas/software">Software</a></li>
-				<li class="list-item"><a href="/vagas/hardware">Hardware</a></li>
-				<li class="list-item"><a href="/vagas/back-end">Back-end</a></li>
-				<li class="list-item"><a href="/vagas/engenheiro-de-dados">Engenheiro de Dados</a></li>
-				<li class="list-item"><a href="/vagas/cientista-de-dados">Cientista de Dados</a></li>
-				<li class="list-item"><a href="/vagas/segurança-da-informação">Segurança da Informação</a></li>
-				<li class="list-item"><a href="/vagas/desenvolvedor">Desenvolvedor</a></li>
-				<li class="list-item"><a href="/vagas/web">Web</a></li>
-				<li class="list-item"><a href="/vagas/tecnologia">Tecnologia</a></li>
 				<li class="list-item"><a href="/vagas/médico">Médico</a></li>
 				<li class="list-item"><a href="/vagas/geral">Geral</a></li>
 				<li class="list-item"><a href="/vagas/ajudante">Ajudante</a></li>
@@ -51,8 +39,8 @@
 		</section>
 		<div id="section-2">
 			<ul class="navbar-list">
-				<li class="titulo">Vagas relacionadas a {{ categoria }}</li>
-				<li id="navbar-bar" style="width: 40%;"></li>
+				<li class="titulo">Vagas gerais</li>
+				<li id="navbar-bar" style="width: 70%;"></li>
 			</ul>
 			<div id="content-1">
 				{% for vaga in data %}
@@ -90,16 +78,17 @@
             const urlParam = new URLSearchParams(url)
             var maxPage = parseInt('{{ obj.paginator.num_pages }}')
             var page = urlParam.get('page')
-            var categoria = "{{ categoria }}"
+            console.log(typeof(maxPage))
+            console.log(urlParam + " | " + url)
 
             if (!url) {
-                window.location.href = "/vagas/"+categoria+"?page=2"
+                window.location.href = "/vagas?page=2"
             } else if (page > maxPage) {
                 console.log("Não há mais paginas")
                 page = page
             } else {
                 page = parseInt(page) + 1
-                window.location.href = "/vagas/"+categoria+"?page="+page
+                window.location.href = "/vagas?page="+page
             }
         }
         function previous() {
