@@ -10,6 +10,22 @@
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body>
+    <div class="sidebar">
+        <ul class="sidebar-list">
+            <li id="logo-r"><a href="/" id="logo"><img src="../static/images/LOGO.svg"></a></li>
+            <li><a href="/">Início</a></li>
+            <li><a href="/vagas">Vagas</a></li>
+            <li><a href="/cursos">Cursos e Certificações</a></li>
+            <li><a href="/institucional">Institucional</a></li>
+            {% if sessao is not none %}
+                <li><a class="auth" href="">{{ sessao }}</a></li>
+                <li><a class="logout" href="/logout">Sair</a></li>
+            {% else %}
+                <li id="bt-login"><a href="/login">Entrar</a></li>
+            {% endif %}
+            <li><a class= "btnFechar" onclick="fechar()">Fechar &times;</a></li>
+        </ul>
+    </div>
     <!-- Barra de navegação -->
     <nav>
         <div class="alinhamento">
@@ -26,6 +42,7 @@
                 {% else %}
                     <li class="link" id="bt-login"><a href="/login">Entrar</a></li>
                 {% endif %}
+                <li class="link button-r"><a class="btnAbrir" onclick="abrir()">&#9776;</a></li>
             </ul>
         </div>
     </nav>
@@ -43,5 +60,16 @@
         </div>
     </footer>
     {% block js %} {% endblock %}
+    <script>
+        const sidebar = document.querySelector(".sidebar");
+        const btnAbrir = document.querySelector(".btnAbrir");
+        const btnFechar = document.querySelector("btnFechar");
+        function abrir(){
+            sidebar.style.right = "0";
+        }
+        function fechar(){
+            sidebar.style.right = "-100%";
+        }
+    </script>
 </body>
 </html>
