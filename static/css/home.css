@@ -140,3 +140,29 @@ html { scroll-behavior: smooth; }
         box-shadow: 3px 3px 10px #333;
         border-radius: 5px;
     }
+    /* responsividade */
+    @media (max-width:1000px){
+        .svg-3{
+            display: none;
+        }
+        .text-3{
+            text-align: center;
+            left: 60%;
+            transform: translateX(-85%);
+        }
+        }
+        @media (max-width:500px),
+        screen and (max-height: 950px){
+            #section-3 { height: 150vh; position: relative; background-color: var(--dark-blue); }
+            .categorias {
+                position: absolute;
+                top: 50%; left: 5%;
+                transform: translateY(-50%);
+            }
+            .text-1 {
+                text-align: center;
+                left:35%;
+                transform: translateX(-85%);
+                transform: translateY(-30%);
+            }
+        }

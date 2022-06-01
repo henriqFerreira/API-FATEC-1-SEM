@@ -98,3 +98,19 @@ html { scroll-behavior: smooth; }
 	from { top: 69%; }
 	to { top: 71%; }
 }
+
+@media (max-width:809px){
+    #section-1 { height: 100vh; position: relative; }
+            .categorias {
+                position: absolute;
+                top: 40%; left: 5%;
+                transform: translateY(-50%);
+            }
+			.svg{
+				display:none
+			}
+			.seta {
+				display: none;
+		
+			}
+}
