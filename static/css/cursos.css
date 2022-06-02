@@ -50,7 +50,26 @@
         margin: auto 8px;
     }
 
+    /* .icone {
+        display:block
+    } */
+
 @keyframes setaBaixo {
     from { top: 69%; }
     to { top: 71%; }
+}
+
+@media (max-width: 700px){
+    #section-1 { height: 100vh; position: relative; }
+    .curso img {
+        display: none
+    }
+    
+}
+
+@media(max-width:516px){
+    #section-1 { height: 100vh; position: relative; }
+    .detalhes{
+        display:none
+    }
 }

@@ -110,7 +110,10 @@ html { scroll-behavior: smooth; }
 				display:none
 			}
 			.seta {
-				display: none;
+				display: none
 		
+			}
+			.descricao{
+				display:none
 			}
 }
