@@ -44,7 +44,7 @@ html { scroll-behavior: smooth; }
 	box-sizing: border-box;
   }
   
-  body {
+  #section-2 {
 	background: #ffff;
 	min-height: 100vh;
 	display: flex;
