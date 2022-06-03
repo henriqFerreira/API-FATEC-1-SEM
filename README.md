@@ -7,8 +7,11 @@
     <a href="#tecnologias">Tecnologias</a> ▪️
     <a href="#cronograma-das-sprints">Cronograma das Sprints</a> ▪️
     <a href="#product-backlog">Product Backlog</a> ▪️
-    <a href="#sprints-backlog">Sprints Backlog</a> ▪️
+    <a href="#sprint-backlog">Sprints Backlog</a> ▪️
+    <a href="#burndown-das-sprints">Burndown das sprints</a> ▪️
+    <a href="#detalhes-das-sprints">Detalhes das Sprints</a> ▪️
     <a href="#equipe">Equipe</a>
+    
   </samp>
 </p>
 
@@ -29,11 +32,13 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 + - [x] Página Cursos
 + - [x] Página Institucional
 + - [x] Página para cada vaga
++ - [x] Página Localização
 
 ### 🔖 Requisitos funcionais
 + - [x] Raspagem das vagas
 + - [x] Raspagem dos cursos
 + - [X] Implementação do Flask
++ - [X] Responsividade
 
 <br>
 <h1 align="center"><samp>TECNOLOGIAS</samp></h1>
@@ -78,10 +83,12 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 
 ![Equipe B1NAR10S](/readme/ProductBacklog.png)
 
+<h1 align="center"><samp>SPRINT BACKLOG</samp></h1>
+
 ![Equipe B1NAR10S](/readme/SprintBacklog.png)
 
 <br>
-<h1 align="center"><samp>BURNDOWN DAS SPRINTS </samp></h1>
+<h1 align="center"><samp>BURNDOWN DAS SPRINTS</samp></h1>
 
 <br>
 <h1 align="center"><samp>PRIMEIRA SPRINT</samp></h1>
@@ -205,6 +212,52 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 </details>
 
 
+<h2>Sprint 3</h2>
+<details>
+  <summary>Detalhes</summary>
+  <h3 align="center">Demonstração de usabilidade</h3>
+  <br>
+  <h4 align="center">Página Localização<br><a href="https://www.youtube.com/watch?v=vAR8DCsnbfE">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/gif_localizacao_pagweb.gif" width="65%" />
+  </p>
+  <p>Demonstração do layout e funcionamento da página localização após sua implementação ao site.</p> 
+  <p>Ao ser direcionado para a página de uma vaga especifica o usuário encontra todas as informações sobre a localização da mesma. Ao efetuar o "clique" sobre a palavra "expandir" o usuario é redirecionado à uma nova pagina onde o mesmo podera ter uma visão maior sobre a aonde a vaga se localiza.</p> 
+
+  <br>
+  <h4 align="center">Responsividade<br></h4>
+  <p align="center">
+  </p>
+  <p>Demonstração do layout e funcionamento da pagina cadastro após transmiti-la de um celular para observar as modificações realizadas pela responsividade.</p>
+  
+  <br>
+  <p align="center">
+    <img src="/readme/gif_contato_resp.gif" width="65%" /><h4 align="center"><a href="https://youtu.be/GkfqNchYi3M">Youtube (Qualidade melhor)</a></h4>
+  </p>
+  <p>Demonstração do layout e funcionamento da pagina contato após transmiti-la de um celular para observar as modificações realizadas pela responsividade.</p> 
+  
+  <br>
+  <p align="center">
+    <img src="/readme/gif_home_resp.gif" width="65%" /><h4 align="center"><a href="https://youtu.be/Z-tblzoivwE">Youtube (Qualidade melhor)</a></h4>
+  </p>
+  <p>Demonstração do layout e funcionamento da pagina Home após transmiti-la de um celular para observar as modificações realizadas pela responsividade.</p> 
+  
+  <br>
+  <p align="center">
+    <img src="/readme/gif_localizacao_resp.gif" width="65%" />
+  <br>
+    <img src="/readme/gif_vaga_resp.gif" width="65%" /><h4 align="center"><a href="https://youtu.be/pmLBa94DEyo">Youtube (Qualidade melhor)</a></h4>  
+  </p>
+  <p>Demonstração do layout e funcionamento das paginas Vagas e Localização após transmiti-la de um celular para observar as modificações realizadas pela responsividade.</p>
+   
+  <br>
+  <p align="center">
+    <img src="/readme/gif_login_resp.gif" width="65%" /><h4 align="center"><a href="https://youtu.be/nuIYy27CjgM">Youtube (Qualidade melhor)</a></h4>
+  </p>
+  <p>Demonstração do layout e funcionamento da pagina Login após transmiti-la de um celular para observar as modificações realizadas pela responsividade.</p>
+</details>
+
+
 
 <br>
 <h1 align="center"><samp>EQUIPE</samp></h1>
@@ -220,7 +273,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
     <td>Gustavo Marques</td>
     <td>Product Owner</td>
     <td><a href="https://github.com/gusta7597">Github</a></td>
-    <td><a href=""></a></td>
+    <td><a href="https://www.linkedin.com/in/gustavo-marques-lima-695b331a2/">Linked-In</a></td>
   </tr>
   <tr>
     <td>Camila Redondo</td>
