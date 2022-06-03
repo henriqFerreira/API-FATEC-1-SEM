@@ -45,6 +45,13 @@ html { scroll-behavior: smooth; }
         position: absolute;
         top: 40%; left: 60%;
         text-align: right;
+        /* width: 30%;
+        position: absolute;
+        top: 50%; left: 60%;
+        transform: translateY(-50%);
+        text-align: right;
+        color: white;
+        font-size: 1.2em; */
     }
     .text-1 p { margin-bottom: 30px; color: var(--dark-blue); font-size: 1.2em; }
     .btn-outline-secondary {
