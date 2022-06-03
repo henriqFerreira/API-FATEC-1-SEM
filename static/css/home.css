@@ -43,15 +43,11 @@ html { scroll-behavior: smooth; }
     .text-1 {
         width: 30%;
         position: absolute;
-        top: 40%; left: 60%;
-        text-align: right;
-        /* width: 30%;
-        position: absolute;
         top: 50%; left: 60%;
         transform: translateY(-50%);
         text-align: right;
         color: white;
-        font-size: 1.2em; */
+        font-size: 1.2em;
     }
     .text-1 p { margin-bottom: 30px; color: var(--dark-blue); font-size: 1.2em; }
     .btn-outline-secondary {
@@ -158,14 +154,7 @@ html { scroll-behavior: smooth; }
             transform: translateX(-85%);
         }
         }
-        @media (max-width:500px),
-        screen and (max-height: 950px){
-            #section-3 { height: 150vh; position: relative; background-color: var(--dark-blue); }
-            .categorias {
-                position: absolute;
-                top: 50%; left: 5%;
-                transform: translateY(-50%);
-            }
+        @media (max-width:1000px) {
             .text-1 {
                 text-align: center;
                 left:35%;
