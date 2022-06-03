@@ -101,6 +101,11 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 ![Equipe B1NAR10S](/readme/2sprint.jpeg)
 
 <br>
+<h1 align="center"><samp>TERCEIRA SPRINT</samp></h1>
+
+![Equipe B1NAR10S](/readme/3sprint.jpeg)
+
+<br>
 <h1 align="center"><samp>DETALHES DAS SPRINTS</samp></h1>
 <h2>Sprint 1</h2>
 <details>
