@@ -43,7 +43,7 @@ Desenvolver um sistema web para automatizar o processo de catalogar vagas de div
 <br>
 <h1 align="center"><samp>TECNOLOGIAS</samp></h1>
 
-![Equipe B1NAR10S](/readme/Tecnologias.png)
+![Equipe B1NAR10S](/readme/tecnologias3.jpg)
 
 <table align="center">
   <tr>
